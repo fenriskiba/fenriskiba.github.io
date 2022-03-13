@@ -1,4 +1,4 @@
-- [Resume](/professional/)
+- [Resume](/professional/resume.md)
 - **Projects**
   - [Flagr](/professional/projects/flagr.md)
   - [Future Projects](/professional/projects/planning.md)

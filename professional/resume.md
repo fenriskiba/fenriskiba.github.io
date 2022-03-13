@@ -27,20 +27,21 @@ Software engineer with experience in engineering leadership, Agile development, 
 
 #### Customer Data Management Systems Team
 * Work with external contractors to understand and enhance vendor systems
-
-<!-- TODO: Figure out advising PO phrasing -->
+* Develop tools to compare suspected duplicate records and automatically merge them
+* Consult with technical and business leaders to determine short and long term solutions
+* Create high level design pattern for loading batch data into central data management systems
 
 ### IT Professional Apprentice (Compensation), Sherwin-Williams (Sept 2015 - May 2016)
 * Find and implement potential improvements to computer programs and systems
-* Coordinate with HR Analysts to identify and solve technical problems
+* Coordinate with HR analysts to identify and solve technical problems
 * Develop, document, test, and deploy adjustments to existing systems
 
 ### .NET Developer Professional Apprentice, Sherwin-Williams (May 2013 - Sept 2015)
 * Develop web tools for formulation and mixing of paint formulas
-* Follow Agile Processes with TDD/BDD Design Concepts
-* Work alongside team members and Agile Coaches to address development concerns
-* Speak with Business Leaders to assure Acceptance Test Criteria met their needs
-* Translate Acceptance Test Criteria into Automated Tests
+* Follow agile processes with TDD/BDD design concepts
+* Work alongside team members and agile coaches to address development concerns
+* Speak with business leaders to assure acceptance test criteria met their needs
+* Translate acceptance test criteria into automated tests
 
 <!-- ### Student Assistant, University of Akron Science Library (Sept 2012 - Dec 2014)
 * Answer common question and direct students to Librarians for research assistance

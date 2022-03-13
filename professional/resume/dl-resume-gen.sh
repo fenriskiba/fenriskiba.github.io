@@ -1,1 +1,0 @@
-pandoc -f gfm -t docx -o GrantICarroll.docx README.md
