@@ -1,0 +1,4 @@
+- **Campaigns**
+  - [Death of Magic](/games/campaigns/death-of-magic.md)
+- **Characters**
+  - [Aldys](/games/characters/aldys.md)

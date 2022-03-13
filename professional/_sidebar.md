@@ -1,0 +1,4 @@
+- [Resume](/professional/README.md)
+- **Projects**
+  - [DM Campaign Creator](/professional/projects/dm-campaign-creator.md)
+  - [School Projects](/professional/projects/school-projects.md)
