@@ -1,4 +1,2 @@
 - [Japan 2017](/misc/japan-2017.md)
-- **Robotics**
-  - [FRC](/misc/robotics/frc.md)
-  - [Vex](/misc/robotics/vex.md)
+- [Technical Theater](/misc/theater.md)

@@ -1,12 +1,17 @@
 # Grant I Carroll
-[ [fenriskiba.github.io](https://fenriskiba.github.io) ] . [ [gcarroll2603@gmail.com](mailto:gcarroll2603@gmail.com) ] . [ (216) 534-9599 ]
+[ [fenriskiba.github.io][site] ] . [ [gcarroll2603@gmail.com][email] ] . [ [(216) 534-9599][phone] ]
+
+[site]: https://fenriskiba.github.io
+[email]: mailto:gcarroll2603@gmail.com
+[phone]: tel:+2165349599
 
 Software engineer with experience in engineering leadership, Agile development, and developing software for a wide variety of platforms. Experienced with container technologies, microservice architectures, and open-source contributions.
 
 ## Experience
 ### IT Application Developer Senior, Progressive Insurance (June 2016 - Present)
+#### Customer Insights Team
+
 <!-- Outline:
-* ISC
 * Flagr
   * Containers hosted in openshift
   * designed auth flow
@@ -19,6 +24,11 @@ Software engineer with experience in engineering leadership, Agile development, 
     * JWKS
   * private fork
 -->
+
+#### Customer Data Management Systems Team
+* Work with external contractors to understand and enhance vendor systems
+
+<!-- TODO: Figure out advising PO phrasing -->
 
 ### IT Professional Apprentice (Compensation), Sherwin-Williams (Sept 2015 - May 2016)
 * Find and implement potential improvements to computer programs and systems
@@ -39,8 +49,7 @@ Software engineer with experience in engineering leadership, Agile development, 
 
 ## Projects
 <!-- Considerations:
-* Should this be a subsection in each job entry?
-* Should this only be things from outside work?
+* Flagr
 * Is this where FRC/Vex should go? -->
 
 ## Education
@@ -54,5 +63,3 @@ GPA: 3.0
 <!-- TODO: Flesh this section out more. -->
 <u>*Languages:*</u> ReactJS, Javascript, Go, SQL, Dockerfile scripts, YAML  
 <u>*Software:*</u> Redhat OpenShift, Git, Docker, Visual Studio Code, Draw.io, Kafka
-
-<!-- TODO: Generate PDF/DOCX versions. -->
