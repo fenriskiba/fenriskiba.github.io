@@ -1,6 +1,6 @@
 <!-- picture link can go here -->
 
-# Grant Carroll
+# Grant I Carroll
 
 > Software Engineer, Computer Hardware Enthusiast, Casual Gamer
 

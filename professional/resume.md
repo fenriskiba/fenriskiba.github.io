@@ -1,4 +1,4 @@
-# Grant Carroll
+# Grant I Carroll
 [ [fenriskiba.github.io](https://fenriskiba.github.io) ] . [ [gcarroll2603@gmail.com](mailto:gcarroll2603@gmail.com) ] . [ (216) 534-9599 ]
 
 Software engineer with experience in engineering leadership, Agile development, and developing software for a wide variety of platforms. Experienced with container technologies, microservice architectures, and open-source contributions.
