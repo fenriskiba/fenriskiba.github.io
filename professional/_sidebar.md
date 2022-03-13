@@ -1,4 +1,5 @@
 - [Resume](/professional/resume.md)
 - **Projects**
-  - [DM Campaign Creator](/professional/projects/dm-campaign-creator.md)
+  - [Flagr](/professional/projects/flagr.md)
+  - [Future Projects](/professional/projects/planning.md)
   - [School Projects](/professional/projects/school-projects.md)

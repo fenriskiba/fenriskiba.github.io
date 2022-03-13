@@ -1,4 +1,6 @@
-- **Campaigns**
-  - [Death of Magic](/games/campaigns/death-of-magic.md)
-- **Characters**
-  - [Aldys](/games/characters/aldys.md)
+- [Magic the Gathering](/games/mtg.md)
+- **D&D**
+  - *Campaigns*
+    - [Death of Magic](/games/ttrpgs/campaigns/death-of-magic.md)
+  - *Characters*
+    - [Aldys](/games/ttrpgs/characters/aldys.md)
