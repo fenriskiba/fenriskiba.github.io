@@ -49,9 +49,20 @@ Software engineer with experience in engineering leadership, Agile development, 
 * Instruct patrons on the use of library search systems to find reference materials -->
 
 ## Projects
-<!-- Considerations:
-* Flagr
-* Is this where FRC/Vex should go? -->
+### Flagr Self Service
+
+### Feature Flagging UI
+
+### Feature Optimization Testing
+
+### IBM Stewardship Center
+<!-- TODO: Write this section, but comment it out. -->
+
+### MtG Sealed Simulator
+<!-- TODO: Write this section, and probably comment it out. -->
+
+### High School Robotics (FIRST/Vex)
+
 
 ## Education
 <!-- TODO: Clean up/Format this (look for additional formatting ideas) -->
@@ -62,5 +73,6 @@ GPA: 3.0
 
 ## Skills
 <!-- TODO: Flesh this section out more. -->
-<u>*Languages:*</u> ReactJS, Javascript, Go, SQL, Dockerfile scripts, YAML  
-<u>*Software:*</u> Redhat OpenShift, Git, Docker, Visual Studio Code, Draw.io, Kafka
+<u>*Languages:*</u> C++, C#, Javascript, Go, SQL, Dockerfile scripts, YAML  
+<u>*Frameworks/Libraries:*</u> ReactJS, Casbin, .NET/MVC, Docsify  
+<u>*Software:*</u> Redhat OpenShift, Git, Docker, Visual Studio Code, Draw.io, Kafka, Azure DevOps
