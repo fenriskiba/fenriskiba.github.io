@@ -1,6 +1,15 @@
 - [Magic the Gathering](/games/mtg.md)
 - **D&D**
   - *Campaigns*
-    - [Death of Magic](/games/ttrpgs/campaigns/death-of-magic.md)
+    - [Ptolus (2018)](/games/ttrpgs/campaigns/ptolus-2018.md)
+    - [Death of Magic (2018)](/games/ttrpgs/campaigns/death-of-magic-2018.md)
+    - [Curse of Strahd (2019)](/games/ttrpgs/campaigns/curse-of-strahd-2019.md)
+    - [Tomb of Annihilation (2020)](/games/ttrpgs/campaigns/tomb-of-annihilation-2020.md)
   - *Characters*
     - [Aldys](/games/ttrpgs/characters/aldys.md)
+    - [Barash Fenkenkabradon](/games/ttrpgs/characters/bharash.md)
+    - [Growler](/games/ttrpgs/characters/growler.md)
+    - [Grrr Wan](/games/ttrpgs/characters/grrr-wan.md)
+    - [Lenna Vendan](/games/ttrpgs/characters/lenna-vendan.md)
+    - [Meh](/games/ttrpgs/characters/meh.md)
+    - [Miri Ulmokina](/games/ttrpgs/characters/miri-ulmokina.md)
