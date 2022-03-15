@@ -26,4 +26,4 @@ NextJS is the current plan, but I am considering using Go to develop some experi
 ## Drawcsify
 A [Draw.io](https://app.diagrams.net/) plugin for Docsify, that allows diagrams to be directly embedded into a Docsify website.
 
-Currently, the only solution for this is [KonghaYao/docsify-drawio](https://github.com/KonghaYao/docsify-drawio), which I have encountered issues with text rendering. I also find it's solution of needing to add a render function as part of the Docsify config a bit inelegant, and would like to develop a simpler solution.
+Currently, the only solution for this is [KonghaYao/docsify-drawio](https://github.com/KonghaYao/docsify-drawio), which I have encountered issues with text rendering. I also find its solution of needing to add a render function as part of the Docsify config a bit inelegant, and would like to develop a simpler solution.

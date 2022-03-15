@@ -10,7 +10,7 @@ Software engineer with experience in engineering leadership, Agile development, 
 ## Experience
 ### IT Application Developer Senior, Progressive Insurance (June 2016 - Present)
 #### Customer Insights Team
-
+COMING SOON!
 <!-- Outline:
 * Flagr
   * Containers hosted in openshift
@@ -49,19 +49,21 @@ Software engineer with experience in engineering leadership, Agile development, 
 * Instruct patrons on the use of library search systems to find reference materials -->
 
 ## Projects
-### Flagr Self Service
+COMING SOON!
+
+<!-- ### Flagr Self Service
 
 ### Feature Flagging UI
 
 ### Feature Optimization Testing
 
 ### IBM Stewardship Center
-<!-- TODO: Write this section, but comment it out. -->
+<!-- TODO: Write this section, but comment it out. --
 
 ### MtG Sealed Simulator
-<!-- TODO: Write this section, and probably comment it out. -->
+<!-- TODO: Write this section, and probably comment it out. --
 
-### High School Robotics (FIRST/Vex)
+### High School Robotics (FIRST/Vex) -->
 
 
 ## Education
