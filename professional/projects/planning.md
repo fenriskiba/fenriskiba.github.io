@@ -2,7 +2,7 @@
 A list of ideas for future projects I'd like to start one day.
 
 ## DM Campaign Creator (Name TBD)
-A tool to simplify creating D&D 5e campaign, by automatically generating encounter stat blocks based on party level, setting, etc.
+A tool to simplify creating D&D 5e campaigns, by automatically generating encounter stat blocks based on party level, setting, etc.
 
 ### Planned Features
 * Automatically load SRD Monster Stat Blocks
