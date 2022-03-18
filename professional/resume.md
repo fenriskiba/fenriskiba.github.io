@@ -1,5 +1,5 @@
 # Grant I Carroll
-[ [fenriskiba.github.io][site] ] . [ [gcarroll2603@gmail.com][email] ] . [ [(216) 534-9599][phone] ]
+[ [fenriskiba.github.io][site] ] · [ [gcarroll2603@gmail.com][email] ] · [ [(216) 534-9599][phone] ]
 
 [site]: https://fenriskiba.github.io
 [email]: mailto:gcarroll2603@gmail.com
@@ -75,6 +75,6 @@ GPA: 3.0
 
 ## Skills
 <!-- TODO: Flesh this section out more. -->
-<u>*Languages:*</u> C++, C#, Javascript, Go, SQL, Dockerfile scripts, YAML  
-<u>*Frameworks/Libraries:*</u> ReactJS, Casbin, .NET/MVC, Docsify  
-<u>*Software:*</u> Redhat OpenShift, Git, Docker, Visual Studio Code, Draw.io, Kafka, Azure DevOps
+<u>*Languages:*</u> C++, C#, Javascript, Go, SQL, Dockerfile scripts, YAML, Markdown  
+<u>*Frameworks/Libraries:*</u> ReactJS, PassportJS, Casbin, Sarama, .NET/MVC, Docsify  
+<u>*Software:*</u> Redhat OpenShift, Docker, Git, Visual Studio Code, Apache Kafka (Producers), Azure DevOps, Splunk Draw.io
