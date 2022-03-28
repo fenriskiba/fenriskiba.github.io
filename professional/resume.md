@@ -10,20 +10,15 @@ Software engineer with experience in engineering leadership, Agile development, 
 ## Experience
 ### IT Application Developer Senior, Progressive Insurance (June 2016 - Present)
 #### Customer Insights Team
-COMING SOON!
-<!-- Outline:
-* Flagr
-  * Containers hosted in openshift
-  * designed auth flow
-  * React JS FFUI
-  * open source contributions
-    * tags
-    * kafka idempotency
-    * GORM v2
-    * Casbin
-    * JWKS
-  * private fork
--->
+* Configure and deploy an open source feature flagging microservice (Flagr)
+* Consult with business and developers on the use of Flagr for A/B Testing, feature switching, etc.
+* Follow agile methodologies for development and process improvements
+* Work with business to establish requirements and priorities and plan future work
+* Write and maintain technical and process documentation
+* Establish internal process for making open source contributions
+* Develop and submit open source contributions
+* Design internal ReactJS frontend for Flagr APIs
+* Coach junior developers working on both internal code and open source contributions
 
 #### Customer Data Management Systems Team
 * Work with external contractors to understand and enhance vendor systems
@@ -74,7 +69,6 @@ Graduated May 2016
 GPA: 3.0
 
 ## Skills
-<!-- TODO: Flesh this section out more. -->
-<u>*Languages:*</u> C++, C#, Javascript, Go, SQL, Dockerfile scripts, YAML, Markdown  
+<u>*Languages:*</u> C++, C#, Javascript, Go, SQL, Dockerfiles, YAML, Markdown  
 <u>*Frameworks/Libraries:*</u> ReactJS, PassportJS, Casbin, Sarama, .NET/MVC, Docsify  
-<u>*Software:*</u> Redhat OpenShift, Docker, Git, Visual Studio Code, Apache Kafka (Producers), Azure DevOps, Splunk Draw.io
+<u>*Software:*</u> Redhat OpenShift, Docker, Git, Visual Studio Code, Apache Kafka (Producers), Azure DevOps, Splunk, Draw.io
