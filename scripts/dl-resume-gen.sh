@@ -10,7 +10,8 @@ pandoc -f gfm \
        professional/resume.md
 
 # Generate PDF File
-# Addtional formatting can be added with -V (https://learnbyexample.github.io/customizing-pandoc/#changing-settings-via-v-option)
+# Addtional formatting can be added with -V
+# https://learnbyexample.github.io/customizing-pandoc/
 pandoc -f gfm \
        -t pdf \
        -o GrantICarroll.pdf \
