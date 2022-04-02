@@ -1,4 +1,7 @@
-- [Resume](/programming/resume.md)
+- **Resume**
+  - [Web Page](/programming/resume/)
+  - [PDF Download](/programming/resume/pdf.md)
+  - [Word Doc Download](/programming/resume/docx.md)
 - **Projects**
   - [Flagr](/programming/projects/flagr.md)
   - [Future Projects](/programming/projects/planning.md)
