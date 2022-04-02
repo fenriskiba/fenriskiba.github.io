@@ -4,7 +4,7 @@
 
 > Software Engineer, Computer Hardware Enthusiast, Casual Gamer
 
-[Resume](/professional/resume.md)
-[Professional](/professional/)
+[Resume](/programming/resume.md)
+[Programming](/programming/)
 [Games](/games/)
 [Misc](/misc/)

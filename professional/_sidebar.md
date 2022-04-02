@@ -1,8 +1,0 @@
-- [Resume](/professional/resume.md)
-- **Projects**
-  - [Flagr](/professional/projects/flagr.md)
-  - [Future Projects](/professional/projects/planning.md)
-  - [School Projects](/professional/projects/school-projects.md)
-- **Robotics**
-  - [FIRST Robotics](/professional/robotics/frc.md)
-  - [Vex Robotics](/professional/robotics/vex.md)

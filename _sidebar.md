@@ -1,3 +1,3 @@
-- [Professional](/professional/)
+- [Programming](/programming/)
 - [Games](/games/)
 - [Misc](/misc/)
