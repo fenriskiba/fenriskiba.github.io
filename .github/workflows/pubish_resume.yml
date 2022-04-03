@@ -33,6 +33,8 @@ jobs:
       - uses: EndBug/latest-tag@latest
       - uses: ncipollo/release-action@v1
         with:
+          allowUpdates: true
           artifacts: "GrantICarroll.docx,GrantICarroll.pdf"
+          removeArtifacts: true
           tag: "latest"
           token: ${{ secrets.GITHUB_TOKEN }}
