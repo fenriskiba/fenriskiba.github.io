@@ -8,13 +8,14 @@ jobs:
   docx_gen:
     runs-on: ubuntu-18.04
     steps:
+      - run: ls
       - uses: docker://pandoc/core:2.9
         with:
           args: >-  # allows you to break string into multiple lines
             -f gfm
             -t docx
             -o GrantICarroll.docx
-            /programming/resume/README.md
+            programming/resume/README.md
       - uses: actions/upload-artifact@master
         with:
           name: output
@@ -22,6 +23,7 @@ jobs:
   pdf_gen:
     runs-on: ubuntu-18.04
     steps:
+      - run: ls
       - uses: docker://pandoc/latex:2.9
         with:
           args: >-  # allows you to break string into multiple lines
@@ -29,7 +31,7 @@ jobs:
             -t pdf
             -o GrantICarroll.pdf
             -V geometry:margin=2cm
-            /programming/resume/README.md
+            programming/resume/README.md
       - uses: actions/upload-artifact@master
         with:
           name: output
