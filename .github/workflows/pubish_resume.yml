@@ -5,36 +5,50 @@ on: push
 #     paths:
 #       - 'programming/resume/README.md'
 jobs:
+  # Generate Word Doc (DOCX) Resume
   docx_gen:
     runs-on: ubuntu-18.04
     steps:
+      # Setup
       - uses: actions/checkout@v2
       - run: mkdir output
+      # Run Pandoc to convert Markdown Resume to DOCX
       - uses: docker://pandoc/core:2.9
         with:
-          args: >-  # allows you to break string into multiple lines
+          args: >-
             -f gfm
             -t docx
             -o output/GrantICarroll.docx
             programming/resume/README.md
+      # Upload Word Doc Resume
       - uses: actions/upload-artifact@main
         with:
           name: output
           path: output
+  # Generate PDF Resume
   pdf_gen:
     runs-on: ubuntu-18.04
     steps:
+      # Setup
       - uses: actions/checkout@v2
       - run: mkdir output
+      # Run Pandoc to convert Markdown Resume to PDF
       - uses: docker://pandoc/latex:2.9
         with:
-          args: >-  # allows you to break string into multiple lines
+          args: >-
             -f gfm
             -t pdf
-            -o output/GrantICarroll.pdf
+            -o GrantICarroll.pdf
             -V geometry:margin=2cm
             programming/resume/README.md
-      - uses: actions/upload-artifact@main
+      # Upload PDF Resume
+      # - uses: actions/upload-artifact@main
+      #   with:
+      #     name: output
+      #     path: output
+      - uses: EndBug/latest-tag@latest
+      - uses: ncipollo/release-action@v1
         with:
-          name: output
-          path: output
+          artifacts: "GrantICarroll.pdf"
+          tag: "latest"
+          token: ${{ secrets.GITHUB_TOKEN }}
