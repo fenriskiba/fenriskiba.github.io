@@ -16,7 +16,7 @@ jobs:
           args: >-
             -f gfm
             -t docx
-            -o output/GrantICarroll.docx
+            -o GrantICarroll.docx
             programming/resume/README.md
       # Run Pandoc to convert Markdown Resume to PDF
       - uses: docker://pandoc/latex:2.9
