@@ -1,2 +1,2 @@
-# Ptolus
+# COMING SOON - Ptolus
 **Character:** Aldys

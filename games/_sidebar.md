@@ -1,4 +1,8 @@
-- [Magic the Gathering](/games/mtg.md)
+- [Linux Gaming](/games/linux.md)
+- **Trading Card Games**
+  - [Magic: The Gathering](/games/tcg/mtg.md)
+  - [Pokemon TCG](/games/tcg/pokemon-tcg.md)
+  - [Force of Will](/games/tcg/force-of-will.md)
 - **D&D**
   - *Campaigns*
     - [Ptolus (2018)](/games/ttrpgs/campaigns/ptolus-2018.md)

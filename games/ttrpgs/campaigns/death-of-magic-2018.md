@@ -1,2 +1,2 @@
-# Death of Magic
+# COMING SOON - Death of Magic
 **Character:** Meh

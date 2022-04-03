@@ -1,2 +1,2 @@
-# Curse of Strahd
+# COMING SOON - Curse of Strahd
 **Character:** Growler
