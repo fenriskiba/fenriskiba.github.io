@@ -19,3 +19,18 @@ jobs:
         with:
           name: output
           path: output
+  pdf_gen:
+    runs-on: ubuntu-18.04
+    steps:
+      - uses: docker://pandoc/latex:2.9
+        with:
+          args: >-  # allows you to break string into multiple lines
+            -f gfm
+            -t pdf
+            -o GrantICarroll.pdf
+            -V geometry:margin=2cm
+            programming/resume/README.md
+      - uses: actions/upload-artifact@master
+        with:
+          name: output
+          path: output
