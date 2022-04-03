@@ -1,9 +1,8 @@
 name: Publish Resume
-on: push
-# on:
-#   push:
-#     paths:
-#       - 'programming/resume/README.md'
+on:
+  push:
+    paths:
+      - 'programming/resume/README.md'
 jobs:
   resume_gen:
     runs-on: ubuntu-18.04
