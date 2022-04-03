@@ -3,17 +3,9 @@
   - [Magic: The Gathering](/games/tcg/mtg.md)
   - [Pokemon TCG](/games/tcg/pokemon-tcg.md)
   - [Force of Will](/games/tcg/force-of-will.md)
-- **D&D**
-  - *Campaigns*
-    - [Ptolus (2018)](/games/ttrpgs/campaigns/ptolus-2018.md)
-    - [Death of Magic (2018)](/games/ttrpgs/campaigns/death-of-magic-2018.md)
-    - [Curse of Strahd (2019)](/games/ttrpgs/campaigns/curse-of-strahd-2019.md)
-    - [Tomb of Annihilation (2020)](/games/ttrpgs/campaigns/tomb-of-annihilation-2020.md)
-  - *Characters*
-    - [Aldys](/games/ttrpgs/characters/aldys.md)
-    - [Barash Fenkenkabradon](/games/ttrpgs/characters/bharash.md)
-    - [Growler](/games/ttrpgs/characters/growler.md)
-    - [Grrr Wan](/games/ttrpgs/characters/grrr-wan.md)
-    - [Lenna Vendan](/games/ttrpgs/characters/lenna-vendan.md)
-    - [Meh](/games/ttrpgs/characters/meh.md)
-    - [Miri Ulmokina](/games/ttrpgs/characters/miri-ulmokina.md)
+- **D&D 5e**
+  - [Tomb of Annihilation (2020)](/games/ttrpgs/dnd-5e/tomb-of-annihilation-2020.md)
+  - [Curse of Strahd (2019)](/games/ttrpgs/dnd-5e/curse-of-strahd-2019.md)
+  - [Death of Magic (2018)](/games/ttrpgs/dnd-5e/death-of-magic-2018.md)
+  - [Ptolus (2018)](/games/ttrpgs/dnd-5e/ptolus-2018.md)
+  - [Misc Characters](/games/ttrpgs/dnd-5e/misc-characters.md)
