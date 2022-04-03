@@ -7,6 +7,8 @@ on: push
 jobs:
   resume_gen:
     runs-on: ubuntu-18.04
+    permissions:
+      contents: write
     steps:
       # Setup
       - uses: actions/checkout@v2
