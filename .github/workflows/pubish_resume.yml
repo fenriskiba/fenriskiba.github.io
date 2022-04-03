@@ -14,7 +14,7 @@ jobs:
           args: >-  # allows you to break string into multiple lines
             -f gfm
             -t docx
-            -o GrantICarroll.docx
+            -o output/GrantICarroll.docx
             programming/resume/README.md
       - uses: actions/upload-artifact@main
         with:
@@ -29,7 +29,7 @@ jobs:
           args: >-  # allows you to break string into multiple lines
             -f gfm
             -t pdf
-            -o GrantICarroll.pdf
+            -o output/GrantICarroll.pdf
             -V geometry:margin=2cm
             programming/resume/README.md
       - uses: actions/upload-artifact@main
