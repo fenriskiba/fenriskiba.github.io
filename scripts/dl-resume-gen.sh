@@ -7,7 +7,7 @@
 pandoc -f gfm \
        -t docx \
        -o GrantICarroll.docx \
-       programming/resume.md
+       programming/resume/README.md
 
 # Generate PDF File
 # Addtional formatting can be added with -V
@@ -16,4 +16,4 @@ pandoc -f gfm \
        -t pdf \
        -o GrantICarroll.pdf \
        -V geometry:margin=2cm \
-       programming/resume.md
+       programming/resume/README.md
