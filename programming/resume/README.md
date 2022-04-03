@@ -59,8 +59,7 @@ Recorded and prepared video presentations to competition judges, team sponsors, 
 ## Education
 ### University of Akron
 Bachelor of Science in Computer Science  
-Graduated May 2016  
-GPA: 3.0
+Graduated May 2016
 
 ## Skills
 <u>*Languages:*</u> C++, C#, Javascript, Go, SQL, Dockerfiles, YAML, Markdown  
