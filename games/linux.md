@@ -3,4 +3,4 @@ As a result of Microsoft getting more strict in forcing sign in via Microsoft ac
 
 I've preferred *nix systems since college, and only really maintained a Windows partition for the sake of gaming. The [LTT Linux Challenge](https://www.youtube.com/playlist?list=PL8mG-RkN2uTyhe6fxWpnsHv53Y1I-K3yu) has convinced me that, while there are still issues in Linux gaming, the challenges are within my ability to overcome.
 
-This project will begin once I've had a chance to update my getting space (currently in a spider filled basement with an old rickety desk).
+This project will begin once I've had a chance to update my gaming space (currently in a spider filled basement with an old rickety desk).
