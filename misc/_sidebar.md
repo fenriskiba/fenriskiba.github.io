@@ -1,5 +1,2 @@
 - [Japan 2017](/misc/japan-2017.md)
 - [Technical Theater](/misc/theater.md)
-- **Bokksu**
-  - [2021](/misc/bokksu/2021.md)
-  - [2022](/misc/bokksu/2022.md)

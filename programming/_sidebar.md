@@ -1,5 +1,5 @@
 - **Resume**
-  - [Web Page](/programming/resume/)
+  - [Grant I Carroll](/programming/resume/)
   - [PDF Download](/programming/resume/pdf.md)
   - [Word Doc Download](/programming/resume/docx.md)
 - **Projects**
