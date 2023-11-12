@@ -2,6 +2,7 @@ name: Publish Resume
 
 # Only trigger on changes to the Resume Markdown file
 on:
+  workflow_dispatch:
   push:
     paths:
       - 'programming/resume/README.md'
