@@ -1,0 +1,2 @@
+- [Japan 2017](/misc/japan-2017.md)
+- [Technical Theater](/misc/theater.md)

@@ -1,0 +1,6 @@
+- **Linux**
+  - [Framework Laptop](/tech/linux/framework.md)
+  - [Linux Gaming](/tech/linux/linux-gaming.md)
+- **Robotics**
+  - [FIRST Robotics](/tech/robotics/frc.md)
+  - [Vex Robotics](/tech/robotics/vex.md)
