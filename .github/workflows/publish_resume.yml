@@ -10,7 +10,7 @@ on:
 # Setup environment to generate PDF/DOCX Resumes
 jobs:
   resume_gen:
-    runs-on: ubuntu:latest
+    runs-on: ubuntu-latest
     permissions:
       contents: write
     steps:
