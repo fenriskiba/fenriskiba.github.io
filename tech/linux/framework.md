@@ -1,4 +1,6 @@
 # Framework Laptop
+?> **Note:** This was written a while ago, and many of the problems since then have been solved. I am however leaving this as a point-in-time, since I don't want to re-write it and I think keeping the initial problems out there is still overall a good idea. The fact that these were avoidable problems show that more work could have been done and hopefully Framework and other laptop manufacturers can do more to work with the Linux community before release to prevent these kinds of problems.
+
 Despite normally being a Linux user, for the past few years, I've been primarily using Macbooks at work and home. A friend convinced me to try one for personal use as an experiment about 5 years ago and I was able to get my work to provide me one over a Windows machine as well.  
 Overall, I like the MacOS experience and, aside from the butterfly keyboard, the hardware was really nice. Despite that, I've been wanting to get back to using Linux. I'd rather not support Apple and their anti-competitive, anti-right-to-repair strategy.
 
@@ -106,7 +108,7 @@ A few other miscellaneous thoughts before wrapping up:
 * Lack of Chromium browser hardware acceleration on Linux is extremely disappointing when trying to watch Youtube videos.
 
 ## Closing Thoughts
-* Power Sucks
-* A lot of the problems seem specific to Linux Mint/Ubuntu
-  * Might Try with Fedora w/ KDE at some point to see if that goes better
-    * Don't want to cause I'm used to the Ubuntu-based environment
+Overall, I'm happy with my Framework, but may consider a machine from System76 or Tuxedo laptops in the future. I love the idea of a laptop with repair-ability build right into it,but Framework needs to really solve two problems if I'm going to consider upgrading this system rather than buy a new one:
+* The battery life really needs to be improved. I'm hoping the AMD systems with larger batteries helps, but I haven't seen a comprehensive review of that yet so I can only hope.
+  * Unfortunately, this is a problem that seems to effect everyone except Apple, so hopefully Framework can be the one to solve it.
+* Framework needs to work more closely with the Linux community. Due to the nature of their product, they probably have a larger-than-average percentage of Linux users on their platform and they need to do more than just say "here's a forum, if you figure it out well publish it". Working with the Linux community more proactively, whether that's by contributing changes or selecting hardware that is known to work on Linux they need to make sure the product is compatible with Linux out-of-the-box if I'm going to keep buying from them.
