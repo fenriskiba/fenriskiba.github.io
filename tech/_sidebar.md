@@ -1,5 +1,6 @@
 - **Linux**
   - [Framework Laptop](/tech/linux/framework.md)
+  - [Distro Hopping 2024](/tech/linux/distro-hopping-2024.md)
   - [Linux Gaming](/tech/linux/linux-gaming.md)
 - **Robotics**
   - [FIRST Robotics](/tech/robotics/frc.md)
