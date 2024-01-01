@@ -6,12 +6,12 @@ Every month in 2024, I will be trying out a different Linux distro to see what m
 3. Fedora Gnome
 4. Tuxedo OS
 5. Pop OS
-6. Elementary OS?
-7. Manjaro?
-8. Debian?
-9.  Nobara?
-10. ZorrinOS?
-11. OpenSUSE?
+6. Elementary OS
+7. Manjaro
+8. Debian
+9. Nobara
+10. ZorrinOS
+11. OpenSUSE
 12. 
 
 ## Linux Mint (Baseline)
