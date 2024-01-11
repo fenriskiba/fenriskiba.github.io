@@ -50,3 +50,5 @@ dbus-monitor --session "type=signal,interface=org.cinnamon.ScreenSaver,member=Ac
 ```
 
 ![TODO](https://live.staticflickr.com/65535/53449541784_07c84669f8_o.png)
+
+[8BitDo Controller issues](https://gist.github.com/ammuench/0dcf14faf4e3b000020992612a2711e2)
