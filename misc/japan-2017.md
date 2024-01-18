@@ -3,4 +3,4 @@
 
 <!-- https://www.tumblr.com/blog/fenriskiba-blog -->
 
-![](/media/miyajima-shrine.jpg)
+![](../media/miyajima-shrine.jpg)

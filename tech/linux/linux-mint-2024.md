@@ -32,6 +32,6 @@ dbus-monitor --session "type=signal,interface=org.cinnamon.ScreenSaver,member=Ac
   done
 ```
 
-![TODO](/media/mint-startup-apps.png)
+![TODO](../../media/mint-startup-apps.png)
 
 [8BitDo Controller issues](https://gist.github.com/ammuench/0dcf14faf4e3b000020992612a2711e2)
