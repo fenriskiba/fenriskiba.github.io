@@ -1,5 +1,3 @@
-- **PC Gaming**
-  - [Linux Gaming](/tech/linux/linux-gaming.md)
 - **Trading Card Games**
   - [Magic: The Gathering](/games/tcg/mtg.md)
   - [Pokemon TCG](/games/tcg/pokemon-tcg.md)
