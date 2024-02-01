@@ -1,12 +1,14 @@
 # Distro Hopping
 
 1. Linux Mint
-2. Fedora Gnome
-3. Fedora KDE
-4. Tuxedo OS
-5. Nobara
+2. Tuxedo OS
+3. Nobara
+4. Fedora Gnome*
+5. Fedora KDE*
 6. OpenSUSE Tumbleweed
 7. PopOS (if Cosmic is out)
+
+\* May not follow through on these depending on my impressions of Tuxedo and Nobara.
 
 Only in VMs
 1. NixOS
