@@ -1,5 +1,7 @@
 # Distro Hopping
 
+!> Due to issues getting Tuxedo OS, I've abandoned this project and will instead stay on Mint. Preserving this unless I end up changing my mind. More details coming when I finish the proper write-up.
+
 1. Linux Mint
 2. Tuxedo OS
 3. Nobara
