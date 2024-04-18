@@ -1,10 +1,5 @@
 # Holocure Notes
 ## Remaining Acheivements
-### Raw Strength
-*Clear a (Hard) stage without taking any Healing Items*
-
-Seems like having healing Skills from character is alright as long as you don't have any healing Items, it's even easier to do if you have Regeneration upgrade from Shop (tab with Stat Upgrades) to max.
-
 ### Bullet Hell Pro
 *Clear a Hard stage without taking any damage from projectiles*
 
@@ -56,29 +51,3 @@ When last boss appears you should have your character Special, if for some reaso
 * Timestamps
   * 16:40 - just run away for 1min 30sec
   * 20:00 - have special ready
-
-### Tank class
-*Have over 500 HP in 1 run*
-
-Takanashi Kiara currently has highest base HP (90), so you should be attempting to get this with her (it's possible to get it with other characters as well too, considering at 30 mins my Kiara had 700 HP, which is more than achievement asks for) on G. Rank 21 (G. Rank Up, which adds a +1% bonus to HP, ATK, and SPD, where 20% is max) and with Shop upgrades (Stat Upgrades > Max HP Up) on max. You also can craft Calamari Set food for Max HP increase by 40.
-
-Head to Main Menu > Shop > Buy Upgrades > Others and buy Marketing to max and Weapon Limit with leaving 2 slots open. After that you can start a run.
-
-As Items you'll want to pick Study Glasses + Researcher's Coat + Halu for EXP gains, Piki Piki Piman for HP bonus.
-
-For Weapons it's recommended to go for Jingisukan Super Collab (Elite Lava Bucket+Spider Cooking > Elite Cooking + Uber Sheep) because it increases Max HP by 100.
-
-#### Summary
-* Use Kiara
-  * Ideally G. Rand Max (21)
-* Calamari Set
-* Upgrades
-  * Marketing Max
-  * Weapon Limit leaving 2 slots open
-* Items
-  * Study Glasses
-  * Reseacher's Coat
-  * Halu
-  * Piki Piki Piman
-* Weapons
-  * (Elite Lava Bucket + Spider Cooking) + Uber Sheep
