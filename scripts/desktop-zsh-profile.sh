@@ -12,9 +12,9 @@ export PATH=$PATH:/home/fenriskiba/.local/bin:/usr/local/go/bin
 export PATH=$PATH:$(go env GOPATH)/bin
 
 # NVM Setup
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+# export NVM_DIR="$HOME/.nvm"
+# [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+# [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
 # Git Aliases
 alias gitk="git fetch --all && git remote prune origin && gitk --all --date-order --full-history&"
@@ -28,7 +28,7 @@ alias docker="podman"
 # Misc Aliases
 alias zsh-profile="code ~/.zshrc"
 alias make-script-executable="chmod +x"
-alias tri-mon-dup="xrandr --output DP-4 -s 3840x2160 --rate 120 --output DP-0 --same-as DP-4 --output HDMI-0 --same-as DP-4"
+# alias tri-mon-dup="xrandr --output DP-4 -s 3840x2160 --rate 120 --output DP-0 --same-as DP-4 --output HDMI-0 --same-as DP-4"
 
 # Echo Proxy Variables
 proxy-vars() {
