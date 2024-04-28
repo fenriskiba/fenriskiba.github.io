@@ -75,6 +75,7 @@ Steam works fine on all games I've tried:
 ### Benefits
 - Better Multimonitor Support
 - Controller works ootb
+  - This benefit is diminished by Mint Edge
 
 ### Issues
 - Webcam issues

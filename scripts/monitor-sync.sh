@@ -32,8 +32,7 @@ dbus-monitor --session "type=signal,interface=org.cinnamon.ScreenSaver,member=Ac
     LOCK_STAT=`echo $MSG | awk '{print $NF}'`
     if [[ "$LOCK_STAT" == "member=ActiveChanged" ]]; then
         echo "was unlocked"
-        # xrandr --output DP-0 --mode 3840x2160 --rate 60 --output DP-1 --same-as DP-0 --output HDMI-0 --same-as DP-0
-        xrandr --output DP-2 -s 3840x2160 --rate 120 --output DP-4 --same-as DP-2 --output HDMI-0 --same-as DP-2
+        xrandr --output DP-4 -s 3840x2160 --rate 120 --output DP-2 --same-as DP-4 --output HDMI-0 --same-as DP-4
     fi
 
     if [ $CAUGHT_SHUTDOWN != "0" ]; then

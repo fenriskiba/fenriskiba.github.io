@@ -28,7 +28,7 @@ alias docker="podman"
 # Misc Aliases
 alias zsh-profile="code ~/.zshrc"
 alias make-script-executable="chmod +x"
-# alias tri-mon-dup="xrandr --output DP-4 -s 3840x2160 --rate 120 --output DP-0 --same-as DP-4 --output HDMI-0 --same-as DP-4"
+alias tri-mon-dup="xrandr --output DP-4 -s 3840x2160 --rate 120 --output DP-2 --same-as DP-4 --output HDMI-0 --same-as DP-4"
 
 # Echo Proxy Variables
 proxy-vars() {
