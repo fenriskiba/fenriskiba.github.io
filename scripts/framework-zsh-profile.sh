@@ -28,7 +28,7 @@ alias docker-compose="podman-compose"
 # Misc Aliases
 alias zsh-profile="code ~/.zshrc"
 alias make-script-executable="chmod +x"
-alias fprint-toggle="sudo pam-auth-update"
+# alias fprint-toggle="sudo pam-auth-update"
 
 # Echo Proxy Variables
 proxy-vars() {
