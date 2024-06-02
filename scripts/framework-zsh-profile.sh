@@ -23,7 +23,7 @@ alias git-code='GIT_EDITOR=code git'
 # Podman Aliases
 alias podman-cleanup="podman system prune --all --force && podman rmi --all && podman volume rm --all"
 alias docker="podman"
-alias docker-compose="podman-compose"
+# alias docker-compose="podman-compose"
 
 # Misc Aliases
 alias zsh-profile="code ~/.zshrc"
