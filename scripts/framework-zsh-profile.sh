@@ -29,6 +29,7 @@ alias docker="podman"
 alias zsh-profile="code ~/.zshrc"
 alias make-script-executable="chmod +x"
 alias python="python3"
+alias reset-wifi="sudo modprobe -r iwlwifi && sudo modprobe iwlwifi && sudo systemctl restart NetworkManager.service"
 # alias fprint-toggle="sudo pam-auth-update"
 
 # Echo Proxy Variables
