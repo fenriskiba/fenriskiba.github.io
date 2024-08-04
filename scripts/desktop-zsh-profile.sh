@@ -7,8 +7,8 @@ source $ZSH/oh-my-zsh.sh
 
 autoload -Uz compinit && compinit
 
-# Add GOPATH and User Local Path (required for pip3)
-export PATH=$PATH:/home/fenriskiba/.local/bin:/usr/local/go/bin
+# Add GOPATH and User Local Path
+export PATH=$PATH:/usr/local/go/bin
 export PATH=$PATH:$(go env GOPATH)/bin
 
 # NVM Setup
