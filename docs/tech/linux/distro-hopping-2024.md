@@ -1,21 +1,5 @@
 # Distro Hopping
 
-!> Due to issues getting Tuxedo OS, I've abandoned this project and will instead stay on Mint. Preserving this unless I end up changing my mind. More details coming when I finish the proper write-up.
-
-1. Linux Mint
-2. Tuxedo OS
-3. Nobara
-4. Fedora Gnome*
-5. Fedora KDE*
-6. OpenSUSE Tumbleweed
-7. PopOS (if Cosmic is out)
-
-\* May not follow through on these depending on my impressions of Tuxedo and Nobara.
-
-Only in VMs
-1. NixOS
-2. Arch Linux
-
 ## Linux Mint
 
 ### Monitor Duplication
@@ -83,3 +67,42 @@ Steam works fine on all games I've tried:
 - Trouble with apps respecting themes
   - https://github.com/prusa3d/PrusaSlicer/issues/10657
 - MFA Apps don't always respect default browser
+
+## Fedora
+
+### Git Credentials in libsecret
+
+https://discussion.fedoraproject.org/t/attention-git-credential-libsecret-for-storing-git-passwords-in-the-gnome-keyring-is-now-an-extra-package/18275
+
+```bash
+sudo dnf install git-credential-libsecret
+
+git config --global credential.helper libsecret
+```
+
+### Installing ZSH
+
+https://fedoramagazine.org/set-zsh-fedora-system/
+
+```bash
+sudo dnf install zsh
+
+chsh -s $(which zsh)
+```
+
+### Extensions
+* Add to Desktop
+  * Technically not supported, but it worked
+* AppIndicator and KStatusNotifierItem Support
+* Dash to Dock
+* Desktop Icons NG (DING)
+* Freon
+* Tiling Assistant
+* Wallpaper Slideshow
+
+### Login Loop
+Decided that I'd rather move onto try PopOS than try and solve it. Most of the info I saw suggested it's either a Wayland issue or a Desktop issue.
+
+If it's a Wayland issue, then I'd rather find a more stable base rather than the experimental base Fedora uses.
+
+If it's a Desktop issue, it's probably because of extensions and I'd rather not deal with a system that doesn't let me customize it like that.
