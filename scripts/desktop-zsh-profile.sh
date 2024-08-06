@@ -9,7 +9,7 @@ autoload -Uz compinit && compinit
 
 # Add GOPATH and User Local Path
 export PATH=$PATH:/usr/local/go/bin
-# export PATH=$PATH:$(go env GOPATH)/bin
+export PATH=$PATH:$(go env GOPATH)/bin
 
 # NVM Setup
 export NVM_DIR="$HOME/.nvm"
@@ -29,12 +29,13 @@ alias docker="podman"
 alias zsh-profile="code ~/.zshrc"
 alias make-script-executable="chmod +x"
 alias python="python3"
+alias open="xdg-open"
 
-tri-mon-dup() {
-    xrandr --output DP-4 -s 3840x2160 --rate 120 \
-           --output DP-2 --same-as DP-4 \
-           --output HDMI-0 --same-as DP-4
-}
+# tri-mon-dup() {
+#     xrandr --output DP-4 -s 3840x2160 --rate 120 \
+#            --output DP-2 --same-as DP-4 \
+#            --output HDMI-0 --same-as DP-4
+# }
 
 # Echo Proxy Variables
 proxy-vars() {
