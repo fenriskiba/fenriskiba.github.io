@@ -9,7 +9,7 @@ autoload -Uz compinit && compinit
 
 # Add GOPATH and User Local Path
 export PATH=$PATH:/usr/local/go/bin
-export PATH=$PATH:$(go env GOPATH)/bin
+# export PATH=$PATH:$(go env GOPATH)/bin
 
 # NVM Setup
 export NVM_DIR="$HOME/.nvm"
