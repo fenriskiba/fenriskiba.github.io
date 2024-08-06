@@ -29,7 +29,7 @@ alias docker="podman"
 alias zsh-profile="code ~/.zshrc"
 alias make-script-executable="chmod +x"
 alias python="python3"
-alias open="xdg-open"
+# alias open="xdg-open"
 
 tri-mon-dup() {
     xrandr --output DP-4 -s 3840x2160 --rate 120 \
