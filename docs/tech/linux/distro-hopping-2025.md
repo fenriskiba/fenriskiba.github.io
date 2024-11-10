@@ -1,0 +1,13 @@
+# Distro Hopping
+Planning to build a new PC, and want to try again after having issues in 2024. The goal will be to spend a month with each distro before moving on to the next. I may add or remove distros based on early impressions or issues I encounter with installation.
+
+I'm avoiding Ubuntu and it's official flavours because of concerns about Snaps, but may reconsider after doing further research (most of the info I found is a few years old, but I don't care enough to look deeper at the moment).
+
+* [Linux Mint](distro-hopping-2024.md) (baseline)
+* [Fedora Workstation](https://fedoraproject.org/workstation/)
+* [Fedora KDE](https://fedoraproject.org/spins/kde)
+* [Nobara](https://nobaraproject.org/) (TBD on which desktop version)
+* [PikaOS](https://wiki.pika-os.com/en/home)
+* [Pop!_OS](https://pop.system76.com/) (planning to hold off for awhile to give Cosmic Desktop time to release and work out any issues)
+* [Tuxedo OS](https://www.tuxedocomputers.com/en/TUXEDO-OS_1.tuxedo)
+* [openSUSE](https://www.opensuse.org/)
