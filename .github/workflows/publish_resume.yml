@@ -1,0 +1,46 @@
+name: Publish Resume
+
+# Only trigger on changes to the Resume Markdown file
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'programming/resume/README.md'
+
+# Setup environment to generate PDF/DOCX Resumes
+jobs:
+  resume_gen:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v2
+
+      # Run Pandoc to convert Markdown Resume to DOCX
+      - uses: docker://pandoc/core:2.9
+        with:
+          args: >-
+            -f gfm
+            -t docx
+            -o GrantICarroll.docx
+            programming/resume/README.md
+
+      # Run Pandoc to convert Markdown Resume to PDF
+      - uses: docker://pandoc/latex:2.9
+        with:
+          args: >-
+            -f gfm
+            -t pdf
+            -o GrantICarroll.pdf
+            -V geometry:margin=2cm
+            programming/resume/README.md
+
+      # Create "latest" release and publish releases
+      - uses: EndBug/latest-tag@latest
+      - uses: ncipollo/release-action@v1
+        with:
+          allowUpdates: true
+          artifacts: "GrantICarroll.docx,GrantICarroll.pdf"
+          removeArtifacts: true
+          tag: "latest"
+          token: ${{ secrets.GITHUB_TOKEN }}

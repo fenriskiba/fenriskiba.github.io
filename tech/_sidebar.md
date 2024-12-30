@@ -1,0 +1,10 @@
+- **Linux**
+  - [Framework Laptop](/tech/linux/framework.md)
+  - [Disto Hopping 2024](/tech/linux/distro-hopping-2024.md)
+  - [Disto Hopping 2025](/tech/linux/distro-hopping-2025.md)
+- **3D Printing**
+  - [Ender 3 v2](/tech/3d-printing/ender3v2.md)
+  - [Original Prusa Mk4](/tech/3d-printing/prusa-mk4.md)
+- **Robotics**
+  - [FIRST Robotics](/tech/robotics/frc.md)
+  - [Vex Robotics](/tech/robotics/vex.md)
