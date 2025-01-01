@@ -11,8 +11,10 @@ I'm avoiding Ubuntu and it's official flavours because of concerns about the Sna
 * [PikaOS](https://wiki.pika-os.com/en/home)
 * [Pop!_OS](https://pop.system76.com/) (planning to hold off for awhile to give Cosmic Desktop time to release and work out any issues)
 * [Tuxedo OS](https://www.tuxedocomputers.com/en/TUXEDO-OS_1.tuxedo)
-* [openSUSE](https://www.opensuse.org/)
+* [openSUSE Tumbleweed](https://www.opensuse.org/#Tumbleweed)
 * [EndeavourOS](https://endeavouros.com/)
+
+I may also try some other Fedora spins, just as an excuse to see other desktop environments. At the moment, I think that, if I do try them, it'll start in a VM however and only get added to the full list if the desktop interests me. I may also look into other distros with that desktop if I find it interesting, but we will see.
 
 ## What I'll Be Trying
 While I'm trying each distro, I'll be loosely trying the following things to see how well they meet my needs.
