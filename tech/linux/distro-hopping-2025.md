@@ -15,6 +15,7 @@ I'm avoiding Ubuntu and it's official flavours because of concerns about the Sna
 * [EndeavourOS](https://endeavouros.com/)
 * [CachyOS](https://cachyos.org/)
 * [Bazzite](https://bazzite.gg/)
+* [Garuda Linux](https://garudalinux.org/)
 
 I may also try some other Fedora spins, just as an excuse to see other desktop environments. At the moment, I think that, if I do try them, it'll start in a VM however and only get added to the full list if the desktop interests me. I may also look into other distros with that desktop if I find it interesting, but we will see.
 
