@@ -7,13 +7,13 @@
 [email]: mailto:fakeaddress@gmail.com
 [phone]: tel:+5555555555 -->
 
-Software engineer with experience in engineering leadership, Agile development, and developing software for a wide variety of platforms. Experienced with container technologies, microservice architectures, and open-source contributions.
+Software engineer with experience in engineering leadership, Agile development, and developing software for a wide variety of platforms. Experienced with container technologies, microservice architectures, and open source contributions.
 
 ## Professional Experience
 ### IT Application Developer Senior, Progressive Insurance (June 2016 - Present)
 #### Flagr Support Team
-* Configure and deploy an open source feature flagging microservice (Flagr)
-* Consult with business and developers on the use of Flagr for A/B Testing, feature switching, etc.
+* Configure and deploy an internal fork of an open source feature flagging microservice (Flagr)
+* Consult with business and developers on the use of Flagr for A/B testing, feature switching, etc.
 * Follow agile methodologies for development and process improvements
 * Work with business to establish requirements and priorities and plan future work
 * Write and maintain technical and process documentation
@@ -65,6 +65,7 @@ Bachelor of Science in Computer Science
 Graduated May 2016
 
 ## Skills
-<u>*Languages:*</u> C++, C#, Javascript, Go, SQL, Dockerfiles, YAML, Markdown  
-<u>*Frameworks/Libraries:*</u> ReactJS, PassportJS, Casbin, Sarama, .NET/MVC, Docsify  
-<u>*Software:*</u> Redhat OpenShift, Docker, Git, Visual Studio Code, Apache Kafka (Producers), Azure DevOps, Splunk, Draw.io
+<u>*Languages:*</u> Javascript, Go, Python, SQL, Dockerfiles, Bash Scripts, Markdown  
+<u>*Frameworks/Libraries:*</u> ReactJS, Go Fiber, Templ, GORM, Casbin, Sarama, Docsify  
+<u>*Infrastructure/DevOps:*</u> Linux, Redhat OpenShift, Github Actions, Apache Kafka (Producers), Azure DevOps, Splunk  
+<u>*Development Software:*</u> Docker/Podman, Git, Visual Studio Code, Draw.io
