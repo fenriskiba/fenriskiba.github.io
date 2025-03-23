@@ -1,36 +1,54 @@
+<!-- omit from toc -->
 # Distro Hopping
 Planning to build a new PC, and want to try again after having issues in 2024. The goal will be to spend a month with each distro before moving on to the next. I may add or remove distros based on early impressions or issues I encounter with installation.
 
-I'm avoiding Ubuntu and it's official flavours because of concerns about the Snap ecosystem being fully dependent on Canonical for hosting, but may reconsider after doing further research (most of the info I found is a few years old, but I don't care enough to look deeper at the moment).
+- [Distros I plan to try](#distros-i-plan-to-try)
+  - [Note about Ubuntu](#note-about-ubuntu)
+- [My Use Case](#my-use-case)
+- [Pre-Check: Running in a VM](#pre-check-running-in-a-vm)
 
-**Distros to try:**
+## Distros I plan to try
 * [Linux Mint](distro-hopping-2024.md) (baseline)
 * [Fedora Workstation](https://fedoraproject.org/workstation/)
 * [Fedora KDE](https://fedoraproject.org/spins/kde)
-* [Nobara](https://nobaraproject.org/) (TBD on which desktop version)
-* [PikaOS](https://wiki.pika-os.com/en/home)
-* [Pop!_OS](https://pop.system76.com/) (planning to hold off for awhile to give Cosmic Desktop time to release and work out any issues)
+* [Fedora Cinnamon](https://fedoraproject.org/spins/cinnamon)
+* [Nobara](https://nobaraproject.org/)[^1]
+* [PikaOS](https://wiki.pika-os.com/en/home)[^1]
+* [Pop!_OS](https://pop.system76.com/)[^2]
 * [Tuxedo OS](https://www.tuxedocomputers.com/en/TUXEDO-OS_1.tuxedo)
 * [openSUSE Tumbleweed](https://www.opensuse.org/#Tumbleweed)
 * [EndeavourOS](https://endeavouros.com/)
 * [CachyOS](https://cachyos.org/)
-* [Bazzite](https://bazzite.gg/)
-* [Garuda Linux](https://garudalinux.org/)
+* [Bazzite](https://bazzite.gg/)[^1]
+* [Garuda Linux](https://garudalinux.org/)[^1]
 
-I may also try some other Fedora spins, just as an excuse to see other desktop environments. At the moment, I think that, if I do try them, it'll start in a VM however and only get added to the full list if the desktop interests me. I may also look into other distros with that desktop if I find it interesting, but we will see.
+[^1]: Will determine desktop version during [VM tests](#pre-check-running-in-a-vm)
+[^2]: Will hold off until a full release of Cosmic Desktop
 
-## What I'll Be Trying
-While I'm trying each distro, I'll be loosely trying the following things to see how well they meet my needs.
+### Note about Ubuntu
+Depending on how my experience with other distros goes, I may more may not try Ubuntu or one of its official flavors as well. I'm not a big fan of being dependent on Canonical's hosting of Snap packages, so distributions that natively support Flatpak are preferable. While Flathub has become the defacto default for Flatpak hosting, it is not the only option (ex. Fedora Flatpak) and (at least from my limited experience) it seems to be better supported by developers to create the packages themselves rather than Canonical distributing it on their own.  
+That being said, I have found [a guide to setting up GNOME Software and Flatpak on Ubuntu](https://www.howtogeek.com/how-and-why-to-install-flatpak-software-packages-on-ubuntu/), so I do consider that an acceptable compromise if I find myself enjoying the GNOME experience and otherwise frustrated with other distros running GNOME. That being said, I'd rather not go down this route because of the need for additional setup using a terminal. While I am comfortable in a terminal, I prefer being able to honestly tell people that you don't need it for a good experience with Linux.
 
-* Gaming
-  * Not really a competitive gamer, so I'm not too worried about anti-cheat issues, but I do play some games.
-  * Currently starting to try the Dark Souls games, so that'll give me a chance to use Proton.
-    * Not expecting any issues at this point, given how good Proton is, but always a good sanity check.
-  * Probably also going to try some Gamecube/Wii emulation, since I've found that's pretty easy on Mint.
-  * VR with the Meta Quest 3
-    * I'll try ALVR if I have to, but I'm hoping I can just use SteamLink VR.
-* 3D Printing with PrusaSlicer
+## My Use Case
+To give a bit of context to how I will be evaluating these distros; these are the kinds of tasks I'll be performing with them that could impact my experience. I don't expect the software I use to cause too much issue, but my setup having three monitors that need to be mirrored could cause some frustration depending on the desktop environment.
+
+* I don't mind some customization, but I'd like to keep it to using graphical tools if I can.
+  * While I am comfortable in a terminal, I prefer being able to honestly tell people that you don't need it for a good experience with Linux.
 * [Mirroring Multiple Displays](https://forums.linuxmint.com/viewtopic.php?t=418626)
+  * This is the one exception where I will be comfortable using a terminal/shell script to get things working, as I consider the issue an edge-case and not something most people would need to work through for a good experience with Linux.
+* Light Gaming
+  * Not really a competitive gamer, so I'm not too worried about anti-cheat issues, but I do play some games.
+  * May also try some Gamecube/PS2 era emulation, but not entirely sure yet.
+  * Hoping I can get VR working, but there are some potentially confounding hardware issues with my setup.
+    * My desktop sits in separate closet and I use a USB-over-ethernet adapter that I have been having some signal integrity issues with to connect to it from my desk.
+* 3D Printing with PrusaSlicer (or if it ever gets published to Flathub, OrcaSlicer)
 * Light Development tasks
   * Containers with Podman
   * Go and Node development
+
+## Pre-Check: Running in a VM
+I'm going to spend a day or two just loading into each OS in a VM to get a feel for the desktop environment and see if there are any obvious deal breaker issues before we get started. I'll be looking through the desktop environment settings a bit, checking out what graphical package manager it uses, and generally getting a first impression of the OS. 
+
+For some distributions that offer multiple versions for different desktop environments, I'll also use this time to determine which desktop they offer that I want to try it with. I don't want to just assume that all implementations of GNOME or KDE will be the same, so I want to actually try both from each distro; even if only briefly in a VM.
+
+I'm only going to record notes here for distros that stand out in some way or that outright fail, so I can document *why* they failed rather than just cross them off the list an move on.
