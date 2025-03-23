@@ -4,6 +4,7 @@
   - [Word Doc Download](/programming/resume/docx.md)
 - **Projects**
   - [Flagr](/programming/projects/flagr.md)
+  - [Docsify Plugins](/programming/projects/docsify-plugins.md)
   - [Future Projects](/programming/projects/planning.md)
   - [School Projects](/programming/projects/school-projects.md)
 - **Other**

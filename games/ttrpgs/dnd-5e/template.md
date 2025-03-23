@@ -1,5 +1,5 @@
 <!-- omit in toc -->
-# Character Name
+# WIP-Template Character Name
 - [Character details](#character-details)
 - [Ability Scores](#ability-scores)
 - [Combat Details](#combat-details)
