@@ -9,7 +9,7 @@ I use Docsify a lot for this site and for work, so, in addition to fully utilizi
 
 Based on [KonghaYao/docsify-drawio](https://github.com/KonghaYao/docsify-drawio), this fork improves the experience of importing the package into a Docsify project, improves compatibility with [docsify-themeable](https://jhildenbiddle.github.io/docsify-themeable/#/), and adds a background to the diagram to improve read-ability.
 
-Unfortunately, I don't consider Drawcsify to be in a usable state yet, as it does still encounter [issues with certain styles](https://github.com/fenriskiba/drawcsify/issues/1) and I have not yet verified what work needs to be done to ensure it is an accessible solution.
+Unfortunately, while it is usable, I don't consider Drawcsify to be in an acceptable state yet, as it does still encounter [issues with certain styles](https://github.com/fenriskiba/drawcsify/issues/1) and I have not yet verified what work needs to be done to ensure it is an accessible solution.
 
 ## docsify-enable-checkbox
 [docsify-enable-checkbox](https://github.com/fenriskiba/docsify-enable-checkbox) is an extremely small package that renders checkmarks added in the markdown as enabled, rather than disabled the way Docsify normally renders them.
