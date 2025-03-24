@@ -71,7 +71,7 @@ I did find a workaround for the 8BitDo controllers, but the problem has actually
 > 4. Unplug and replug the controller if it was already plugged in, it might take a second if you have the bluetooth version
 
 ## Tuxedo OS
-I did try Tuxedo OS, but I'm going to leave out my experiences with it, as I now believe many of the problems I encountered may have been a result of an SSD with SMART failures. Frustrating, but not Tuxedo's fault.
+I did try Tuxedo OS, but I'm going to leave out my experiences with it, as I now believe many of the problems I encountered may have been a result of an SSD with SMART failures and/or signal integrity issues with the USB connection used to create the installation jump drive and install the OS. Frustrating, but not Tuxedo's fault.
 
 <!-- ### Benefits
 - Better Multimonitor Support
@@ -124,4 +124,5 @@ chsh -s $(which zsh)
 ### Login Loop
 The thing that killed my run with Fedora was that I ran into some kind of login loop, where I would put in my password, the screen would go black, and then I'd end up on the login screen again. At that point, I didn't really feel like fighting it, and moved onto PopOS (which I had some display issues with and returned to Mint, so I'm not even going to give it a section right now).
 
-Most of the info I saw suggested it's either a Wayland issue or a Desktop issue. If it's a Wayland issue, then I'd rather find a more stable base rather than the experimental base Fedora uses. If it's a Desktop issue, it's probably because of extensions and I'd rather not deal with a system that doesn't let me customize it like that.
+I have since realized that this may have also been caused by signal integrity issues with the USB connection used to create the installation jump drive and install the OS. I will be giving Fedora another shot in my [2025 attempt at distro hopping](/tech/linux/distro-hopping-2025.md).
+~~Most of the info I saw suggested it's either a Wayland issue or a Desktop issue. If it's a Wayland issue, then I'd rather find a more stable base rather than the experimental base Fedora uses. If it's a Desktop issue, it's probably because of extensions and I'd rather not deal with a system that doesn't let me customize it like that.~~
