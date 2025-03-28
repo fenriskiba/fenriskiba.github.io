@@ -15,9 +15,9 @@ Planning to build a new PC, and want to try again after having issues in 2024. T
 * [Fedora KDE](https://fedoraproject.org/spins/kde)
 * ~~[Fedora Cinnamon](https://fedoraproject.org/spins/cinnamon)~~
 * [Tuxedo OS](https://www.tuxedocomputers.com/en/TUXEDO-OS_1.tuxedo)
-* [Nobara](https://nobaraproject.org/)[^1]
-* [PikaOS](https://wiki.pika-os.com/en/home)[^1]
-* [openSUSE Tumbleweed](https://www.opensuse.org/#Tumbleweed)
+* ~~[Nobara](https://nobaraproject.org/)~~
+* ~~[PikaOS](https://wiki.pika-os.com/en/home)~~
+* [openSUSE Tumbleweed](https://www.opensuse.org/#Tumbleweed)[^3]
 * [Garuda Linux](https://garudalinux.org/)[^1]
 * [EndeavourOS](https://endeavouros.com/)
 * [CachyOS](https://cachyos.org/)
@@ -26,6 +26,7 @@ Planning to build a new PC, and want to try again after having issues in 2024. T
 
 [^1]: Will determine desktop version during [VM tests](#pre-check-running-in-a-vm)
 [^2]: Will hold off until a full release of Cosmic Desktop
+[^3]: Will determine desktop version based on Fedora Workstation and Fedora KDE impressions since it's GNOME/KDE implementations seem pretty standard
 
 ### Note about Ubuntu
 Depending on how my experience with other distros goes, I may more may not try Ubuntu or one of its official flavors as well. I'm not a big fan of Canonical packaging many Snaps independent of developer builds, as it can lead to issues being misdirected and cause general confusion around support (ex. [Steam Snap](https://www.omgubuntu.co.uk/2024/01/valve-dont-recommend-ubuntu-steam-snap) and [OBS on Fedora Flatpak](https://gitlab.com/fedora/sigs/flatpak/fedora-flatpaks/-/issues/39)), nor do I care for the way they try to prevent alternative public hosting by keeping the hosting software proprietary and only enabling an override rather than an addition.
@@ -62,4 +63,8 @@ I'm only going to record notes here for distros that stand out in some way or th
 
 ### Results
 * Fedora Cinnamon was eliminated for `dnfdragora` being it's only graphical package manager out of the box.
-  * I may bring it back later and manually install Gnome Software just to see a non-Mint implementation of Cinnamon.
+  * I may bring it back later and manually install GNOME Software just to see a non-Mint implementation of Cinnamon.
+* Nobara has been eliminated. The main version of it only includes a terrible custom software manager.
+  * In the GNOME version, the fact that their custom software pops up to update things instead of just leaving that to GNOME Software (which is still there) is unnecessary noise that I just found annoying. At least at an initial inspection, it didn't seem to add anything to the GNOME experience, so all that was left that I saw to redeem it was the Nobara Tweaks app, which looks like it was thrown together at a code jam and then never improved again.
+  * Didn't even bother checking out the KDE version after the GNOME version.
+* PikaOS was eliminated because I couldn't even get the boot-able ISO to run in the VM.
