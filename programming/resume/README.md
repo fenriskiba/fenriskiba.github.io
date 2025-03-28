@@ -65,7 +65,7 @@ Bachelor of Science in Computer Science
 Graduated May 2016
 
 ## Skills
-<u>*Languages:*</u> Javascript, Go, Python, SQL, Dockerfiles, Bash Scripts, Markdown  
+<u>*Languages:*</u> Javascript/Typescript, Go, Python, SQL, Dockerfiles, Bash Scripts, Markdown  
 <u>*Frameworks/Libraries:*</u> ReactJS, Go Fiber, Templ, GORM, Casbin, Sarama, Docsify  
 <u>*Infrastructure/DevOps:*</u> Linux, Redhat OpenShift, Github Actions, Apache Kafka (Producers), Azure DevOps, Splunk  
 <u>*Development Software:*</u> Docker/Podman, Git, Visual Studio Code, Draw.io
