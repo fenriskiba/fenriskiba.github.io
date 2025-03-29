@@ -13,16 +13,16 @@ Planning to build a new PC, and want to try again after having issues in 2024. T
 * [Linux Mint](distro-hopping-2024.md) (baseline)
 * [Fedora Workstation](https://fedoraproject.org/workstation/)
 * [Fedora KDE](https://fedoraproject.org/spins/kde)
-* ~~[Fedora Cinnamon](https://fedoraproject.org/spins/cinnamon)~~
 * [Tuxedo OS](https://www.tuxedocomputers.com/en/TUXEDO-OS_1.tuxedo)
-* ~~[Nobara](https://nobaraproject.org/)~~
-* ~~[PikaOS](https://wiki.pika-os.com/en/home)~~
 * [openSUSE Tumbleweed](https://www.opensuse.org/#Tumbleweed)[^3]
-* ~~[Garuda Linux](https://garudalinux.org/)~~
 * [EndeavourOS](https://endeavouros.com/)
 * [CachyOS](https://cachyos.org/)
 * [Bazzite](https://bazzite.gg/)[^1]
 * [Pop!_OS](https://pop.system76.com/)[^2]
+* ~~[Fedora Cinnamon](https://fedoraproject.org/spins/cinnamon)~~
+* ~~[Nobara](https://nobaraproject.org/)~~
+* ~~[PikaOS](https://wiki.pika-os.com/en/home)~~
+* ~~[Garuda Linux](https://garudalinux.org/)~~
 
 [^1]: Will determine desktop version during [VM tests](#pre-check-running-in-a-vm)
 [^2]: Will hold off until a full release of Cosmic Desktop
