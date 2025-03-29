@@ -7,7 +7,7 @@ Planning to build a new PC, and want to try again after having issues in 2024. T
   - [Note about Ubuntu](#note-about-ubuntu)
 - [My Use Case](#my-use-case)
 - [Pre-Check: Running in a VM](#pre-check-running-in-a-vm)
-  - [Results](#results)
+  - [VM Test Results](#vm-test-results)
 
 ## Distros I plan to try
 * [Linux Mint](distro-hopping-2024.md) (baseline)
@@ -18,7 +18,7 @@ Planning to build a new PC, and want to try again after having issues in 2024. T
 * ~~[Nobara](https://nobaraproject.org/)~~
 * ~~[PikaOS](https://wiki.pika-os.com/en/home)~~
 * [openSUSE Tumbleweed](https://www.opensuse.org/#Tumbleweed)[^3]
-* [Garuda Linux](https://garudalinux.org/)[^1]
+* ~~[Garuda Linux](https://garudalinux.org/)~~
 * [EndeavourOS](https://endeavouros.com/)
 * [CachyOS](https://cachyos.org/)
 * [Bazzite](https://bazzite.gg/)[^1]
@@ -61,10 +61,15 @@ For some distributions that offer multiple versions for different desktop enviro
 
 I'm only going to record notes here for distros that stand out in some way or that outright fail, so I can document *why* they failed rather than just cross them off the list an move on. I will also be skipping Linux Mint, Fedora Workstation, and Tuxedo OS, as I feel I have a solid enough understanding of them from my daily use of Mint and my [2024 attempt at distro hoping](/tech/linux/distro-hopping-2024.md) to say that they are worth checking out for the full month.
 
-### Results
+### VM Test Results
 * Fedora Cinnamon was eliminated for `dnfdragora` being it's only graphical package manager out of the box.
   * I may bring it back later and manually install GNOME Software just to see a non-Mint implementation of Cinnamon.
 * Nobara has been eliminated. The main version of it only includes a terrible custom software manager.
   * In the GNOME version, the fact that their custom software pops up to update things instead of just leaving that to GNOME Software (which is still there) is unnecessary noise that I just found annoying. At least at an initial inspection, it didn't seem to add anything to the GNOME experience, so all that was left that I saw to redeem it was the Nobara Tweaks app, which looks like it was thrown together at a code jam and then never improved again.
   * Didn't even bother checking out the KDE version after the GNOME version.
 * PikaOS was eliminated because I couldn't even get the boot-able ISO to run in the VM.
+* Garuda definitely doesn't play nice with my goal of having a distro that I can honestly recommend to less technical friends. If I were the only person I was thinking about, I'd probably be a bit more open to trying it, but I don't want to abandon that objective without a clear reason.
+  * I tried Mokka and Gnome DEs, and was interested in Dr460nized and Cinnamon as well, but decided to save time after I saw the same issues in both.
+  * Initial setup does pop into Terminal for updates. It does keep it simple and straight-forward, but would still make it difficult for me to say "yup, it's super friendly, even if you aren't very technical" since that would scare non-technical users.
+  * Initial software setup is nice (simple checkboxes with some recommendations), but gives so many options that it could scare less technical users. Some of the options it gives (like graphical software managers) also aren't particularly clear for less technical users.
+  * No Flatpak support out of the box and only really has a good graphical software manager if you install GNOME Software (which is does give a checkbox for during setup) and configure it with Flatpak.
