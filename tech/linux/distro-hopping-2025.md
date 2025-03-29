@@ -6,6 +6,8 @@ Planning to build a new PC, and want to try again after having issues in 2024. T
 - [Distros I plan to try](#distros-i-plan-to-try)
   - [Note about Ubuntu](#note-about-ubuntu)
 - [My Use Case](#my-use-case)
+  - [How I use my computer](#how-i-use-my-computer)
+  - [Recommending it to others](#recommending-it-to-others)
 - [Pre-Check: Running in a VM](#pre-check-running-in-a-vm)
   - [VM Test Results](#vm-test-results)
 
@@ -15,7 +17,6 @@ Planning to build a new PC, and want to try again after having issues in 2024. T
 * [Fedora KDE](https://fedoraproject.org/spins/kde)
 * [Tuxedo OS](https://www.tuxedocomputers.com/en/TUXEDO-OS_1.tuxedo)
 * [openSUSE Tumbleweed](https://www.opensuse.org/#Tumbleweed)[^3]
-* [EndeavourOS](https://endeavouros.com/)
 * [CachyOS](https://cachyos.org/)
 * [Bazzite](https://bazzite.gg/)[^1]
 * [Pop!_OS](https://pop.system76.com/)[^2]
@@ -23,6 +24,7 @@ Planning to build a new PC, and want to try again after having issues in 2024. T
 * ~~[Nobara](https://nobaraproject.org/)~~
 * ~~[PikaOS](https://wiki.pika-os.com/en/home)~~
 * ~~[Garuda Linux](https://garudalinux.org/)~~
+* ~~[EndeavourOS](https://endeavouros.com/)~~
 
 [^1]: Will determine desktop version during [VM tests](#pre-check-running-in-a-vm)
 [^2]: Will hold off until a full release of Cosmic Desktop
@@ -36,7 +38,12 @@ While Flathub has become the defacto default for Flatpak hosting, it is not the 
 That being said, I have found [a guide to setting up GNOME Software and Flatpak on Ubuntu](https://www.howtogeek.com/how-and-why-to-install-flatpak-software-packages-on-ubuntu/), so I do consider that an acceptable compromise if I find myself enjoying the GNOME experience and otherwise frustrated with other distros running GNOME. I'd rather not go down this route because of the need for additional setup using a terminal. While I am comfortable in a terminal, I prefer being able to honestly tell people that you don't need it for a good experience with Linux.
 
 ## My Use Case
-To give a bit of context to how I will be evaluating these distros; these are the kinds of tasks I'll be performing with them that could impact my experience. I don't expect the software I use to cause too much issue, but my setup having three monitors that need to be mirrored could cause some frustration depending on the desktop environment.
+One of the great things with Linux is the variety of options available, but that also means that not every option is for everyone. Just cause a certain distro isn't for me, doesn't make it bad. Honestly, there are a lot of distros I'd be interested in exploring if it weren't for the fact that I want something [easy to use without technical experience](#recommending-it-to-others).
+
+With that in mind, this is the context of how I'll be evaluating these options. If you are interesting in using my experience to help choose a Linux distro, please keep this in mind in case your use case differs from mine.
+
+### How I use my computer
+These are the kinds of tasks I'll be performing with them that could impact my experience. I don't expect the software I use to cause too much issue, but my setup having three monitors that need to be mirrored could cause some frustration depending on the desktop environment.
 
 * I don't mind some customization, but I'd like to keep it to using graphical tools if I can.
   * While I am comfortable in a terminal, I prefer being able to honestly tell people that you don't need it for a good experience with Linux.
@@ -52,7 +59,13 @@ To give a bit of context to how I will be evaluating these distros; these are th
   * Containers with Podman
   * Go and Node development
 
-In addition to my own use case, I'd also like something that I can recommend to anyone new to Linux to say "it's not just a beginners distro, it's what I use too". Being able to give people a clear demo on my own personal machine and say "no, I didn't need a terminal to get any of this working" is a big thing that could help anyone interested in switching to Linux but anxiously thinking that you need to be technical to use it.
+### Recommending it to others
+In addition to my own use case, I'd also like something that I can recommend to anyone new to Linux. Being able to say "it's not just a beginners distro, it's what I use too" is really powerful. Being able to give people a clear demo on my own personal machine and say "no, I didn't need a terminal to get any of this working" is a big thing that could help anyone interested in switching to Linux but anxiously thinking that you need to be technical to use it.
+
+I'm not necessarily trying to find a "one size fits all" distribution, so much as one that I think isn't going to be especially uncomfortable for anyone open to making the switch to Linux and that doesn't require any significant technical experience to use.
+
+**Added as a result of the [VM Testing](#pre-check-running-in-a-vm):** Accessibility tools. I personally don't need them and it won't be a deal breaker, but keeping in line with my goal of being able to recommend the distro I use to anyone, I should also be able to recommend it to those with visual impairments, people unable to use a mouse (but still don't want to use a Terminal), or otherwise need some kind of accessibility accommodations.  
+That being said, I'm not exactly an accessibility expert, so I can't give a complete perspective on this. I'll look into it a bit as I try each distro, and see if there is any community sentiment on the matter, but any accessibility comments I make will need to come with the disclaimer that I am not fully trained on these issues.
 
 ## Pre-Check: Running in a VM
 I'm going to spend a day or two just loading into each OS in a VM to get a feel for the desktop environment and see if there are any obvious deal breaker issues before we get started. I'll be looking through the desktop environment settings a bit, checking out what graphical package manager it uses, and generally getting a first impression of the OS. 
@@ -73,3 +86,6 @@ I'm only going to record notes here for distros that stand out in some way or th
   * Initial setup does pop into Terminal for updates. It does keep it simple and straight-forward, but would still make it difficult for me to say "yup, it's super friendly, even if you aren't very technical" since that would scare non-technical users.
   * Initial software setup is nice (simple checkboxes with some recommendations), but gives so many options that it could scare less technical users. Some of the options it gives (like graphical software managers) also aren't particularly clear for less technical users.
   * No Flatpak support out of the box and only really has a good graphical software manager if you install GNOME Software (which is does give a checkbox for during setup) and configure it with Flatpak.
+* EndeavourOS is very similar to Garuda (Arch based distros maintain the Arch philosophy after all). Tried the KDE version, which doesn't come with Discover (or any other graphical software maanger) pre-installed. It did have a post-install tool that (eventually) included installing Flatpak, but only after a lot of other steps, and only made sense if you know what Flatpak is. Would be interesting if I didn't want to be able to recommend the same distro I use to less technical folks, but for now it is a pass.
+* CachyOS is the same as other Arch based distros, so not much more to say. This one does have it's own graphical package manager, but it's still not great. It also left the shortcut to KDE Discover in the menu bar, even though it isn't installed, which doesn't give the best impression of it's polish.
+  * One thing I did find interesting with Cachy is that it does consider accessibility, but not by default. When choosing some things like the desktop environment, [it gives an option for accessibility tools](/media/linux/cachyOS_a11y.png ':ignore'), but it's not checked by default. While I like that it does consider accessibility needs, I dislike that it doesn't consider them important enough to have available by default.
