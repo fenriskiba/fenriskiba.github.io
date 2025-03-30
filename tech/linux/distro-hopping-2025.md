@@ -10,6 +10,7 @@ Planning to build a new PC, and want to try again after having issues in 2024. T
   - [Recommending it to others](#recommending-it-to-others)
 - [Pre-Check: Running in a VM](#pre-check-running-in-a-vm)
   - [VM Test Results](#vm-test-results)
+- [Next Steps](#next-steps)
 
 ## Distros I plan to try
 * [Linux Mint](distro-hopping-2024.md) (baseline)
@@ -91,3 +92,10 @@ Overall, the results aren't too surprising. No Arch based distros survived. Most
   * There are still a lot of tools that either aren't available as a Flatpak or that the unofficial Flatpak doesn't work. I'm also not sure some tools I use (Gparted, Raspberry Pi Imager, etc.) are even viable in a sandboxed format like Flatpak.
   * I'd also rather not need to use a container to run development tools. I'm sure I could run the Go compiler that way, but having it installed natively is going to be simpler.
   * I'll be happy if I'm proven wrong, but I'll wait for SteamOS to be the distro to test it since that'll have a lot more cultural relevance to try and make it work.
+
+## Next Steps
+At the time of writing, the next step in this is to actually get my new desktop set up and try each distro for a month. Unfortunately, this step will need to be put on hold for a short while, as I am re-evaluating my hardware setup.
+
+Currently, I have my desktop in a server rack in a closet, and use fiber-optic DisplayPort/HDMI cables and USB 3.0 over Ethernet adapters to connect to it from my office, gaming desk, and living room (inspired by Linus Tech Tips). I have been having some issues with this setup however (signal integrity issues, being stuck on older DP/HDMI standards, different display capabilities, etc.) and am trying to decide if it worth it to move back towards a more traditional setup. On one hand, I do really like the idea of this setup and don't want to re-invest in alternatives (buying a new case and cooling, figure out a slim client solution for my office, fix up the server closet for other ideas, etc.). On the other hand, I don't want to fall prey to the sunk cost fallacy and there are certain conveniences and [aesthetic advantages](https://starforgesystems.com/products/frieren-case-bundle) to having the case more readily available.
+
+So, until I can determine the direction for my setup and potentially make any required hardware changes, this project will be on hold. Hopefully that will also give PopOS some time to finish Cosmic and for things like new Wayland protocols and other DE improvements to get rolled out to potentially improve the experience on all of these distros.
