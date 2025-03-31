@@ -63,7 +63,12 @@ In addition to my own use case, I'd also like something that I can recommend to 
 
 I'm not necessarily trying to find a "one size fits all" distribution, so much as one that I think isn't going to be especially uncomfortable for anyone open to making the switch to Linux and that doesn't require any significant technical experience to use.
 
-**Added as a result of the [VM Testing](#pre-check-running-in-a-vm):** Accessibility tools. I personally don't need them and it won't be a deal breaker, but keeping in line with my goal of being able to recommend the distro I use to anyone, I should also be able to recommend it to those with visual impairments, people unable to use a mouse (but still don't want to use a Terminal), or otherwise need some kind of accessibility accommodations.  
+<!-- omit from toc -->
+#### Accessibility Tools
+**Added as a result of the [VM Testing](#pre-check-running-in-a-vm)**
+
+I personally don't have any accessibility needs when using a computer and I'm not going to consider it a deal breaker, but keeping in line with my goal of being able to recommend the distro I use to anyone, I should also be able to recommend it to those with visual impairments, people unable to use a mouse (but still don't want to use a Terminal), or otherwise need some kind of accessibility accommodations.
+
 That being said, I'm not exactly an accessibility expert, so I can't give a complete perspective on this. I'll look into it a bit as I try each distro, and see if there is any community sentiment on the matter, but any accessibility comments I make will need to come with the disclaimer that I am not fully trained on these issues.
 
 ## Pre-Check: Running in a VM
@@ -86,12 +91,12 @@ Overall, the results aren't too surprising. No Arch based distros survived. Most
   * Initial software setup is nice (simple checkboxes with some recommendations), but gives so many options that it could scare less technical users. Some of the options it gives (like graphical software managers) also aren't particularly clear for less technical users.
   * No Flatpak support out of the box and only really has a good graphical software manager if you install GNOME Software (which is does give a checkbox for during setup) and configure it with Flatpak.
 * EndeavourOS is very similar to Garuda (Arch based distros maintain the Arch philosophy after all). Tried the KDE version, which doesn't come with Discover (or any other graphical software manager) pre-installed. It did have a post-install tool that (eventually) included installing Flatpak, but only after a lot of other steps, and only made sense if you know what Flatpak is. Would be interesting if I didn't want to be able to recommend the same distro I use to less technical folks, but for now it is a pass.
-* CachyOS is the same as other Arch based distros, so not much to say. This one does have it's own graphical package manager, but it's still not great. It also left the shortcut to KDE Discover in the menu bar, even though it isn't installed, which doesn't give the best impression of its polish.
+* CachyOS is the same as the other Arch based distros, so not too much to say. This one does have it's own graphical package manager, but it's still not great. It also left the shortcut to KDE Discover in the menu bar, even though it isn't installed, which doesn't give the best impression of its polish.
   * One thing I did find interesting with Cachy is that it does consider accessibility, but not by default. When choosing some things like the desktop environment, [it gives an option for accessibility tools](/media/linux/cachyOS_a11y.png ':ignore'), but it's not checked by default. While I like that it does consider accessibility needs, I dislike that it doesn't consider them important enough to have available by default.
 * Bazzite was removed because I didn't realize it was an immutable distro. While I think immutable distros make a lot of sense in the server and handheld spaces, I'm not yet convinced they make sense in the desktop space.
   * There are still a lot of tools that either aren't available as a Flatpak or that the unofficial Flatpak doesn't work. I'm also not sure some tools I use (Gparted, Raspberry Pi Imager, etc.) are even viable in a sandboxed format like Flatpak.
   * I'd also rather not need to use a container to run development tools. I'm sure I could run the Go compiler that way, but having it installed natively is going to be simpler.
-  * I'll be happy if I'm proven wrong, but I'll wait for SteamOS to be the distro to test it since that'll have a lot more cultural relevance to try and make it work.
+  * I'll be happy if I'm proven wrong and the tooling improves to the point where it is viable, since the security and reliability of immutable distros would be great in the desktop space. However, I'll wait for SteamOS to be the distro to test it since that'll have a lot more cultural relevance to try and make it work.
 
 ## Next Steps
 At the time of writing, the next step in this is to actually get my new desktop set up and try each distro for a month. Unfortunately, this step will need to be put on hold for a short while, as I am re-evaluating my hardware setup.
