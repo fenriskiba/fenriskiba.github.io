@@ -1,4 +1,4 @@
-# Distro Hopping
+# Distro Hopping 2024
 My plan at the beginning of 2024 was to try some Linux distro hopping, because I hadn't tried any new distributions since I started using Linux Mint in college. I wanted to see what the Linux landscape had become in the time since then, and see if there were any desktop environments or distributions that met my needs better than Mint.
 
 Unfortunately, I encountered multiple issues with this; from SSD failures, to Nvidia driver issues, to corrupted ISOs. While I did learn a bit, I ended up giving up, and just sticking with Mint because it's what worked. It wasn't perfect, but it was continuing to improve and I had a workaround for the biggest issue I encountered.

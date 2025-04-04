@@ -1,5 +1,5 @@
 <!-- omit from toc -->
-# Distro Hopping
+# Distro Hopping 2025
 Planning to build a new PC, and want to try again after having issues in 2024. The goal will be to spend a month with each distro before moving on to the next. I may add or remove distros based on early impressions or issues I encounter with installation.
 
 **Table of Contents:**
@@ -44,7 +44,8 @@ With that in mind, this is the context of how I'll be evaluating these options. 
 ### How I use my computer
 These are the kinds of tasks I'll be performing with them that could impact my experience. I don't expect the software I use to cause too much issue, but my setup having three monitors that need to be mirrored could cause some frustration depending on the desktop environment.
 
-* I don't mind some customization, but I'd like to keep it to using graphical tools if I can.
+* I don't mind some customization, but I want to keep it fairly light and I'd like to keep it to using graphical tools if I can.
+  * I'm all for adding a few extensions so that I can use my computer the way I like, but I'd like it to be a good experience out of the box with just a few small tweaks to suite my preferences.
   * While I am comfortable in a terminal, I prefer being able to honestly tell people that you don't need it for a good experience with Linux.
 * [Mirroring Multiple Displays](https://forums.linuxmint.com/viewtopic.php?t=418626)
   * This is the one exception where I will be comfortable using a terminal/shell script to get things working, as I consider the issue an edge-case and not something most people would need to work through for a good experience with Linux.
@@ -54,6 +55,7 @@ These are the kinds of tasks I'll be performing with them that could impact my e
   * Hoping I can get VR working, but there are some potentially confounding hardware issues with my setup.
     * My desktop sits in separate closet and I use a USB-over-ethernet adapter that I have been having some signal integrity issues with to connect to it from my desk.
 * 3D Printing with PrusaSlicer (or if it ever gets published to Flathub, OrcaSlicer)
+  * I do a bit of 3D modeling as well, but since that's in Onshape (a browser based CAD tool) it shouldn't really matter what distro I'm in.
 * Light Development tasks
   * Containers with Podman
   * Go and Node development
@@ -79,21 +81,21 @@ I'm only going to record notes here for distros that stand out in some way or th
 ### VM Test Results
 Overall, the results aren't too surprising. No Arch based distros survived. Mostly looking at GNOME and KDE for the desktop environment. The biggest limitation seems to be my goal of using a distro I can recommend to non-technical users. Kind of disappointing that's what it is rather than my own use case, but I don't really want to abandon that objective until Linux is more relevant as a competitor to Windows and Mac OS in the desktop space.
 
-* Fedora Cinnamon was eliminated for `dnfdragora` being it's only graphical package manager out of the box.
+* **Fedora Cinnamon** was eliminated for `dnfdragora` being it's only graphical package manager out of the box.
   * I may bring it back later and manually install GNOME Software just to see a non-Mint implementation of Cinnamon.
-* Nobara has been eliminated. The main version of it only includes a terrible custom software manager.
+* **Nobara** has been eliminated. The main version of it only includes a terrible custom software manager.
   * In the GNOME version, the fact that their custom software pops up to update things instead of just leaving that to GNOME Software (which is still there) is unnecessary noise that I just found annoying. At least at an initial inspection, it didn't seem to add anything to the GNOME experience, so all that was left that I saw to redeem it was the Nobara Tweaks app, which looks like it was thrown together at a code jam and then never improved again.
   * Didn't even bother checking out the KDE version after the GNOME version.
-* PikaOS was eliminated because I couldn't even get the boot-able ISO to run in the VM.
-* Garuda definitely doesn't play nice with my goal of having a distro that I can honestly recommend to less technical friends. If I were the only person I was thinking about, I'd probably be a bit more open to trying it, but I don't want to abandon that objective without a clear reason.
+* **PikaOS** was eliminated because I couldn't even get the boot-able ISO to run in the VM.
+* **Garuda** definitely doesn't play nice with my goal of having a distro that I can honestly recommend to less technical friends. If I were the only person I was thinking about, I'd probably be a bit more open to trying it, but I don't want to abandon that objective without a clear reason.
   * I tried Mokka and Gnome DEs, and was interested in Dr460nized and Cinnamon as well, but decided to save time after I saw the same issues in both.
   * Initial setup does pop into Terminal for updates. It does keep it simple and straight-forward, but would still make it difficult for me to say "yup, it's super friendly, even if you aren't very technical" since that would scare non-technical users.
   * Initial software setup is nice (simple checkboxes with some recommendations), but gives so many options that it could scare less technical users. Some of the options it gives (like graphical software managers) also aren't particularly clear for less technical users.
   * No Flatpak support out of the box and only really has a good graphical software manager if you install GNOME Software (which is does give a checkbox for during setup) and configure it with Flatpak.
-* EndeavourOS is very similar to Garuda (Arch based distros maintain the Arch philosophy after all). Tried the KDE version, which doesn't come with Discover (or any other graphical software manager) pre-installed. It did have a post-install tool that (eventually) included installing Flatpak, but only after a lot of other steps, and only made sense if you know what Flatpak is. Would be interesting if I didn't want to be able to recommend the same distro I use to less technical folks, but for now it is a pass.
-* CachyOS is the same as the other Arch based distros, so not too much to say. This one does have it's own graphical package manager, but it's still not great. It also left the shortcut to KDE Discover in the menu bar, even though it isn't installed, which doesn't give the best impression of its polish.
+* **EndeavourOS** is very similar to Garuda (Arch based distros maintain the Arch philosophy after all). Tried the KDE version, which doesn't come with Discover (or any other graphical software manager) pre-installed. It did have a post-install tool that (eventually) included installing Flatpak, but only after a lot of other steps, and only made sense if you know what Flatpak is. Would be interesting if I didn't want to be able to recommend the same distro I use to less technical folks, but for now it is a pass.
+* **CachyOS** is the same as the other Arch based distros, so not too much to say. This one does have it's own graphical package manager, but it's still not great. It also left the shortcut to KDE Discover in the menu bar, even though it isn't installed, which doesn't give the best impression of its polish.
   * One thing I did find interesting with Cachy is that it does consider accessibility, but not by default. When choosing some things like the desktop environment, [it gives an option for accessibility tools](/media/linux/cachyOS_a11y.png ':ignore'), but it's not checked by default. While I like that it does consider accessibility needs, I dislike that it doesn't consider them important enough to have available by default.
-* Bazzite was removed because I didn't realize it was an immutable distro. While I think immutable distros make a lot of sense in the server and handheld spaces, I'm not yet convinced they make sense in the desktop space.
+* **Bazzite** was removed because I didn't realize it was an immutable distro. While I think immutable distros make a lot of sense in the server and handheld spaces, I'm not yet convinced they make sense in the desktop space.
   * There are still a lot of tools that either aren't available as a Flatpak or that the unofficial Flatpak doesn't work. I'm also not sure some tools I use (Gparted, Raspberry Pi Imager, etc.) are even viable in a sandboxed format like Flatpak.
   * I'd also rather not need to use a container to run development tools. I'm sure I could run the Go compiler that way, but having it installed natively is going to be simpler.
   * I'll be happy if I'm proven wrong and the tooling improves to the point where it is viable, since the security and reliability of immutable distros would be great in the desktop space. However, I'll wait for SteamOS to be the distro to test it since that'll have a lot more cultural relevance to try and make it work.
