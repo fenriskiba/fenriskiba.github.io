@@ -64,22 +64,20 @@ These are the kinds of tasks I'll be performing with them that could impact my e
   * See [Re-Evaluating My Hardware Setup](#re-evaluating-my-hardware-setup) for details
 
 ### Recommending it to others
-In addition to my own use case, I'd also like something that I can recommend to anyone new to Linux. Being able to say "it's not just a beginners distro, it's what I use too" is really powerful. Being able to give people a clear demo on my own personal machine and say "no, I didn't need a terminal to get any of this working" is a big thing that could help anyone interested in switching to Linux but anxiously thinking that you need to be technical to use it.
+In addition to my own use case, I'd also like something that I can recommend to anyone new to Linux. Being able to say "I use this everyday, it's really stable, and mostly just works" is really powerful. Being able to give people a clear demo on my own personal machine and say "no, I didn't need a terminal to get any of this working" is a big thing that could help anyone interested in switching to Linux but anxiously thinking that you need to be technical to use it.
 
 I'm not necessarily trying to find a "one size fits all" distribution, so much as one that I think isn't going to be especially uncomfortable for anyone open to making the switch to Linux and that doesn't require any significant technical experience to use.
 
 <!-- omit from toc -->
 #### Accessibility Tools
-**Added as a result of the [VM Testing](#pre-check-running-in-a-vm)**
-
 I personally don't have any accessibility needs when using a computer and I'm not going to consider it a deal breaker, but keeping in line with my goal of being able to recommend the distro I use to anyone, I should also be able to recommend it to those with visual impairments, people unable to use a mouse (but still don't want to use a Terminal), or otherwise need some kind of accessibility accommodations.
 
 That being said, I'm not exactly an accessibility expert, so I can't give a complete perspective on this. I'll look into it a bit as I try each distro, and see if there is any community sentiment on the matter, but any accessibility comments I make will need to come with the disclaimer that I am not fully trained on these issues.
 
 ## Pre-Check: Running in a VM
-I'm going to spend a day or two just loading into each OS in a VM to get a feel for the desktop environment and see if there are any obvious deal breaker issues before we get started. I'll be looking through the desktop environment settings a bit, checking out what graphical package manager it uses, and generally getting a first impression of the OS. 
+Before getting into the full distro hopping experience, I spent a few days running each OS in a VM to get a feel for the desktop environment and see if there are any obvious deal breaker issues. I mostly just looked through the desktop environment settings a bit, checking out what graphical package manager it uses, and generally getting a first impression of the OS. 
 
-I'm only going to record notes here for distros that stand out in some way or that outright fail, so I can document *why* they failed rather than just cross them off the list an move on. I will also be skipping Linux Mint, Fedora Workstation, and Tuxedo OS, as I feel I have a solid enough understanding of them from my daily use of Mint and my [2024 attempt at distro hoping](/tech/linux/distro-hopping-2024.md) to say that they are worth checking out for the full month.
+I'm only going to record notes here for distros that stand out in some way or that outright fail, so I can document *why* they failed rather than just cross them off the list and move on. I also be skipped Linux Mint, Fedora Workstation, and Tuxedo OS, as I feel I have a solid enough understanding of them from my daily use of Mint and my [2024 attempt at distro hoping](/tech/linux/distro-hopping-2024.md) to say that they are worth checking out for the full month.
 
 ### VM Test Results
 Overall, the results aren't too surprising. No Arch based distros survived. Mostly looking at GNOME and KDE for the desktop environment. The biggest limitation seems to be my goal of using a distro I can recommend to non-technical users. Kind of disappointing that's what it is rather than my own use case, but I don't really want to abandon that objective until Linux is more relevant as a competitor to Windows and Mac OS in the desktop space.
@@ -104,28 +102,27 @@ Overall, the results aren't too surprising. No Arch based distros survived. Most
   * I'll be happy if I'm proven wrong and the tooling improves to the point where it is viable, since the security and reliability of immutable distros would be great in the desktop space. However, I'll wait for SteamOS to be the distro to test it since that'll have a lot more cultural relevance to try and make it work.
 
 ## Re-Evaluating My Hardware Setup
-?> **Note:** If all you care about is the Linux distro evaluations, go ahead and skip this section. More just documenting it here for some additional context around my hardware setup, as it is a bit unconventional and could have an impact on my experience with these distributions.
+?> **Note:** If all you care about is the Linux distro evaluations, go ahead and skip this section. I'm mainly just documenting it here for some additional context around my hardware setup, as it is a bit unconventional and could have an impact on my experience with these distributions.
 
 After doing the VM test, I started encountering some hardware issues causing me to re-evaluate my setup before proceeding.
 
-My desktop in a server rack in a closet, and use fiber-optic DisplayPort/HDMI cables and Icron USB-over-Ethernet adapters to connect to it from my office and gaming desks (inspired by Linus Tech Tips). Prior to this however, my living room TV was also included in this setup for couch gaming, but I started encountering instability in the signal going over one of the Icron extenders. I was able to confirm that the Icron extender itself was defective, which left me with a few options:
+My desktop lives in a server rack in a closet and I use fiber-optic DisplayPort/HDMI cables and Icron USB-over-Ethernet adapters to connect to it from my home office and gaming desk (inspired by Linus Tech Tips). Prior to this however, my living room TV was also included in this setup for couch gaming, but I started encountering instability in the signal going over one of the Icron extenders. I was able to confirm that the Icron extender itself was defective, which left me with a few options:
 
 * Spend >$1000 on a new Icron extender and maintain my existing setup.
   * Obviously the most expensive solution but it has the fewest compromises in terms of capabilities.
-  * Does have some pain points:
-    * Default display can be inconsistent and annoying when doing things like installing a new distro.
-    * My living room TV has some weird sleep states that it seems to switch between at random, which can cause issues.
-    * I'm stuck with the HDMI and DisplayPort versions of the cables I currently have run and may not get the full capabilities of each display.
+  * Default display can be inconsistent and annoying when doing things like installing a new distro.
+  * My living room TV has some weird sleep states that it seems to switch between at random, which can cause issues.
+  * I'm stuck with the HDMI and DisplayPort versions of the cables I currently have run and may not get the full capabilities of each display.
 * Remove the living room TV from the setup.
-  * The cheapest (and quickest) solution and the biggest compromise could mostly be covered by a Steam Link.
+  * The cheapest (and quickest) solution and the biggest compromise can mostly be covered by a Steam Link.
   * Saves me from the the weird sleep states my TV goes through.
   * Still has some issues with the default display, the DisplayPort versions, and display capabilities, but does reduce it a bit.
 * Go back to a traditional desktop setup.
-  * Not as expensive as another Icron, but to do it the way I want still wouldn't be cheap.
-  * There are some [aesthetic advantages](https://starforgesystems.com/products/frieren-case-bundle).
+  * Not as expensive as another Icron, but to do it the way I want still wouldn't be cheap (probably in the range of $500-$600).
+  * There are some [aesthetic advantages](https://starforgesystems.com/products/frieren-case-bundle) that I would be really excited to explore.
   * Having the case and all its I/O right at my desk can be rather convenient (and as I've discovered, more reliable).
   * Could still use a Steam Link for couch gaming, but would need to figure out some kind of thin client for my office.
   * Leaves me with a server rack that doesn't make as much sense anymore.
     * It still has some use, just not enough to justify a rack instead of a normal case.
 
-For now, I'm going to keep the rack mount setup with only the office and living room, but I am going to be setting up a Steam Link (I have a couple from before Valve discontinued them) for couch gaming and investigating/testing options for a thin client. That way I have the fewest compromises and have the opportunity to test the tools for all three options. Then once I've selected the distro I like and want to run long term, I'll come back to this question and re-evalute my hardware setup again with more information.
+For now, I'm going to keep the rack mount setup with only the office and living room and hook up an old Steam Link I have in the living room for couch gaming. I'll also be investigating and testing options for a thin client on an Intel NUC I have lying around. That way I have the fewest compromises while distro hopping and have the opportunity to test the tools for all three options. Then once I've selected the distro I like and want to run long term, I'll come back to this question and re-evalute my hardware setup again with more information.
