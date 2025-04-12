@@ -10,7 +10,7 @@ Planning to build a new PC, and want to try again after having issues in 2024. T
   - [Recommending it to others](#recommending-it-to-others)
 - [Pre-Check: Running in a VM](#pre-check-running-in-a-vm)
   - [VM Test Results](#vm-test-results)
-- [Next Steps](#next-steps)
+- [Re-Evaluating My Hardware Setup](#re-evaluating-my-hardware-setup)
 
 ## Distros I plan to try
 * [Linux Mint](distro-hopping-2024.md) (baseline)
@@ -47,9 +47,7 @@ These are the kinds of tasks I'll be performing with them that could impact my e
 * I don't mind some customization, but I want to keep it fairly light and I'd like to keep it to using graphical tools if I can.
   * I'm all for adding a few extensions so that I can use my computer the way I like, but I'd like it to be a good experience out of the box with just a few small tweaks to suite my preferences.
   * While I am comfortable in a terminal, I prefer being able to honestly tell people that you don't need it for a good experience with Linux.
-* [Mirroring Multiple Displays](https://forums.linuxmint.com/viewtopic.php?t=418626)
-  * This is the one exception where I will be comfortable using a terminal/shell script to get things working, as I consider the issue an edge-case and not something most people would need to work through for a good experience with Linux.
-* Light Gaming
+* Light Gaming (both directly on system and with a Steam Link)
   * Not really a competitive gamer, so I'm not too worried about anti-cheat issues, but I do play some games.
   * May also try some Gamecube/PS2 era emulation, but not entirely sure yet.
   * Hoping I can get VR working, but there are some potentially confounding hardware issues with my setup.
@@ -59,6 +57,11 @@ These are the kinds of tasks I'll be performing with them that could impact my e
 * Light Development tasks
   * Containers with Podman
   * Go and Node development
+* [Mirroring Multiple Displays](https://forums.linuxmint.com/viewtopic.php?t=418626)
+  * This is the one exception where I will be comfortable using a terminal/shell script to get things working, as I consider the issue an edge-case and not something most people would need to work through for a good experience with Linux.
+  * This has also been severely de-prioritized, to the point where I'm not entirely sure if I'm going to bother testing it on all distros. My setup has changed due to a faulty Icron USB Extender, so I now only have two displays that need to be mirrored.
+* Remote connectivity for thin clients
+  * See [Re-Evaluating My Hardware Setup](#re-evaluating-my-hardware-setup) for details
 
 ### Recommending it to others
 In addition to my own use case, I'd also like something that I can recommend to anyone new to Linux. Being able to say "it's not just a beginners distro, it's what I use too" is really powerful. Being able to give people a clear demo on my own personal machine and say "no, I didn't need a terminal to get any of this working" is a big thing that could help anyone interested in switching to Linux but anxiously thinking that you need to be technical to use it.
@@ -100,9 +103,29 @@ Overall, the results aren't too surprising. No Arch based distros survived. Most
   * I'd also rather not need to use a container to run development tools. I'm sure I could run the Go compiler that way, but having it installed natively is going to be simpler.
   * I'll be happy if I'm proven wrong and the tooling improves to the point where it is viable, since the security and reliability of immutable distros would be great in the desktop space. However, I'll wait for SteamOS to be the distro to test it since that'll have a lot more cultural relevance to try and make it work.
 
-## Next Steps
-At the time of writing, the next step in this is to actually get my new desktop set up and try each distro for a month. Unfortunately, this step will need to be put on hold for a short while, as I am re-evaluating my hardware setup.
+## Re-Evaluating My Hardware Setup
+?> **Note:** If all you care about is the Linux distro evaluations, go ahead and skip this section. More just documenting it here for some additional context around my hardware setup, as it is a bit unconventional and could have an impact on my experience with these distributions.
 
-Currently, I have my desktop in a server rack in a closet, and use fiber-optic DisplayPort/HDMI cables and USB 3.0 over Ethernet adapters to connect to it from my office, gaming desk, and living room (inspired by Linus Tech Tips). I have been having some issues with this setup however (signal integrity issues, being stuck on older DP/HDMI standards, different display capabilities, etc.) and am trying to decide if it worth it to move back towards a more traditional setup. On one hand, I do really like the idea of this setup and don't want to re-invest in alternatives (buying a new case and cooling, figure out a slim client solution for my office, fix up the server closet for other ideas, etc.). On the other hand, I don't want to fall prey to the sunk cost fallacy and there are certain conveniences and [aesthetic advantages](https://starforgesystems.com/products/frieren-case-bundle) to having the case more readily available.
+After doing the VM test, I started encountering some hardware issues causing me to re-evaluate my setup before proceeding.
 
-So, until I can determine the direction for my setup and potentially make any required hardware changes, this project will be on hold. Hopefully that will also give PopOS some time to finish Cosmic and for things like new Wayland protocols and other DE improvements to get rolled out to potentially improve the experience on all of these distros.
+My desktop in a server rack in a closet, and use fiber-optic DisplayPort/HDMI cables and Icron USB-over-Ethernet adapters to connect to it from my office and gaming desks (inspired by Linus Tech Tips). Prior to this however, my living room TV was also included in this setup for couch gaming, but I started encountering instability in the signal going over one of the Icron extenders. I was able to confirm that the Icron extender itself was defective, which left me with a few options:
+
+* Spend >$1000 on a new Icron extender and maintain my existing setup.
+  * Obviously the most expensive solution but it has the fewest compromises in terms of capabilities.
+  * Does have some pain points:
+    * Default display can be inconsistent and annoying when doing things like installing a new distro.
+    * My living room TV has some weird sleep states that it seems to switch between at random, which can cause issues.
+    * I'm stuck with the HDMI and DisplayPort versions of the cables I currently have run and may not get the full capabilities of each display.
+* Remove the living room TV from the setup.
+  * The cheapest (and quickest) solution and the biggest compromise could mostly be covered by a Steam Link.
+  * Saves me from the the weird sleep states my TV goes through.
+  * Still has some issues with the default display, the DisplayPort versions, and display capabilities, but does reduce it a bit.
+* Go back to a traditional desktop setup.
+  * Not as expensive as another Icron, but to do it the way I want still wouldn't be cheap.
+  * There are some [aesthetic advantages](https://starforgesystems.com/products/frieren-case-bundle).
+  * Having the case and all its I/O right at my desk can be rather convenient (and as I've discovered, more reliable).
+  * Could still use a Steam Link for couch gaming, but would need to figure out some kind of thin client for my office.
+  * Leaves me with a server rack that doesn't make as much sense anymore.
+    * It still has some use, just not enough to justify a rack instead of a normal case.
+
+For now, I'm going to keep the rack mount setup with only the office and living room, but I am going to be setting up a Steam Link (I have a couple from before Valve discontinued them) for couch gaming and investigating/testing options for a thin client. That way I have the fewest compromises and have the opportunity to test the tools for all three options. Then once I've selected the distro I like and want to run long term, I'll come back to this question and re-evalute my hardware setup again with more information.
