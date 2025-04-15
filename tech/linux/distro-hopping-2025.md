@@ -11,6 +11,8 @@ Planning to build a new PC, and want to try again after having issues in 2024. T
 - [Pre-Check: Running in a VM](#pre-check-running-in-a-vm)
   - [VM Test Results](#vm-test-results)
 - [Re-Evaluating My Hardware Setup](#re-evaluating-my-hardware-setup)
+- [Trying Each Distro](#trying-each-distro)
+  - [Linux Mint](#linux-mint)
 
 ## Distros I plan to try
 * [Linux Mint](distro-hopping-2024.md) (baseline)
@@ -126,3 +128,9 @@ My desktop lives in a server rack in a closet and I use fiber-optic DisplayPort/
     * It still has some use, just not enough to justify a rack instead of a normal case.
 
 For now, I'm going to keep the rack mount setup with only the office and living room and hook up an old Steam Link I have in the living room for couch gaming. I'll also be investigating and testing options for a thin client on an Intel NUC I have lying around. That way I have the fewest compromises while distro hopping and have the opportunity to test the tools for all three options. Then once I've selected the distro I like and want to run long term, I'll come back to this question and re-evalute my hardware setup again with more information.
+
+## Trying Each Distro
+### Linux Mint
+* First time on Min 22
+* Having some weird issues with dual webcam setups
+  * May be an issue with the Icron USB over Ethernet adapters, since those worked fine previously
