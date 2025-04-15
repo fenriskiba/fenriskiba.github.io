@@ -134,3 +134,4 @@ For now, I'm going to keep the rack mount setup with only the office and living 
 * First time on Min 22
 * Having some weird issues with dual webcam setups
   * May be an issue with the Icron USB over Ethernet adapters, since those worked fine previously
+    * This theory backed up by networking issues
