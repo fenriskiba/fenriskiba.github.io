@@ -131,7 +131,7 @@ For now, I'm going to keep the rack mount setup with only the office and living 
 
 ## Running Each Distro
 ### Linux Mint
-* First time with Linux Mint
+* First time with Linux Mint 22 (coming from 21.3 Edge)
 * Right away, I have issues caused by Mint being on an older kernel.
   * Was able to resolve it fairly easily with a pre-installed GUI to [update to a newer kernel](https://www.fosslinux.com/138008/how-to-install-and-try-different-linux-kernels-in-linux-mint.htm).
   * Not the first time I've had issues due to an old Kernel:
