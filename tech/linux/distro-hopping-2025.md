@@ -11,6 +11,8 @@ Planning to build a new PC, and want to try again after having issues in 2024. T
 - [Pre-Check: Running in a VM](#pre-check-running-in-a-vm)
   - [VM Test Results](#vm-test-results)
 - [Re-Evaluating My Hardware Setup](#re-evaluating-my-hardware-setup)
+- [Running Each Distro](#running-each-distro)
+  - [Linux Mint](#linux-mint)
 
 ## Distros I plan to try
 * [Linux Mint](distro-hopping-2024.md) (baseline)
@@ -126,3 +128,14 @@ My desktop lives in a server rack in a closet and I use fiber-optic DisplayPort/
     * It still has some use, just not enough to justify a rack instead of a normal case.
 
 For now, I'm going to keep the rack mount setup with only the office and living room and hook up an old Steam Link I have in the living room for couch gaming. I'll also be investigating and testing options for a thin client on an Intel NUC I have lying around. That way I have the fewest compromises while distro hopping and have the opportunity to test the tools for all three options. Then once I've selected the distro I like and want to run long term, I'll come back to this question and re-evalute my hardware setup again with more information.
+
+## Running Each Distro
+### Linux Mint
+* First time with Linux Mint
+* Right away, I have issues caused by Mint being on an older kernel.
+  * Was able to resolve it fairly easily with a pre-installed GUI to [update to a newer kernel](https://www.fosslinux.com/138008/how-to-install-and-try-different-linux-kernels-in-linux-mint.htm).
+  * Not the first time I've had issues due to an old Kernel:
+    * Framework Wifi (plus Framework trackpad issues before I got to it)
+    * 8BitDo Controller from previous Distro Hopping Attempt
+  * I appreciate Mint's focus on stability, but thats only valuable if it works in the first place. Staying on an older kernel means that may not happen with newer hardware.
+  * I don't want something like this to be a disqualifier, especially since they do provide an easy way to fix it, but it still makes it hard to recommend to less technical users who wouldn't think to update the kernel.
