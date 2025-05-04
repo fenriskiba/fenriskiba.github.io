@@ -44,7 +44,7 @@ One of the great things with Linux is the variety of options available, but that
 With that in mind, this is the context of how I'll be evaluating these options. If you are interesting in using my experience to help choose a Linux distro, please keep this in mind in case your use case differs from mine.
 
 ### How I use my computer
-These are the kinds of tasks I'll be performing with them that could impact my experience. I don't expect the software I use to cause too much issue, but my setup having three monitors that need to be mirrored could cause some frustration depending on the desktop environment.
+These are the kinds of tasks I'll be performing with them that could impact my experience.
 
 * I don't mind some customization, but I want to keep it fairly light and I'd like to keep it to using graphical tools if I can.
   * I'm all for adding a few extensions so that I can use my computer the way I like, but I'd like it to be a good experience out of the box with just a few small tweaks to suite my preferences.
