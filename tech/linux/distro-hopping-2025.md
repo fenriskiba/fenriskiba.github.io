@@ -140,3 +140,7 @@ For now, I'm going to keep the rack mount setup with only the office and living 
   * I appreciate Mint's focus on stability, but thats only valuable if it works in the first place. Staying on an older kernel means that may not happen with newer hardware.
   * I don't want something like this to be a disqualifier, especially since they do provide an easy way to fix it, but it still makes it hard to recommend to less technical users who wouldn't think to update the kernel.
 * From what I can tell, Mint does a decent job with accessibility, having build the tools right into the system configurations.
+* Tried running steam link. Network test was fine, but acted like network was an issue when actually trying to stream (before even getting to game).
+  * Not sure if the issue is with Mint, Steam, or the Steamlink. Steamlink hardware is pretty old and abandonded by valve.
+  * Since trying, I've been having issues running steam. Very similar to [this issue in the Mint Forums](https://forums.linuxmint.com/viewtopic.php?t=400351), except the fix there doesn't help. Going to try fully purging Steam files and see if that fixes it. If it does then I may try steamlink again.
+    * I can get things working by launching from software manager or right clicking and going straight to library.
