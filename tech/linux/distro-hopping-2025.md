@@ -142,5 +142,7 @@ For now, I'm going to keep the rack mount setup with only the office and living 
 * From what I can tell, Mint does a decent job with accessibility, having build the tools right into the system configurations.
 * Tried running steam link. Network test was fine, but acted like network was an issue when actually trying to stream (before even getting to game).
   * Not sure if the issue is with Mint, Steam, or the Steamlink. Steamlink hardware is pretty old and abandonded by valve.
-  * Since trying, I've been having issues running steam. Very similar to [this issue in the Mint Forums](https://forums.linuxmint.com/viewtopic.php?t=400351), except the fix there doesn't help. Going to try fully purging Steam files and see if that fixes it. If it does then I may try steamlink again.
+  * Since trying, I've been having issues running steam. Very similar to [this issue in the Mint Forums](https://forums.linuxmint.com/viewtopic.php?t=400351), except the fix there doesn't help. ~~Going to try fully purging Steam files and see if that fixes it. If it does then I may try steamlink again.~~
     * I can get things working by launching from software manager or right clicking and going straight to library.
+    * Was also able to get it working by just removing the Steam icon, which caused it to default to the "Install Steam" icon, which opens Steam fine.
+  * Going to just ignore it for now and try again with the next distro. If it's a problem there too, then it's probably Steam/the Steam Link, at which point this probably just isn't a viable solution right now.
