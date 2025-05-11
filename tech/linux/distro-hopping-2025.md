@@ -26,6 +26,9 @@ Planning to build a new PC, and want to try again after having issues in 2024. T
 * ~~[Fedora Cinnamon](https://fedoraproject.org/spins/cinnamon)~~
 * ~~[Nobara](https://nobaraproject.org/)~~
 * ~~[PikaOS](https://wiki.pika-os.com/en/home)~~
+* ~~[Elementary OS](https://elementary.io/)~~
+* ~~[Zorin OS](https://zorin.com/)~~
+* ~~[Slimbook OS](https://slimbook.com/en/slimbook-os)~~
 * ~~[Garuda Linux](https://garudalinux.org/)~~
 * ~~[EndeavourOS](https://endeavouros.com/)~~
 * ~~[CachyOS](https://cachyos.org/)~~
@@ -90,6 +93,10 @@ Overall, the results aren't too surprising. No Arch based distros survived. Most
   * In the GNOME version, the fact that their custom software pops up to update things instead of just leaving that to GNOME Software (which is still there) is unnecessary noise that I just found annoying. At least at an initial inspection, it didn't seem to add anything to the GNOME experience, so all that was left that I saw to redeem it was the Nobara Tweaks app, which looks like it was thrown together at a code jam and then never improved again.
   * Didn't even bother checking out the KDE version after the GNOME version.
 * **PikaOS** was eliminated because I couldn't even get the boot-able ISO to run in the VM.
+* **Elementary OS** was eliminated for *only* supporting Flatpaks. I fully believe that Flatpak is the future of Linux app packaging, but there are still a lot of apps that I use that aren't available as a Flatpak or are only available as an unofficial package (some of which are just non-functional).
+  * I can still install them using `apt` in the terminal, but that goes agains my goal of recommending it to others.
+* **Zorin OS** was eliminated because it is on version 6.8 of the kernel, and doesn't have a clear, graphical way to update it. Originally, this wouldn't have bothered me, but I learned how important that is in my time evaluating [Linux Mint](#linux-mint) on the new system.
+* **Slimbook OS** was eliminated because I couldn't even get the boot-able ISO to run in the VM.
 * **Garuda** definitely doesn't play nice with my goal of having a distro that I can honestly recommend to less technical friends. If I were the only person I was thinking about, I'd probably be a bit more open to trying it, but I don't want to abandon that objective without a clear reason.
   * I tried Mokka and Gnome DEs, and was interested in Dr460nized and Cinnamon as well, but decided to save time after I saw the same issues in both.
   * Initial setup does pop into Terminal for updates. It does keep it simple and straight-forward, but would still make it difficult for me to say "yup, it's super friendly, even if you aren't very technical" since that would scare non-technical users.
