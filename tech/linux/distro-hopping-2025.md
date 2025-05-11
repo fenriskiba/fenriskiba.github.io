@@ -153,3 +153,5 @@ For now, I'm going to keep the rack mount setup with only the office and living 
     * I can get things working by launching from software manager or right clicking and going straight to library.
     * Was also able to get it working by just removing the Steam icon, which caused it to default to the "Install Steam" icon, which opens Steam fine.
   * Going to just ignore it for now and try again with the next distro. If it's a problem there too, then it's probably Steam/the Steam Link, at which point this probably just isn't a viable solution right now.
+* Tried SteamVR, but no luck. Didn't expect much after some previous experience and reading about Mint not supporting DRM sharing.
+  * Not sure if my headset being a Meta Quest 3 is relevant or not.
