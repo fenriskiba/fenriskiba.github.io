@@ -155,3 +155,5 @@ For now, I'm going to keep the rack mount setup with only the office and living 
   * Going to just ignore it for now and try again with the next distro. If it's a problem there too, then it's probably Steam/the Steam Link, at which point this probably just isn't a viable solution right now.
 * Tried SteamVR, but no luck. Didn't expect much after some previous experience and reading about Mint not supporting DRM sharing.
   * Not sure if my headset being a Meta Quest 3 is relevant or not.
+* Randomly went to my computer one day and it wouldn't respond to anything. Had to hard restart and then everything *seemed* to work fine.
+  * Not expecting everything to always be perfectly stable, but I am concerned about that from a distro that focuses on stability enough to stay on older kernels.
