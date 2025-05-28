@@ -148,11 +148,15 @@ For now, I'm going to keep the rack mount setup with only the office and living 
   * I don't want something like this to be a disqualifier, especially since they do provide an easy way to fix it, but it still makes it hard to recommend to less technical users who wouldn't think to update the kernel.
 * From what I can tell, Mint does a decent job with accessibility, having build the tools right into the system configurations.
 * Tried running steam link. Network test was fine, but acted like network was an issue when actually trying to stream (before even getting to game).
-  * Not sure if the issue is with Mint, Steam, or the Steamlink. Steamlink hardware is pretty old and abandonded by valve.
+  * Not sure if the issue is with Mint, Steam, or the Steamlink. Steamlink hardware is pretty old and abandoned by valve.
+    * Probably not an issue with the Steamlink hardware. Tried it w/ Steamlink on TV too, but that didn't work.
   * Since trying, I've been having issues running steam. Very similar to [this issue in the Mint Forums](https://forums.linuxmint.com/viewtopic.php?t=400351), except the fix there doesn't help. ~~Going to try fully purging Steam files and see if that fixes it. If it does then I may try steamlink again.~~
     * I can get things working by launching from software manager or right clicking and going straight to library.
     * Was also able to get it working by just removing the Steam icon, which caused it to default to the "Install Steam" icon, which opens Steam fine.
   * Going to just ignore it for now and try again with the next distro. If it's a problem there too, then it's probably Steam/the Steam Link, at which point this probably just isn't a viable solution right now.
+* Tried Moonlight/Sunshine for remote control.
+  * Works well from laptop, so it's definitely a useful tool (though I do want to try other remote control apps given time as well). Not ideal due to resolution awkwardness and (probably) bitrate (didn't test, but need to reduce res anyway for laptop display), but definitely viable if I don't like other remote control apps.
+  * Can connect from TV, but with reduced resolution/bitrate. More importantly, can't use current controller due to limitation of the TV ([only works w/ bluetooth or wired, not 2.4Ghz Wireless](https://www.reddit.com/r/AndroidTV/comments/11ye35n/problem_connecting_8bitdo_ultimate_24g_controller/)).
 * Tried SteamVR, but no luck. Didn't expect much after some previous experience and reading about Mint not supporting DRM sharing.
   * Not sure if my headset being a Meta Quest 3 is relevant or not.
 * Randomly went to my computer one day and it wouldn't respond to anything. Had to hard restart and then everything *seemed* to work fine.
