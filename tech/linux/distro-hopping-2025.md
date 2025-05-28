@@ -75,9 +75,11 @@ I'm not necessarily trying to find a "one size fits all" distribution, so much a
 
 <!-- omit from toc -->
 #### Accessibility Tools
-I personally don't have any accessibility needs when using a computer and I'm not going to consider it a deal breaker, but keeping in line with my goal of being able to recommend the distro I use to anyone, I should also be able to recommend it to those with visual impairments, people unable to use a mouse (but still don't want to use a Terminal), or otherwise need some kind of accessibility accommodations.
+~~I personally don't have any accessibility needs when using a computer and I'm not going to consider it a deal breaker, but keeping in line with my goal of being able to recommend the distro I use to anyone, I should also be able to recommend it to those with visual impairments, people unable to use a mouse (but still don't want to use a Terminal), or otherwise need some kind of accessibility accommodations.~~
 
-That being said, I'm not exactly an accessibility expert, so I can't give a complete perspective on this. I'll look into it a bit as I try each distro, and see if there is any community sentiment on the matter, but any accessibility comments I make will need to come with the disclaimer that I am not fully trained on these issues.
+~~That being said, I'm not exactly an accessibility expert, so I can't give a complete perspective on this. I'll look into it a bit as I try each distro, and see if there is any community sentiment on the matter, but any accessibility comments I make will need to come with the disclaimer that I am not fully trained on these issues.~~
+
+In light of [a recent article about the state of accessibility tools on Linux](https://fireborn.mataroa.blog/blog/i-want-to-love-linux-it-doesnt-love-me-back-post-1-built-for-control-but-not-for-people/), it's hard for me to really recommend Linux to those with accessibility needs. That being said, I don't want to just leave it at "oh well, can't be helped", so moving forward I will at least verify that each distro has Orca pre-installed (even if it isn't available for the distro installation). Any distro that doesn't will be disqualified at that point. That way I can at least say that the distro I ultimate choose is keeping up with the bare minimum.
 
 ## Pre-Check: Running in a VM
 Before getting into the full distro hopping experience, I spent a few days running each OS in a VM to get a feel for the desktop environment and see if there are any obvious deal breaker issues. I mostly just looked through the desktop environment settings a bit, checking out what graphical package manager it uses, and generally getting a first impression of the OS. 
@@ -146,7 +148,6 @@ For now, I'm going to keep the rack mount setup with only the office and living 
     * 8BitDo Controller from previous Distro Hopping Attempt
   * I appreciate Mint's focus on stability, but thats only valuable if it works in the first place. Staying on an older kernel means that may not happen with newer hardware.
   * I don't want something like this to be a disqualifier, especially since they do provide an easy way to fix it, but it still makes it hard to recommend to less technical users who wouldn't think to update the kernel.
-* From what I can tell, Mint does a decent job with accessibility, having build the tools right into the system configurations.
 * Tried running steam link. Network test was fine, but acted like network was an issue when actually trying to stream (before even getting to game).
   * Not sure if the issue is with Mint, Steam, or the Steamlink. Steamlink hardware is pretty old and abandoned by valve.
     * Probably not an issue with the Steamlink hardware. Tried it w/ Steamlink on TV too, but that didn't work.
