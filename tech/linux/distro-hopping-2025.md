@@ -95,8 +95,8 @@ Overall, the results aren't too surprising. No Arch based distros survived. Most
   * In the GNOME version, the fact that their custom software pops up to update things instead of just leaving that to GNOME Software (which is still there) is unnecessary noise that I just found annoying. At least at an initial inspection, it didn't seem to add anything to the GNOME experience, so all that was left that I saw to redeem it was the Nobara Tweaks app, which looks like it was thrown together at a code jam and then never improved again.
   * Didn't even bother checking out the KDE version after the GNOME version.
 * **PikaOS** was eliminated because I couldn't even get the boot-able ISO to run in the VM.
-* **Elementary OS** was eliminated for *only* supporting Flatpaks. I fully believe that Flatpak is the future of Linux app packaging, but there are still a lot of apps that I use that aren't available as a Flatpak or are only available as an unofficial package (some of which are just non-functional).
-  * I can still install them using `apt` in the terminal, but that goes agains my goal of recommending it to others.
+* **Elementary OS** was eliminated for *only* supporting Flatpak. I fully believe that Flatpak is the future of Linux app packaging, but there are still a lot of apps that I use that aren't available as a Flatpak or are only available as an unofficial package (some of which are just non-functional).
+  * I can still install them using `apt` in the terminal, but that goes against my goal of recommending it to others.
 * **Zorin OS** was eliminated because it is on version 6.8 of the kernel, and doesn't have a clear, graphical way to update it. Originally, this wouldn't have bothered me, but I learned how important that is in my time evaluating [Linux Mint](#linux-mint) on the new system.
 * **Slimbook OS** was eliminated because I couldn't even get the boot-able ISO to run in the VM.
 * **Garuda** definitely doesn't play nice with my goal of having a distro that I can honestly recommend to less technical friends. If I were the only person I was thinking about, I'd probably be a bit more open to trying it, but I don't want to abandon that objective without a clear reason.
@@ -136,18 +136,28 @@ My desktop lives in a server rack in a closet and I use fiber-optic DisplayPort/
   * Leaves me with a server rack that doesn't make as much sense anymore.
     * It still has some use, just not enough to justify a rack instead of a normal case.
 
-For now, I'm going to keep the rack mount setup with only the office and living room and hook up an old Steam Link I have in the living room for couch gaming. I'll also be investigating and testing options for a thin client on an Intel NUC I have lying around. That way I have the fewest compromises while distro hopping and have the opportunity to test the tools for all three options. Then once I've selected the distro I like and want to run long term, I'll come back to this question and re-evalute my hardware setup again with more information.
+For now, I'm going to keep the rack mount setup with only the office and living room and hook up an old Steam Link I have in the living room for couch gaming. I'll also be investigating and testing options for a thin client on an Intel NUC I have lying around. That way I have the fewest compromises while distro hopping and have the opportunity to test the tools for all three options. Then once I've selected the distro I like and want to run long term, I'll come back to this question and re-evaluate my hardware setup again with more information.
 
 ## Running Each Distro
 ### Linux Mint
-* First time with Linux Mint 22 (coming from 21.3 Edge)
-* Right away, I have issues caused by Mint being on an older kernel.
-  * Was able to resolve it fairly easily with a pre-installed GUI to [update to a newer kernel](https://www.fosslinux.com/138008/how-to-install-and-try-different-linux-kernels-in-linux-mint.htm).
-  * Not the first time I've had issues due to an old Kernel:
-    * Framework Wifi (plus Framework trackpad issues before I got to it)
-    * 8BitDo Controller from previous Distro Hopping Attempt
-  * I appreciate Mint's focus on stability, but thats only valuable if it works in the first place. Staying on an older kernel means that may not happen with newer hardware.
-  * I don't want something like this to be a disqualifier, especially since they do provide an easy way to fix it, but it still makes it hard to recommend to less technical users who wouldn't think to update the kernel.
+I started by getting a baseline on the new hardware with Linux Mint. This also gave me an opportunity to take a look at Mint again through a more critical lense.
+
+In general, I like Linux Mint as an operating system; it provides a good balance of simplicity and configuration, a comprehensive suite of tools out-of-the-box, and solid support through the Mint Forums (plus the Ubuntu base means that sites like AskUbuntu are also usually helpful). I generally don't have issues with app compatibility in Mint, with the only real exception being Davinci Resolve (which I think may have been as much about hardware support as software).
+
+At the end of the day, there is good reason why I've been fairly happy with Linux Mint for over a decade, but this latest review of it has definitely revealed a few issues I may have just gotten used to. I can't say any of the following issues are individually deal breakers, but together they do help justify checking out other distributions.
+
+<!-- omit from toc -->
+#### Kernel Issues
+Despite this being an upgrade from the previous version of Mint to the latest (21.3 Edge to 22), I immediately ran into issues with it being on an older version of the Linux Kernel. Mint 22 ships with the 6.8 LTS version of the kernel, which unfortunately doesn't have drivers for my motherboards network chip.
+
+Luckily, Mint does have [a simple graphical tool to install different version of the kernel](https://www.fosslinux.com/138008/how-to-install-and-try-different-linux-kernels-in-linux-mint.htm), so, using an ethernet-to-USB adapter, I was able to connect to the internet and update to a kernel that does support my hardware without much trouble.
+
+I understand the Mint team likely made that decision to prioritize stability, but unfortunately, that only matters if the system works in the first place. This is also the third time I've encountered these kinds of issues with Mint being on an older kernel ([wifi issues I think were from kernel driver](/tech/linux/framework?id=wifi-issues) and [8bitdo controller driver headers](/tech/linux/distro-hopping-2024?id=gaming)) not to mention the [initial issues with Framework laptops](https://forums.linuxmint.com/viewtopic.php?t=362759) when they first released.
+
+Unless the Mint team commits to supporting a version with a more up-to-date kernel like they did with Mint 22.2/3 Edge, it's becoming harder and harder for me to reliably recommend Linux Mint. It's not quite a disqualifier since there is a relatively simple fix, but it's still not a strong start.
+
+<!-- omit from toc -->
+#### Remote Gaming
 * Tried running steam link. Network test was fine, but acted like network was an issue when actually trying to stream (before even getting to game).
   * Not sure if the issue is with Mint, Steam, or the Steamlink. Steamlink hardware is pretty old and abandoned by valve.
     * Probably not an issue with the Steamlink hardware. Tried it w/ Steamlink on TV too, but that didn't work.
@@ -158,6 +168,9 @@ For now, I'm going to keep the rack mount setup with only the office and living 
 * Tried Moonlight/Sunshine for remote control.
   * Works well from laptop, so it's definitely a useful tool (though I do want to try other remote control apps given time as well). Not ideal due to resolution awkwardness and (probably) bitrate (didn't test, but need to reduce res anyway for laptop display), but definitely viable if I don't like other remote control apps.
   * Can connect from TV, but with reduced resolution/bitrate. More importantly, can't use current controller due to limitation of the TV ([only works w/ bluetooth or wired, not 2.4Ghz Wireless](https://www.reddit.com/r/AndroidTV/comments/11ye35n/problem_connecting_8bitdo_ultimate_24g_controller/)).
+
+<!-- omit from toc -->
+#### Misc Issues
 * Tried SteamVR, but no luck. Didn't expect much after some previous experience and reading about Mint not supporting DRM sharing.
   * Not sure if my headset being a Meta Quest 3 is relevant or not.
 * Randomly went to my computer one day and it wouldn't respond to anything. Had to hard restart and then everything *seemed* to work fine.
