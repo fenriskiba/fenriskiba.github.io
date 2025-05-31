@@ -1,6 +1,6 @@
 <!-- omit from toc -->
 # Distro Hopping 2025
-Planning to build a new PC, and want to try again after having issues in 2024. The goal will be to spend a month with each distro before moving on to the next. I may add or remove distros based on early impressions or issues I encounter with installation.
+In early 2025, I build a new desktop PC and decided to see what other Linux distros are like after using the same one for over a decade. The goal will be to spend a month with each distro before moving on to the next. I may add or remove distros based on early impressions or issues I encounter with installation.
 
 **Table of Contents:**
 - [Distros I plan to try](#distros-i-plan-to-try)
@@ -158,20 +158,29 @@ Unless the Mint team commits to supporting a version with a more up-to-date kern
 
 <!-- omit from toc -->
 #### Remote Gaming
-* Tried running steam link. Network test was fine, but acted like network was an issue when actually trying to stream (before even getting to game).
-  * Not sure if the issue is with Mint, Steam, or the Steamlink. Steamlink hardware is pretty old and abandoned by valve.
-    * Probably not an issue with the Steamlink hardware. Tried it w/ Steamlink on TV too, but that didn't work.
-  * Since trying, I've been having issues running steam. Very similar to [this issue in the Mint Forums](https://forums.linuxmint.com/viewtopic.php?t=400351), except the fix there doesn't help. ~~Going to try fully purging Steam files and see if that fixes it. If it does then I may try steamlink again.~~
-    * I can get things working by launching from software manager or right clicking and going straight to library.
-    * Was also able to get it working by just removing the Steam icon, which caused it to default to the "Install Steam" icon, which opens Steam fine.
-  * Going to just ignore it for now and try again with the next distro. If it's a problem there too, then it's probably Steam/the Steam Link, at which point this probably just isn't a viable solution right now.
-* Tried Moonlight/Sunshine for remote control.
-  * Works well from laptop, so it's definitely a useful tool (though I do want to try other remote control apps given time as well). Not ideal due to resolution awkwardness and (probably) bitrate (didn't test, but need to reduce res anyway for laptop display), but definitely viable if I don't like other remote control apps.
-  * Can connect from TV, but with reduced resolution/bitrate. More importantly, can't use current controller due to limitation of the TV ([only works w/ bluetooth or wired, not 2.4Ghz Wireless](https://www.reddit.com/r/AndroidTV/comments/11ye35n/problem_connecting_8bitdo_ultimate_24g_controller/)).
+I've never really had issues running any of the games I want to play on Mint, but as stated in the [Re-Evaluating My Hardware Setup](#re-evaluating-my-hardware-setup) section, I wanted to try remote gaming for couch play in my living room.
+
+I started trying with Steam Link since I do have a couple of the official Steam Link client devices that Valve used to sell. At first, everything went well with the Steam Link being able to identify the PC no problem and the built in network test came back positive.
+
+Unfortunately, that's where the positive experiences ended. When I actually connected to the computer, the screen would just stay black with a loading icon. I could sometimes heard the sound from Steam Big Screen mode opening up and if I went to the computer it was open, but the Steam Link couldn't see it or control it. 
+
+Not sure if this is an issue with Mint or Steam, but I was able to verify it wasn't the Steam Link device, since I got the same results when I found out my TV can run the Steam Link client software. For now, I'll ignore it and try Steam Link again on the next distro to get a better picture of where the problem is coming from.
+
+After that, I decided to try running [Sunshine](https://github.com/LizardByte/Sunshine) to connect from [Moonlight](https://moonlight-stream.org/) since it is designed to be low-latency and also gives me a solution to remotely connect to the desktop from my laptop. It's also pretty easy to set up in the living room, since there is a Google TV app.
+
+Setting up the apps and connecting was exceptionally easy, so this solution may be worth keeping in mind if I decide to switch from my current setup to using a thin client for my home office, but there were a few issues keeping it from helping with my living room setup.
+
+I did encounter some bitrate issues causing me to lower the resolution to 1080p, which is a bit disappointing for couch gaming on my 4k TV. There may be some ways to tune the bitrate with fewer compromises, but I didn't really bother figuring that out because I ran into a bit more of a deal breaker. Unfortunately, due to no fault of Linux Mint or Moonlight/Sunshine I can't really use this for couch gaming because my TV doesn't support [2.4Ghz wireless controllers](https://www.reddit.com/r/AndroidTV/comments/11ye35n/problem_connecting_8bitdo_ultimate_24g_controller/).
+
+I could always use a thin client PC to connect with Moonlight, but at that point I'd rather just get a Steam Deck (or similar) and play games directly on that device for my couch gaming. If I can't get the Steam Link working on the next distro, I'll look into other options, but may need to fall back to the Steam Deck idea.
 
 <!-- omit from toc -->
 #### Misc Issues
-* Tried SteamVR, but no luck. Didn't expect much after some previous experience and reading about Mint not supporting DRM sharing.
-  * Not sure if my headset being a Meta Quest 3 is relevant or not.
-* Randomly went to my computer one day and it wouldn't respond to anything. Had to hard restart and then everything *seemed* to work fine.
-  * Not expecting everything to always be perfectly stable, but I am concerned about that from a distro that focuses on stability enough to stay on older kernels.
+There were also a few smaller issues that I encountered while re-evaluating Linux Mint. Nothing too severe, and it's hard to tell what the root cause of these issues were so it is possible they were not Mints fault. Because of that, I will be keeping an eye on it as I move through more distros.
+
+The first issue worth calling out is a simple system crash. I randomly went to my computer one day and it wouldn't respond to anything. I could see the prompt to put in a password, but the background was missing and it wouldn't respond to any input. I had to hard restart the computer and then everything seemed to work fine. It was a one time issue and "[turn it off and on again](https://www.youtube.com/watch?v=t2F1rFmyQmY)" worked to fix it, but I'm still not sure what caused it, which has me concerned.
+
+I also encountered some issues opening Steam after my issues with Steam Link. For some reason, when I would try to open Steam, it would repeatedly fail to open the UI. I spent some time trying reinstalling Steam and updating some configurations in the `.desktop` file based on some [info I found in the Mint Forums](https://forums.linuxmint.com/viewtopic.php?t=400351), but without any real luck. I was able to find a few workaround options to get Steam running (opening through the Mint Software Manager, right clicking on the menu entry and opening to library, or deleting the `.desktop` file and bringing back the "Install Steam" icon that the Steam installer initially creates).  
+Not sure if this was caused Steam Link or if I just happened to noticed it after that and it was Mint or the `.deb` version of Steam, but it is something else I want to keep an eye on as I test other distros.
+
+The last issue I encountered wasn't so much an error as much as functionality Mint just doesn't support. I decided to try connecting my Meta Quest 3 to Steam VR, both through Steam Link VR and a wired USB-C connection. Not much to say other than that it didn't really work. I'm not sure how much of it is VR on Linux not being fully mature, Meta Quest 3 not supporting Linux well, or Mint still being on X11 rather than Wayland. Regardless, if I can get it working on other distros, it'll be another unfortunate knock against Mint.
