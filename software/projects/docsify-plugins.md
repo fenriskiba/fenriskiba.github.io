@@ -1,5 +1,5 @@
 # Docsify Plugins
-I use Docsify a lot for this site and for work, so, in addition to fully utilizing it for things like my [(WIP) D&D 5e Character Sheet Template](/games/ttrpgs/dnd-5e/template.md), I have worked on contributing to and creating some plugins for Docsify.
+I use Docsify a lot for this site and for work, so, in addition to fully utilizing it for things like my [(WIP) D&D 5e Character Sheet Template](/misc/dnd-5e/TEMPLATE.md), I have worked on contributing to and creating some plugins for Docsify.
 
 **Contribution(s):**
 * [docsify-footnote: Add hideSubAnchor config to hide the subAnchor index from the user](https://github.com/Robert-Du0001/docsify-footnote/pull/5)

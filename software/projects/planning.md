@@ -16,7 +16,7 @@ A tool to simplify creating D&D 5e campaigns, by automatically generating encoun
 
 ?> **Note:** Additional features may be considered and added later. There are a lot of other features that could make creating campaigns easier, but many of the others have tools available for that.
 
-## Mock OAuth Tool
+## Lædingr - Mock OAuth Container
 I want to create a simple Mock OAuth container (similar to [navikit/mock-oauth-server](https://github.com/navikt/mock-oauth2-server)) that can be used with `docker compose` to better simulate a full architecture in a local environment or test automation pipeline.
 
 Existing tools for this work well, but don't include all the features I'd like to see. Most notably, I'd like to have the ability to pre-define different mock users and be able to select one from a list. The mock-oauth2-server container has a way to define a single entity or define one when you sign in, which technically gives all the capabilities I need, but not with the same quality of life.

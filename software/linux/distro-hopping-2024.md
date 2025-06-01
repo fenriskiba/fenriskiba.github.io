@@ -3,10 +3,10 @@ My plan at the beginning of 2024 was to try some Linux distro hopping, because I
 
 Unfortunately, I encountered multiple issues with this; from SSD failures, to Nvidia driver issues, to corrupted ISOs. While I did learn a bit, I ended up giving up, and just sticking with Mint because it's what worked. It wasn't perfect, but it was continuing to improve and I had a workaround for the biggest issue I encountered.
 
-I'm going to build a new machine in 2025 and [try again](/tech/linux/distro-hopping-2025). Hopefully, some newer hardware better suited to Linux use will help prevent the issues I've been encountering.
+I'm going to build a new machine in 2025 and [try again](/software/linux/distro-hopping-2025). Hopefully, some newer hardware better suited to Linux use will help prevent the issues I've been encountering.
 
 ## Linux Mint
-Mint is my baseline. It's what I've bee using since the early 2010s and make day-to-day use of Linux simple and easy. It was also pretty easy to re-use some of the things I found when I [returned to Linux on the Framework](/tech/linux/framework) awhile back. I am happy to say, that the only things I need to use a terminal for (aside from [a situation where I am definitely an edge case](#monitor-duplication)) on my desktop are developer tools; which gives me a lot more confidence that, when I just want my system to work, it either will or the fix should be relatively simple.
+Mint is my baseline. It's what I've bee using since the early 2010s and make day-to-day use of Linux simple and easy. It was also pretty easy to re-use some of the things I found when I [returned to Linux on the Framework](/software/linux/framework) awhile back. I am happy to say, that the only things I need to use a terminal for (aside from [a situation where I am definitely an edge case](#monitor-duplication)) on my desktop are developer tools; which gives me a lot more confidence that, when I just want my system to work, it either will or the fix should be relatively simple.
 
 The main issues I encountered with it were that it used an older Kernel (an issue that they fixed this year) and that [it only supports screen mirroring with exactly two displays](https://forums.linuxmint.com/viewtopic.php?t=418626).
 
@@ -124,5 +124,5 @@ chsh -s $(which zsh)
 ### Login Loop
 The thing that killed my run with Fedora was that I ran into some kind of login loop, where I would put in my password, the screen would go black, and then I'd end up on the login screen again. At that point, I didn't really feel like fighting it, and moved onto PopOS (which I had some display issues with and returned to Mint, so I'm not even going to give it a section right now).
 
-I have since realized that this may have also been caused by signal integrity issues with the USB connection used to create the installation jump drive and install the OS. I will be giving Fedora another shot in my [2025 attempt at distro hopping](/tech/linux/distro-hopping-2025.md).
+I have since realized that this may have also been caused by signal integrity issues with the USB connection used to create the installation jump drive and install the OS. I will be giving Fedora another shot in my [2025 attempt at distro hopping](/software/linux/distro-hopping-2025.md).
 ~~Most of the info I saw suggested it's either a Wayland issue or a Desktop issue. If it's a Wayland issue, then I'd rather find a more stable base rather than the experimental base Fedora uses. If it's a Desktop issue, it's probably because of extensions and I'd rather not deal with a system that doesn't let me customize it like that.~~
