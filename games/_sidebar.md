@@ -1,9 +1,0 @@
-- **Trading Card Games**
-  - [Magic: The Gathering](/games/tcg/mtg.md)
-  - [Pokemon TCG](/games/tcg/pokemon-tcg.md)
-- **D&D 5e**
-  - [Tomb of Annihilation (2020)](/games/ttrpgs/dnd-5e/tomb-of-annihilation-2020.md)
-  - [Curse of Strahd (2019)](/games/ttrpgs/dnd-5e/curse-of-strahd-2019.md)
-  - [Death of Magic (2018)](/games/ttrpgs/dnd-5e/death-of-magic-2018.md)
-  - [Ptolus (2018)](/games/ttrpgs/dnd-5e/ptolus-2018.md)
-  - [Misc Characters](/games/ttrpgs/dnd-5e/misc-characters.md)

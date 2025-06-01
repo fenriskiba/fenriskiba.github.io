@@ -1,0 +1,13 @@
+- **Resume**
+  - [Grant I Carroll](/software/resume/)
+  - [PDF Download](/software/resume/pdf.md)
+  - [Word Doc Download](/software/resume/docx.md)
+- **Projects**
+  - [Flagr](/software/projects/flagr.md)
+  - [Docsify Plugins](/software/projects/docsify-plugins.md)
+  - [Future Projects](/software/projects/planning.md)
+  - [School Projects](/software/projects/school-projects.md)
+- **Linux**
+  - [Framework Laptop](/software/linux/framework.md)
+  - [Distro Hopping 2024](/software/linux/distro-hopping-2024.md)
+  - [Distro Hopping 2025](/software/linux/distro-hopping-2025.md)

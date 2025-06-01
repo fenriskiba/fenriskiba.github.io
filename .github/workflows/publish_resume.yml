@@ -5,7 +5,7 @@ on:
   workflow_dispatch:
   push:
     paths:
-      - 'programming/resume/README.md'
+      - 'software/resume/README.md'
 
 # Setup environment to generate PDF/DOCX Resumes
 jobs:
@@ -23,7 +23,7 @@ jobs:
             -f gfm
             -t docx
             -o GrantICarroll.docx
-            programming/resume/README.md
+            software/resume/README.md
 
       # Run Pandoc to convert Markdown Resume to PDF
       - uses: docker://pandoc/latex:2.9
@@ -33,7 +33,7 @@ jobs:
             -t pdf
             -o GrantICarroll.pdf
             -V geometry:margin=2cm
-            programming/resume/README.md
+            software/resume/README.md
 
       # Create "latest" release and publish releases
       - uses: EndBug/latest-tag@latest

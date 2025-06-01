@@ -1,4 +1,3 @@
-- [Software Engineering](/programming/)
-- [Cool Tech](/tech/)
-- [Gaming](/games/)
+- [Resume](/software/resume/)
+- [Software Engineering](/software/)
 - [Miscellaneous](/misc/)

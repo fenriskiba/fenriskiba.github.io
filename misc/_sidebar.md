@@ -1,2 +1,7 @@
 - [Japan 2017](/misc/japan-2017.md)
-- [Technical Theater](/misc/theater.md)
+- **D&D 5e**
+  - [Tomb of Annihilation (2020)](/misc/dnd-5e/tomb-of-annihilation-2020.md)
+  - [Curse of Strahd (2019)](/misc/dnd-5e/curse-of-strahd-2019.md)
+  - [Death of Magic (2018)](/misc/dnd-5e/death-of-magic-2018.md)
+  - [Ptolus (2018)](/misc/dnd-5e/ptolus-2018.md)
+  - [Misc Characters](/misc/dnd-5e/misc-characters.md)
