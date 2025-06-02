@@ -8,14 +8,19 @@ In early 2025, I build a new desktop PC and decided to see what other Linux dist
 - [My Use Case](#my-use-case)
   - [How I use my computer](#how-i-use-my-computer)
   - [Recommending it to others](#recommending-it-to-others)
+    - [Accessibility Tools](#accessibility-tools)
 - [Pre-Check: Running in a VM](#pre-check-running-in-a-vm)
   - [VM Test Results](#vm-test-results)
 - [Re-Evaluating My Hardware Setup](#re-evaluating-my-hardware-setup)
 - [Running Each Distro](#running-each-distro)
   - [Linux Mint](#linux-mint)
+    - [Kernel Issues](#kernel-issues)
+    - [Mint Setup](#mint-setup)
+    - [Remote Gaming](#remote-gaming)
+    - [Misc Issues](#misc-issues)
 
 ## Distros I plan to try
-* [Linux Mint](distro-hopping-2024.md) (baseline)
+* [Linux Mint](https://linuxmint.com/) (baseline)
 * [Fedora Workstation](https://fedoraproject.org/workstation/)
 * [Fedora KDE](https://fedoraproject.org/spins/kde)
 * [Tuxedo OS](https://www.tuxedocomputers.com/en/TUXEDO-OS_1.tuxedo)
@@ -78,7 +83,7 @@ I do want to consider accessibility when I think about being able to recommend L
 ## Pre-Check: Running in a VM
 Before getting into the full distro hopping experience, I spent a few days running each OS in a VM to get a feel for the desktop environment and see if there are any obvious deal breaker issues. I mostly just looked through the desktop environment settings a bit, checking out what graphical package manager it uses, and generally getting a first impression of the OS. 
 
-I'm only going to record notes here for distros that stand out in some way or that outright fail, so I can document *why* they failed rather than just cross them off the list and move on. I also be skipped Linux Mint, Fedora Workstation, and Tuxedo OS, as I feel I have a solid enough understanding of them from my daily use of Mint and my [2024 attempt at distro hoping](/software/linux/distro-hopping-2024.md) to say that they are worth checking out for the full month.
+I'm only going to record notes here for distros that stand out in some way or that outright fail, so I can document *why* they failed rather than just cross them off the list and move on. I also be skipped Linux Mint, Fedora Workstation, and Tuxedo OS, as I feel I have a solid enough understanding of them from my daily use of Mint and a previous attempt at distro hopping (failed due to USB signal issues and a faulty SSD) to say that they are worth checking out for the full month.
 
 ### VM Test Results
 Overall, the results aren't too surprising. No Arch based distros survived. Mostly looking at GNOME and KDE for the desktop environment. The biggest limitation seems to be my goal of using a distro I can recommend to non-technical users. Kind of disappointing that's what it is rather than my own use case, but I don't really want to abandon that objective until Linux is more relevant as a competitor to Windows and Mac OS in the desktop space.
@@ -146,9 +151,47 @@ Despite this being an upgrade from the previous version of Mint to the latest (2
 
 Luckily, Mint does have [a simple graphical tool to install different version of the kernel](https://www.fosslinux.com/138008/how-to-install-and-try-different-linux-kernels-in-linux-mint.htm), so, using an ethernet-to-USB adapter, I was able to connect to the internet and update to a kernel that does support my hardware without much trouble.
 
-I understand the Mint team likely made that decision to prioritize stability, but unfortunately, that only matters if the system works in the first place. This is also the third time I've encountered these kinds of issues with Mint being on an older kernel ([wifi issues I think were from kernel driver](/software/linux/framework?id=wifi-issues) and [8bitdo controller driver headers](/software/linux/distro-hopping-2024?id=gaming)) not to mention the [initial issues with Framework laptops](https://forums.linuxmint.com/viewtopic.php?t=362759) when they first released.
+I understand the Mint team likely made that decision to prioritize stability, but unfortunately, that only matters if the system works in the first place. This is also the third time I've encountered these kinds of issues with Mint being on an older kernel ([wifi issues I think were from kernel driver](/software/linux/framework?id=wifi-issues) and [8bitdo controller driver headers](https://gist.github.com/ammuench/0dcf14faf4e3b000020992612a2711e2)) not to mention the [initial issues with Framework laptops](https://forums.linuxmint.com/viewtopic.php?t=362759) when they first released.
 
 Unless the Mint team commits to supporting a version with a more up-to-date kernel like they did with Mint 22.2/3 Edge, it's becoming harder and harder for me to reliably recommend Linux Mint. It's not quite a disqualifier since there is a relatively simple fix, but it's still not a strong start.
+
+#### Mint Setup
+Once I got through the kernel issues, setup was pretty easy since it's what I'm used to setting up. It was nice not needing to deal with [setting up three monitors](https://forums.linuxmint.com/viewtopic.php?t=418626), but even if I had, I found [a script I could modify and run at startup](https://github.com/linuxmint/cinnamon-screensaver/issues/210) that would reset that for me automatically anyway.
+
+Outside of some minor visual changes (I like the way Mint looked when I started using it more than its new default look), I didn't really have much to set up my environment. Almost all of the apps I use are either available in the Software Manager or have a simple `.deb` installer that I can download. Connecting to my NAS was as simple as going to the network tab in the file explorer and signing in.
+
+All that I really need to do any work for are some development tools (which I'm okay with a small amount of setup for). Podman is available in the Software Manager and I can follow the official install instructions for [Go](https://go.dev/doc/install) and [NVM](https://github.com/nvm-sh/nvm?tab=readme-ov-file#installing-and-updating). I did have to do a bit of work to [set up Zsh as my default shell](https://techviewleo.com/install-and-use-zsh-with-oh-my-zsh-on-linux-mint/) so that I can use [Oh My Zsh](https://ohmyz.sh/), [install Libsecret for Git credential management](https://www.softwaredeveloper.blog/git-credential-storage-libsecret), and [configure Podman to use Docker Hub by default](https://www.baeldung.com/ops/podman-pull-image-docker-hub#pulling-images-without-fully-qualified-names), none of which is particularly difficult as far as developer environment setup goes.
+
+<details>
+    <summary>Expand to see setup for Zsh, Git, and Podman</summary>
+
+```bash
+# Do some updates and installs just in case (mostly unnecessary though)
+sudo apt update
+sudo apt install wget curl git -y
+
+# Install Zsh and set it as the default
+sudo apt install zsh -y
+sudo chsh -s /usr/bin/zsh $USER
+
+# Restart the computer so that the change will take effect (could probably just log out and in again, but whatever)
+
+# Install Libsecret
+sudo apt-get install libsecret-1-0 libsecret-1-dev
+
+# Build Libsecret
+cd /usr/share/doc/git/contrib/credential/libsecret
+sudo make
+
+# Set Git's global config to use Libsecret to manage credentials
+git config --global credential.helper /usr/share/doc/git/contrib/credential/libsecret/git-credential-libsecret
+
+# Open Podman Config
+sudo nano /etc/containers/registries.conf
+# In Nano, add "unqualified-search-registries = ["docker.io"]" to the config
+```
+
+</details>
 
 #### Remote Gaming
 I've never really had issues running any of the games I want to play on Mint, but as stated in the [Re-Evaluating My Hardware Setup](#re-evaluating-my-hardware-setup) section, I wanted to try remote gaming for couch play in my living room.

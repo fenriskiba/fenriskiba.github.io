@@ -1,3 +1,5 @@
+<!-- This page can't be found normally, but keeping it for a little while as an archive. -->
+
 # Distro Hopping 2024
 My plan at the beginning of 2024 was to try some Linux distro hopping, because I hadn't tried any new distributions since I started using Linux Mint in college. I wanted to see what the Linux landscape had become in the time since then, and see if there were any desktop environments or distributions that met my needs better than Mint.
 
