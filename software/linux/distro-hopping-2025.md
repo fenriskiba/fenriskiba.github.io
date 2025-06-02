@@ -114,7 +114,7 @@ After doing the VM test, I started encountering some hardware issues causing me 
 My desktop lives in a server rack in a closet and I use fiber-optic DisplayPort/HDMI cables and Icron USB-over-Ethernet adapters to connect to it from my home office and gaming desk (inspired by Linus Tech Tips). Prior to this however, my living room TV was also included in this setup for couch gaming, but I started encountering instability in the signal going over one of the Icron extenders. I was able to confirm that the Icron extender itself was defective, which left me with a few options:
 
 * Spend >$1000 on a new Icron extender and maintain my existing setup.
-  Unfortunately, I can't use a cheaper USB 2.0 option because I also need LAN to go over that connection, which, as far as I've seen, only the Icron supports.
+  * Unfortunately, I can't use a cheaper USB 2.0 option because I also need LAN to go over that connection, which, as far as I've seen, only the Icron supports.
   * Obviously the most expensive solution but it has the fewest compromises in terms of capabilities.
   * Default display can be inconsistent and annoying when doing things like installing a new distro.
   * My living room TV has some weird sleep states that it seems to switch between for several minutes after turning off, which can cause issues.
