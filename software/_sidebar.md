@@ -8,6 +8,6 @@
   - [Future Projects](/software/projects/planning.md)
   - [School Projects](/software/projects/school-projects.md)
 - **Linux**
-  - [Framework Laptop](/software/linux/framework.md)
-  - [Distro Hopping 2024](/software/linux/distro-hopping-2024.md)
   - [Distro Hopping 2025](/software/linux/distro-hopping-2025.md)
+  - [Distro Hopping 2024](/software/linux/distro-hopping-2024.md)
+  - [Framework Laptop](/software/linux/framework.md)

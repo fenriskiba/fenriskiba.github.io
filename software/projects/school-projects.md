@@ -12,7 +12,7 @@ While this is a fairly simple application of it, I found this algorithm and the 
 **Course:** Algorithms  
 **Git Repo:** [fenriskiba/RSA_Encryption-AlgorithmsProject](https://github.com/fenriskiba/RSA_Encryption-AlgorithmsProject)
 
-**Description:** A simple [RSA Encryption/Decryption](https://en.wikipedia.org/wiki/RSA_(cryptosystem)) app I wrote for my algorithms class. It was an interesting look into the mathematics of computer encryption. While it isn't directly applicable, I feel it helped me understand the kind of logic used in some of my more recent work understanding the intricacies of OAuth 2.0 and JWT Authorization.
+**Description:** A simple [RSA Encryption/Decryption](https://en.wikipedia.org/wiki/RSA_(cryptosystem)) app I wrote for my algorithms class. It was an interesting look into the mathematics of computer encryption. While it isn't directly applicable, I feel it helped me understand the kind of logic used when dealing with different types of security implementations and uses of encryption and decryption tools.
 
 ## C++ JSON Parser
 **Course:** Object-Oriented Programming  
