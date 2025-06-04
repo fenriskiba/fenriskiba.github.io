@@ -7,6 +7,6 @@
   - [Docsify Plugins](/software/projects/docsify-plugins.md)
   - [Future Projects](/software/projects/planning.md)
   - [School Projects](/software/projects/school-projects.md)
-- **Linux**
-  - [Distro Hopping 2025](/software/linux/distro-hopping-2025.md)
-  - [Framework Laptop](/software/linux/framework.md)
+- **Linux Distro Hopping**
+  - [Introduction](/software/linux/distro-hopping-2025/)
+  - [Linux Mint](/software/linux/distro-hopping-2025/mint.md)
