@@ -10,3 +10,4 @@
 - **Linux Distro Hopping**
   - [Introduction](/software/linux/distro-hopping-2025/)
   - [Linux Mint](/software/linux/distro-hopping-2025/mint.md)
+  - [Fedora Workstation](/software/linux/distro-hopping-2025/fedora-workstation.md)
