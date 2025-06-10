@@ -17,14 +17,11 @@
 ## Setup
 
 ### Extensions
-Not too much to say here, just documenting the extensions I tried. I think, when I try this again in 2025, the only one I won't try again is Freon, and instead look for a different utility for hardware monitoring.
-
 * [Add to Desktop](https://extensions.gnome.org/extension/3240/add-to-desktop/)
   * Technically wasn't supported on the version of Gnome I was on, but it worked fine.
 * [AppIndicator and KStatusNotifierItem Support](https://extensions.gnome.org/extension/615/appindicator-support/)
 * [Dash to Dock](https://extensions.gnome.org/extension/307/dash-to-dock/)
 * [Desktop Icons NG (DING)](https://extensions.gnome.org/extension/2087/desktop-icons-ng-ding/)
-* [Freon](https://extensions.gnome.org/extension/841/freon/)
 * [Tiling Assistant](https://extensions.gnome.org/extension/3733/tiling-assistant/)
 * [Wallpaper Slideshow](https://extensions.gnome.org/extension/6281/wallpaper-slideshow/)
 * [Caffeine](https://extensions.gnome.org/extension/517/caffeine/)
