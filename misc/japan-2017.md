@@ -18,6 +18,15 @@ In 2017, I was able to participate in a two week study abroad program in Japan w
 - [May 26, 2017: Blog 2 - Miyajima](#may-26-2017-blog-2---miyajima)
 - [May 26, 2017: 五百円](#may-26-2017-五百円)
 - [May 26, 2017: Blog 3 - Kyoto Sky Bus](#may-26-2017-blog-3---kyoto-sky-bus)
+- [May 28, 2017: Blog 4](#may-28-2017-blog-4)
+- [May 28, 2017: Blog 5](#may-28-2017-blog-5)
+- [May 31, 2017: Blog Post 6](#may-31-2017-blog-post-6)
+- [May 31, 2017: Blog Post 7](#may-31-2017-blog-post-7)
+- [June 9, 2017: Blog Post 8](#june-9-2017-blog-post-8)
+- [June 9, 2017: Blog Post 9](#june-9-2017-blog-post-9)
+- [June 9, 2017: Blog Post 10](#june-9-2017-blog-post-10)
+- [June 9, 2017: Blog Post 11](#june-9-2017-blog-post-11)
+- [June 9, 2017: Blog Post 12](#june-9-2017-blog-post-12)
 
 ## March 5, 2017: Homework 1
 "This writing system causes the Japanese to think in a different way from us." (p.13)  
@@ -158,3 +167,108 @@ I was not expecting there to be as big a crowds as there were today. I rather wi
 
 **Conveyor Belt Sushi**  
 This was a really fun way to eat, and the sushi was really good.
+
+## May 28, 2017: Blog 4
+**Good**  
+Meeting up with Adam and seeing the not touristy parts of Japan was really fun.
+
+![](../media/japan-2017/adam.jpg ':size=500')
+
+**Bad**  
+We got stuck in a pretty blatant tourist trap, and while it was still kinda fun, I wish I had been more prepared for it.
+
+![](../media/japan-2017/arcade.jpg ':size=500')
+
+**Differences**  
+There were two different things I noticed in Kyoto that were not true in Hiroshima. The first is that Kyoto had some people walking around in Kimono. Second, was that the city had a much more modern feel to it.
+
+## May 28, 2017: Blog 5
+**Good**  
+Seeing all of the deer was a lot of fun, and the Giant Buddha was rather interesting.
+
+![](../media/japan-2017/nara-deer.jpg ':size=1000')
+
+**Bad**  
+I wish I had shoes that were a bit better. I thought these would be much better for walking than they were.
+
+![](../media/japan-2017/nara-temple.jpg ':size=1000')
+
+**Differences**  
+There were a lot fewer people, and they seemed much more relaxed than the people of Kyoto.
+
+## May 31, 2017: Blog Post 6
+**Interesting**  
+Seeing the busier market street was rather interesting. The way it is set up as open air with a roof is really interesting.
+
+![](../media/japan-2017/osaka-running-man.jpg ':size=750')
+
+**Would have done different**  
+I should have made more of an effort to make sure to eat something. I didn’t have much of an appetite when we got lunch, and I almost collapsed later because I hadn’t eaten much.
+
+![](../media/japan-2017/osaka-okonomiyaki.jpg ':size=750')
+
+**Fake Food Making**  
+It was fun, but I can’t really say it is something I was really that in to. I’m glad we did it, but I can’t really say I would suggest it to any of my friends.
+
+## May 31, 2017: Blog Post 7
+![](../media/japan-2017/pokecenter.jpg ':size=1000')
+
+I think the free time was much nicer just because it allowed us to go at our own pace. We got to be a bit more casual, rather than rushing to make sure we didn’t miss anything.
+
+## June 9, 2017: Blog Post 8
+![](../media/japan-2017/sushi-making.jpg ':size=750')
+
+I really enjoyed learning about the history of sushi and found it somewhat interesting that the sushi rice was prepared differently.  
+
+![](../media/japan-2017/studio-ghibli.jpg ':size=750')
+
+The Ghibli Museum was a lot of fun. It was really cool to see some of the live animation exibits they had.  
+
+![](../media/japan-2017/tokyo-sky-tree.jpg ':size=750')
+
+I wasn't really that into Sky Tree. I thought the Attack on Titan displays were kinda neat, but aside from that I wasn't really that interested in it.
+
+## June 9, 2017: Blog Post 9
+**Interesting**  
+I really enjoyed visiting Akihabara and seeing how the area was structured. Everything was a lot more compact than I expected it to be.
+
+![](../media/japan-2017/akihabara.jpg ':size=750')
+
+**Different**  
+I probably would have spent my time a bit differently, focusing more on finding the tech areas of Akihabara rather than the anime areas. I also would probably try and avoid the obvious tourist trap that was the Maid Cafe we went to.
+
+![](../media/japan-2017/maid-cafe-food.jpg ':size=500')
+
+**Tokyo Free Time and Surprise Dinner**  
+The free time in Tokyo was one of my favorite things this trip, and I really enjoyed the surprise dinner. It was a lot of excitement and fun.
+
+![](../media/japan-2017/tokyo-surprise-dinner.jpg ':size=750')
+
+## June 9, 2017: Blog Post 10
+My home stay felt kind of awkward, just because we didn’t have a lot of time. We didn’t meet the older daughter until the morning, which caused a bit of a language barrier, since she was the most fluent in English. It was still a lot of fun, and we were able to have some decent conversation with the Mother and younger daughter.
+
+## June 9, 2017: Blog Post 11
+The Karaoke party was a lot of fun. I’m not much of a music lover myself, so I didn’t get as much out of it, but seeing everyone else drink and get really into the songs was exciting.
+
+![](../media/japan-2017/after-karaoke.jpg ':size=1000')
+
+## June 9, 2017: Blog Post 12
+1. What we wish we could have done together? Explain why you think so.
+
+I think exploring Koyasan may have been better as a group. We were just kinda thrown into this area with a lot to look at and we just had to kind of guess where the most interesting things would be.
+
+2. What we don’t think we need it to do? Explain why you think so.
+
+I think we saw more shrines that I would have liked. While I really enjoyed seeing some of them, there were a couple points where it felt like all we saw were shrines. I also wish we had spent more time learning the beliefs that went with the shrines, both Buddhist and Shinto while we were there. I feel like that would have helped each of the shrines feel more unique and more interesting.
+
+3. What was the favorite part in the trip? Explain why you think so considering Japanese key concepts.
+
+Seeing some of the bigger city areas. It allowed me to see more of the day to day life of Japan as well as to understand what the flow of the culture was like.
+
+4. Among your free time, what parts you think that everyone should do together? Explain why you think so.
+
+I refer to #1. Exploring Koyasan would have been nicer with a little more direction, and I think going as a group would be helpful.
+
+5. Your opinions
+
+I enjoyed the trip, but would have liked there to be less rushing around. It often felt like we were rushing through everything and didn’t have enough time to really enjoy the experience. I enjoyed most of what we did, and what I didn’t I think would have been significantly better with more time or more information.
