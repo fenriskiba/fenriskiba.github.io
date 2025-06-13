@@ -4,8 +4,6 @@ In 2017, I was able to participate in a two week study abroad program in Japan w
 
 ***I will put the disclaimer that a lot of this is just answering questions for homework or rushed out since I was more focused on enjoying my time in Japan. As such, this isn't exactly my best writing.***
 
-<!-- https://www.tumblr.com/blog/fenriskiba-blog -->
-
 **Table of Contents:**
 - [March 5, 2017: Homework 1](#march-5-2017-homework-1)
 - [April 8, 2017: Blog Post 3](#april-8-2017-blog-post-3)
@@ -133,7 +131,7 @@ I'm really excited to see this, both for the ramen tasting and the replica villa
 This sounds like it could be an interesting visit, just to see what the culture of a town like this would be like.
 
 ## April 19, 2017: Blog Post 8
-![](../media/japan-2017/blog-post-8.jpg ':size=750')
+![Scan of a homework page filled out as part of the program.](../media/japan-2017/blog-post-8.jpg ':size=750')
 
 ## May 24, 2027: Blog #1 - Hiroshima
 Good Thing: The okonomiyaki was really good. Very different from the impression I got from descriptions and pictures. I'm also starting to slowly remember how to speak Japanese little by little as we are here and speaking to local people.  Bad Thing: We were rushing around much more than I expected. There just wasn't as much time between activities as I would have liked. It often felt like if we didn't run full speed we were going to be late.
@@ -142,15 +140,15 @@ Good Thing: The okonomiyaki was really good. Very different from the impression 
 **Most Interesting Thing**  
 I really enjoyed the way the deer were around everywhere and fairly comfortable with people. Their stealing and being rather aggressive what a little off-putting, but seeing animals that are that timid at home being so comfortable with people is rather refreshing.
 
-![](../media/japan-2017/deer-eating-orange.jpg ':size=500')
+![A deer eating an orange rind off the ground in Miyajima.](../media/japan-2017/deer-eating-orange.jpg ':size=500')
 
 **Could have done better**  
 I wish I had reviewed a few videos I saw relating the culture and practices of the shrines to things in video games. I thing it would have helped me to understand and want to see certain parts of the shrines more.
 
-![](../media/japan-2017/miyajima-low-tide.jpg)
+![A panorama shot of the Miyajima shore at low tide.](../media/japan-2017/miyajima-low-tide.jpg)
 
 ## May 26, 2017: 五百円
-![](../media/japan-2017/omamori.jpg ':size=500')
+![A simple omamoria charm that I bought in Miyajima.](../media/japan-2017/omamori.jpg ':size=500')
 
 I chose to get a small good luck charm. I’ve seen them in a few anime and was curious to learn what they were a bit better. I didn’t realize they meant different things, so now I kind of want to go back and figure out what the ones from the anime I saw were supposed to be.
 
@@ -158,12 +156,12 @@ I chose to get a small good luck charm. I’ve seen them in a few anime and was 
 **Most interesting**  
 I found the 大 burned into the mountain to be a really interesting display. Not only was it a very large display that is visible for miles, it was an incredibly well contained fire. Given the side of the fire, the effort needed to organize and contain something that large must have been very impressive. 
 
-![](../media/japan-2017/kyoto-fire-kanji.jpg ':size=500')
+![A giant kanji symbol meaning "fire" burned into a mountain in Kyoto.](../media/japan-2017/kyoto-fire-kanji.jpg ':size=500')
 
 **Could have done different**  
 I was not expecting there to be as big a crowds as there were today. I rather wish I had prepared for that, as I am not very fond of large crowds of people.
 
-![](../media/japan-2017/kinkaku-ji.jpg)
+![The kinkaku-ji (lit. Temple of the Golden Pavilion), a golden temple in Kyoto.](../media/japan-2017/kinkaku-ji.jpg)
 
 **Conveyor Belt Sushi**  
 This was a really fun way to eat, and the sushi was really good.
@@ -172,12 +170,12 @@ This was a really fun way to eat, and the sushi was really good.
 **Good**  
 Meeting up with Adam and seeing the not touristy parts of Japan was really fun.
 
-![](../media/japan-2017/adam.jpg ':size=500')
+![Adam; a friend of mine from high school who moved to Japan and met up with us.](../media/japan-2017/adam.jpg ':size=500')
 
 **Bad**  
 We got stuck in a pretty blatant tourist trap, and while it was still kinda fun, I wish I had been more prepared for it.
 
-![](../media/japan-2017/arcade.jpg ':size=500')
+![A game arcade in Kyoto.](../media/japan-2017/arcade.jpg ':size=500')
 
 **Differences**  
 There were two different things I noticed in Kyoto that were not true in Hiroshima. The first is that Kyoto had some people walking around in Kimono. Second, was that the city had a much more modern feel to it.
@@ -186,12 +184,12 @@ There were two different things I noticed in Kyoto that were not true in Hiroshi
 **Good**  
 Seeing all of the deer was a lot of fun, and the Giant Buddha was rather interesting.
 
-![](../media/japan-2017/nara-deer.jpg ':size=1000')
+![Myself, surrounded by deer trying to get the biscuits I had gotten to feed them.](../media/japan-2017/nara-deer.jpg ':size=1000')
 
 **Bad**  
 I wish I had shoes that were a bit better. I thought these would be much better for walking than they were.
 
-![](../media/japan-2017/nara-temple.jpg ':size=1000')
+![The Todai-ji (lit. Eastern Great Temple) temple in Nara where the Daibutsu statue is housed.](../media/japan-2017/nara-temple.jpg ':size=1000')
 
 **Differences**  
 There were a lot fewer people, and they seemed much more relaxed than the people of Kyoto.
@@ -200,31 +198,31 @@ There were a lot fewer people, and they seemed much more relaxed than the people
 **Interesting**  
 Seeing the busier market street was rather interesting. The way it is set up as open air with a roof is really interesting.
 
-![](../media/japan-2017/osaka-running-man.jpg ':size=750')
+![Our group in front of the Osaka Running Man sign, all in the same pose (standing on one leg with both arms up).](../media/japan-2017/osaka-running-man.jpg ':size=750')
 
 **Would have done different**  
 I should have made more of an effort to make sure to eat something. I didn’t have much of an appetite when we got lunch, and I almost collapsed later because I hadn’t eaten much.
 
-![](../media/japan-2017/osaka-okonomiyaki.jpg ':size=750')
+![Our group sitting in a okonomiyaki restaurant in Osaka)](../media/japan-2017/osaka-okonomiyaki.jpg ':size=750')
 
 **Fake Food Making**  
 It was fun, but I can’t really say it is something I was really that in to. I’m glad we did it, but I can’t really say I would suggest it to any of my friends.
 
 ## May 31, 2017: Blog Post 7
-![](../media/japan-2017/pokecenter.jpg ':size=1000')
+![A display of plushes at one of the Pokecenter stores.](../media/japan-2017/pokecenter.jpg ':size=1000')
 
 I think the free time was much nicer just because it allowed us to go at our own pace. We got to be a bit more casual, rather than rushing to make sure we didn’t miss anything.
 
 ## June 9, 2017: Blog Post 8
-![](../media/japan-2017/sushi-making.jpg ':size=750')
+![Our group learning to make sushi.](../media/japan-2017/sushi-making.jpg ':size=750')
 
 I really enjoyed learning about the history of sushi and found it somewhat interesting that the sushi rice was prepared differently.  
 
-![](../media/japan-2017/studio-ghibli.jpg ':size=750')
+![The entrance ot the Studio Ghibli museum featuring Totoro.](../media/japan-2017/studio-ghibli.jpg ':size=750')
 
 The Ghibli Museum was a lot of fun. It was really cool to see some of the live animation exibits they had.  
 
-![](../media/japan-2017/tokyo-sky-tree.jpg ':size=750')
+![Our group in front of an Attack on Titan display that was at the Tokyo Sky Tree.](../media/japan-2017/tokyo-sky-tree.jpg ':size=750')
 
 I wasn't really that into Sky Tree. I thought the Attack on Titan displays were kinda neat, but aside from that I wasn't really that interested in it.
 
@@ -232,17 +230,17 @@ I wasn't really that into Sky Tree. I thought the Attack on Titan displays were 
 **Interesting**  
 I really enjoyed visiting Akihabara and seeing how the area was structured. Everything was a lot more compact than I expected it to be.
 
-![](../media/japan-2017/akihabara.jpg ':size=750')
+![A street in the Akihabara district of Tokyo.](../media/japan-2017/akihabara.jpg ':size=750')
 
 **Different**  
 I probably would have spent my time a bit differently, focusing more on finding the tech areas of Akihabara rather than the anime areas. I also would probably try and avoid the obvious tourist trap that was the Maid Cafe we went to.
 
-![](../media/japan-2017/maid-cafe-food.jpg ':size=500')
+![An omurice dish prepared to look like teddy bears taking a nap.](../media/japan-2017/maid-cafe-food.jpg ':size=500')
 
 **Tokyo Free Time and Surprise Dinner**  
 The free time in Tokyo was one of my favorite things this trip, and I really enjoyed the surprise dinner. It was a lot of excitement and fun.
 
-![](../media/japan-2017/tokyo-surprise-dinner.jpg ':size=750')
+![A picture from the dinner show at the Tokyo Robot Restaurant.](../media/japan-2017/tokyo-surprise-dinner.jpg ':size=1000')
 
 ## June 9, 2017: Blog Post 10
 My home stay felt kind of awkward, just because we didn’t have a lot of time. We didn’t meet the older daughter until the morning, which caused a bit of a language barrier, since she was the most fluent in English. It was still a lot of fun, and we were able to have some decent conversation with the Mother and younger daughter.
@@ -250,7 +248,7 @@ My home stay felt kind of awkward, just because we didn’t have a lot of time. 
 ## June 9, 2017: Blog Post 11
 The Karaoke party was a lot of fun. I’m not much of a music lover myself, so I didn’t get as much out of it, but seeing everyone else drink and get really into the songs was exciting.
 
-![](../media/japan-2017/after-karaoke.jpg ':size=1000')
+![Our group having some fun after leaving Karaoke on our last night in Japan.](../media/japan-2017/after-karaoke.jpg ':size=1000')
 
 ## June 9, 2017: Blog Post 12
 1. What we wish we could have done together? Explain why you think so.
