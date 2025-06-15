@@ -13,6 +13,7 @@
 * same issue with Steam and Steam Link as Mint when using the rpm
   * Using Flatpak works
   * Still no luck with VR
+* Needed Gnome Tweaks to add min/max buttons
 
 ## Setup
 
