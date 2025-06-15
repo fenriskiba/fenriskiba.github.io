@@ -20,7 +20,10 @@ In early 2025, I build a new desktop PC and decided to see what other Linux dist
 * ~~[Bazzite](https://bazzite.gg/)~~
 
 ### Note about Ubuntu
-<!-- TODO: Update this to past tense once I'm done with everything. -->
+<!-- TODO: Reorg as separate page for "Distros I'm not trying" with the following notes:
+* Has *most* of the Gnome Extensions I needed
+* Still needed to install Add to Desktop
+* No Prusa Slicer in Snap Store -->
 Depending on how my experience with other distros goes, I may or may not try Ubuntu or one of its official flavors as well. I'm not a big fan of Canonical packaging many Snaps independent of developer builds, as it can lead to issues being misdirected and cause general confusion around support (ex. [Steam Snap](https://www.omgubuntu.co.uk/2024/01/valve-dont-recommend-ubuntu-steam-snap) and [OBS on Fedora Flatpak](https://gitlab.com/fedora/sigs/flatpak/fedora-flatpaks/-/issues/39)), nor do I care for the way they try to prevent alternative public hosting by keeping the hosting software proprietary and only enabling an override rather than an addition.
 
 While Flathub has become the defacto default for Flatpak hosting, it is not the only option since the hosting software is based on an open standard. A clear example would be Fedora Flatpak, which, while I disagree with their focus on re-packaging apps, I appreciate having the alternative hosting for packages verified to work with the system. Flatpak also seems to have more support from developers, reducing the need for third-party packaging (the challenges of which are also partially mitigated through [Flathub marking them as unverified](https://docs.flathub.org/docs/for-users/verification)). For these reasons, I'd prefer a distribution that uses Flatpak (preferably with Flathub) out-of-the-box for modern package installation.
