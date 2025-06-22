@@ -9,4 +9,5 @@
   - [School Projects](/software/projects/school-projects.md)
 - **Linux Distro Hopping**
   - [Introduction](/software/linux/distro-hopping-2025/)
+  - [Disqualified Distros](/software/linux/distro-hopping-2025/disqualified.md)
   - [Linux Mint](/software/linux/distro-hopping-2025/mint.md)

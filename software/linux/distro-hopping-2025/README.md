@@ -1,34 +1,19 @@
 # Linux Distro Hopping 2025
 In early 2025, I build a new desktop PC and decided to see what other Linux distros are like after using the same one for over a decade. The goal will be to spend a month with each distro before moving on to the next. I may add or remove distros based on early impressions or issues I encounter with installation.
 
+<!-- TODO: Once I'm all done, go through and make sure to make sure everything is in a consistent tense. -->
+
 ## Distros I plan to try
+Obviously, I can't try out every distribution or even every currently maintained distro. For now, I've gotten it down the the following distros, though I may add to the list as time goes on and I learn more about the current state of the linux landscape.
+
 * [Linux Mint](https://linuxmint.com/) (baseline)
 * [Fedora Workstation](https://fedoraproject.org/workstation/)
 * [Fedora KDE](https://fedoraproject.org/spins/kde)
 * [Tuxedo OS](https://www.tuxedocomputers.com/en/TUXEDO-OS_1.tuxedo)
-* [openSUSE Tumbleweed](https://www.opensuse.org/#Tumbleweed) (I will determine Desktop Environment based on experience with other distros.)
+* [openSUSE Tumbleweed](https://www.opensuse.org/#Tumbleweed)
 * [Pop!_OS](https://pop.system76.com/) (I will holding off until a full release of Cosmic Desktop is available.)
-* ~~[Fedora Cinnamon](https://fedoraproject.org/spins/cinnamon)~~
-* ~~[Nobara](https://nobaraproject.org/)~~
-* ~~[Slimbook OS](https://slimbook.com/en/slimbook-os)~~
-* ~~[PikaOS](https://wiki.pika-os.com/en/home)~~
-* ~~[Elementary OS](https://elementary.io/)~~
-* ~~[Zorin OS](https://zorin.com/)~~
-* ~~[Garuda Linux](https://garudalinux.org/)~~
-* ~~[EndeavourOS](https://endeavouros.com/)~~
-* ~~[CachyOS](https://cachyos.org/)~~
-* ~~[Bazzite](https://bazzite.gg/)~~
 
-### Note about Ubuntu
-<!-- TODO: Reorg as separate page for "Distros I'm not trying" with the following notes:
-* Has *most* of the Gnome Extensions I needed
-* Still needed to install Add to Desktop
-* No Prusa Slicer in Snap Store -->
-Depending on how my experience with other distros goes, I may or may not try Ubuntu or one of its official flavors as well. I'm not a big fan of Canonical packaging many Snaps independent of developer builds, as it can lead to issues being misdirected and cause general confusion around support (ex. [Steam Snap](https://www.omgubuntu.co.uk/2024/01/valve-dont-recommend-ubuntu-steam-snap) and [OBS on Fedora Flatpak](https://gitlab.com/fedora/sigs/flatpak/fedora-flatpaks/-/issues/39)), nor do I care for the way they try to prevent alternative public hosting by keeping the hosting software proprietary and only enabling an override rather than an addition.
-
-While Flathub has become the defacto default for Flatpak hosting, it is not the only option since the hosting software is based on an open standard. A clear example would be Fedora Flatpak, which, while I disagree with their focus on re-packaging apps, I appreciate having the alternative hosting for packages verified to work with the system. Flatpak also seems to have more support from developers, reducing the need for third-party packaging (the challenges of which are also partially mitigated through [Flathub marking them as unverified](https://docs.flathub.org/docs/for-users/verification)). For these reasons, I'd prefer a distribution that uses Flatpak (preferably with Flathub) out-of-the-box for modern package installation.
-
-That being said, I have found [a guide to setting up GNOME Software and Flatpak on Ubuntu](https://www.howtogeek.com/how-and-why-to-install-flatpak-software-packages-on-ubuntu/), so I do consider that an acceptable compromise if I find myself enjoying the GNOME experience and otherwise frustrated with other distros running GNOME. I'd rather not go down this route because of the need for additional setup using a terminal. While I am comfortable in a terminal, I prefer being able to honestly tell people that you don't need it for a good experience with Linux.
+You can also read about a few other distributions I considered but ultimately decided against in the [Disqualified Distros page](/software/linux/distro-hopping-2025/disqualified.md).
 
 ## My Use Case
 One of the great things with Linux is the variety of options available, but that also means that not every option is for everyone. Just cause a certain distro isn't for me, doesn't make it bad. Honestly, there are a lot of distros I'd be interested in exploring if it weren't for the fact that I want something [easy to use without technical experience](#recommending-linux-to-others).
@@ -86,34 +71,3 @@ I'm not necessarily trying to find a "one size fits all" distribution, so much a
 
 #### Accessibility Tools
 I do want to consider accessibility when I think about being able to recommend Linux to others, in case someone I recommend things to have any kind of visual impairment or other accessibility needs. However, in light of [a recent article about the state of accessibility tools on Linux](https://fireborn.mataroa.blog/blog/i-want-to-love-linux-it-doesnt-love-me-back-post-1-built-for-control-but-not-for-people/), it's hard for me to really recommend Linux to those with accessibility needs. That being said, I don't want to just leave it at "oh well, can't be helped", so moving forward I will at least verify that each distro has Orca pre-installed (even if it isn't available for the distro installation). Any distro that doesn't will be disqualified at that point. That way I can at least say that the distro I ultimate choose is keeping up with the bare minimum.
-
-## Pre-Check: Running in a VM
-Before getting into the full distro hopping experience, I spent a few days running each OS in a VM to get a feel for the desktop environment and see if there are any obvious deal breaker issues. I mostly just looked through the desktop environment settings a bit, checking out what graphical package manager it uses, and generally getting a first impression of the OS. 
-
-I'm only going to record notes here for distros that stand out in some way or that outright fail, so I can document *why* they failed rather than just cross them off the list and move on. I also be skipped Linux Mint, Fedora Workstation, and Tuxedo OS, as I feel I have a solid enough understanding of them from my daily use of Mint and a previous attempt at distro hopping (failed due to USB signal issues and a faulty SSD) to say that they are worth checking out for the full month.
-
-### VM Test Results
-Overall, the results aren't too surprising. No Arch based distros survived. Mostly looking at GNOME and KDE for the desktop environment. The biggest limitation seems to be my goal of using a distro I can recommend to non-technical users. Kind of disappointing that's what it is rather than my own use case, but I don't really want to abandon that objective until Linux is more relevant as a competitor to Windows and Mac OS in the desktop space.
-
-* **Fedora Cinnamon** was eliminated for `dnfdragora` being it's only graphical package manager out of the box.
-  * I may bring it back later and manually install GNOME Software just to see a non-Mint implementation of Cinnamon.
-* **Nobara** has been eliminated. The main version of it only includes a terrible custom software manager.
-  * In the GNOME version, the fact that their custom software pops up to update things instead of just leaving that to GNOME Software (which is still there) is unnecessary noise that I just found annoying. At least at an initial inspection, it didn't seem to add anything to the GNOME experience, so all that was left that I saw to redeem it was the Nobara Tweaks app, which looks like it was thrown together at a code jam and then never improved again.
-  * Didn't even bother checking out the KDE version after the GNOME version.
-* **Slimbook OS** was eliminated because I couldn't even get the boot-able ISO to run in the VM.
-* **PikaOS** was eliminated because I couldn't even get the boot-able ISO to run in the VM.
-* **Elementary OS** was eliminated for *only* supporting Flatpak. I fully believe that Flatpak is the future of Linux app packaging, but there are still a lot of apps that I use that aren't available as a Flatpak or are only available as an unofficial package (some of which are just non-functional).
-  * I can still install them using `apt` in the terminal, but that goes against my goal of recommending it to others.
-* **Zorin OS** was eliminated because it is on version 6.8 of the kernel, and doesn't have a clear, graphical way to update it. Originally, this wouldn't have bothered me, but I learned how important that is in my time evaluating [Linux Mint](/software/linux/distro-hopping-2025/mint?id=kernel-issues) on the new system.
-* **Garuda** definitely doesn't play nice with my goal of having a distro that I can honestly recommend to less technical friends. If I were the only person I was thinking about, I'd probably be a bit more open to trying it, but I don't want to abandon that objective without a clear reason.
-  * I tried Mokka and Gnome DEs, and was interested in Dr460nized and Cinnamon as well, but decided to save time after I saw the same issues in both.
-  * Initial setup does pop into Terminal for updates. It does keep it simple and straight-forward, but would still make it difficult for me to say "yup, it's super friendly, even if you aren't very technical" since that would scare non-technical users.
-  * Initial software setup is nice (simple checkboxes with some recommendations), but gives so many options that it could scare less technical users. Some of the options it gives (like graphical software managers) also aren't particularly clear for less technical users.
-  * No Flatpak support out of the box and only really has a good graphical software manager if you install GNOME Software (which is does give a checkbox for during setup) and configure it with Flatpak.
-* **EndeavourOS** is very similar to Garuda (Arch based distros maintain the Arch philosophy after all). Tried the KDE version, which doesn't come with Discover (or any other graphical software manager) pre-installed. It did have a post-install tool that (eventually) included installing Flatpak, but only after a lot of other steps, and only made sense if you know what Flatpak is. Would be interesting if I didn't want to be able to recommend the same distro I use to less technical folks, but for now it is a pass.
-* **CachyOS** is the same as the other Arch based distros, so not too much to say. This one does have it's own graphical package manager, but it's still not great. It also left the shortcut to KDE Discover in the menu bar, even though it isn't installed, which doesn't give the best impression of its polish.
-  * One thing I did find interesting with Cachy, that I didn't think to consider previously, is that it does consider accessibility, but not by default. When choosing some things like the desktop environment, [it gives an option for accessibility tools](/media/linux/cachyOS_a11y.png ':ignore'), but it's not checked by default. While I like that it does consider accessibility needs, I dislike that it doesn't consider them important enough to have available by default.
-* **Bazzite** was removed because I didn't realize it was an immutable distro. While I think immutable distros make a lot of sense in the server and handheld spaces, I'm not yet convinced they make sense in the desktop space.
-  * There are still a lot of tools that either aren't available as a Flatpak or that the unofficial Flatpak doesn't work. I'm also not sure some tools I use (Gparted, Raspberry Pi Imager, etc.) are even viable in a sandboxed format like Flatpak.
-  * I'd also rather not need to use a container to run development tools. I'm sure I could run the Go compiler that way, but having it installed natively is going to be simpler.
-  * I'll be happy if I'm proven wrong and the tooling improves to the point where it is viable, since the security and reliability of immutable distros would be great in the desktop space. ~~However, I'll wait for SteamOS to be the distro to test it since that'll have a lot more cultural relevance to try and make it work.~~ (Or not since even [Valve doesn't think SteamOS is a replacement for a desktop OS.](https://store.steampowered.com/steamos/#:~:text=Users%20should%20not%20consider%20SteamOS%20as%20a%20replacement%20for%20their%20desktop%20operating%20system).)
