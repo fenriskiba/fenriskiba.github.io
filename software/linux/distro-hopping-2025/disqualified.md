@@ -23,7 +23,7 @@ I'm not too fond of the default Ubuntu experience with the dock on the side, but
 Beyond all that, I like the Gnome experience and Ubuntu provides it with a good mix of stability and modern hardware support with the Linux HWE Kernel.
 
 ## Arch Based Distros
-The most popular Arch based distro is [Manjaro](https://manjaro.org/), so I'll address that first. As far as I can tell, the Manjaro project is completely mismanaged, so I didn't even bother trying it in a VM. Repeated issues with [SSL certificates expiring](https://forum.manjaro.org/t/software-manjaro-org-expired-certificate-again/119696) (once is one thing, but it keeps happening), [DDoSing the AUR](https://gitlab.manjaro.org/applications/pamac/-/issues/1017), [issues playing nice with others](https://blog.brixit.nl/why-i-left-pine64/); and that's just what I found in 5 minutes of searching. It doesn't seem like this is going to be a stable or trustworthy experience.
+The Arch based distro I hear about most is [Manjaro](https://manjaro.org/), so I'll address that first. As far as I can tell, the Manjaro project is completely mismanaged, so I didn't even bother trying it in a VM. Repeated issues with [SSL certificates expiring](https://forum.manjaro.org/t/software-manjaro-org-expired-certificate-again/119696) (once is one thing, but it keeps happening), [DDoSing the AUR](https://gitlab.manjaro.org/applications/pamac/-/issues/1017), [issues playing nice with others](https://blog.brixit.nl/why-i-left-pine64/); and that's just what I found in 5 minutes of searching. It doesn't seem like this is going to be a stable or trustworthy experience.
 
 Putting that aside, I did want to look at Arch based distros to see how it is, so I tried [Garuda Linux](https://garudalinux.org/), [EndeavourOS](https://endeavouros.com/), and [CachyOS](https://cachyos.org/) in VMs to see what was up. Unfortunately, they all had basically the same problem: being *exclusively* for advanced users.
 
@@ -32,6 +32,9 @@ Honestly, I would love to be able to try these distros in more depth, because I 
 With that in mind, the fact that these distros don't prioritize having a user-friendly app store experience and comfortable defaults means that I need to disqualify them for this round of distro hopping. If something changes and Linux does become more mainstream (maybe not fully taking over, but enough that people aren't afraid of it), I will likely re-evaluate these distros. Until then, I'll just have to try running base Arch in a VM.
 
 ## Immutable Distros (and Elementary OS)
+
+
+
 * **Bazzite** was removed because I didn't realize it was an immutable distro. While I think immutable distros make a lot of sense in the server and handheld spaces, I'm not yet convinced they make sense in the desktop space.
   * There are still a lot of tools that either aren't available as a Flatpak or that the unofficial Flatpak doesn't work. I'm also not sure some tools I use (Gparted, Raspberry Pi Imager, etc.) are even viable in a sandboxed format like Flatpak.
   * I'd also rather not need to use a container to run development tools. I'm sure I could run the Go compiler that way, but having it installed natively is going to be simpler.
