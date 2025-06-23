@@ -32,24 +32,26 @@ Honestly, I would love to be able to try these distros in more depth, because I 
 With that in mind, the fact that these distros don't prioritize having a user-friendly app store experience and comfortable defaults means that I need to disqualify them for this round of distro hopping. If something changes and Linux does become more mainstream (maybe not fully taking over, but enough that people aren't afraid of it), I will likely re-evaluate these distros. Until then, I'll just have to try running base Arch in a VM.
 
 ## Immutable Distros (and Elementary OS)
+?> I'm going to group [Elementary OS](https://elementary.io/) in with immutable distros, because it shares one of the main problems: only supporting Flatpaks out of the box. It's not as much of a problem as with immutable distros, because you can still install system packages through a terminal, but it's still a problem.
 
+Immutable distributions (ex. [Bazzite](https://bazzite.gg/), [SteamOS](https://store.steampowered.com/steamos), [NixOS](https://nixos.org/)) are an interesting idea, and I think they make a lot of sense on servers and on handheld gaming devices like the Steam Deck (there are probably a few other use cases similar to the handhelds, but I'm not readily familiar with them). However, I don't think they make a lot of sense in the desktop/laptop space yet. They are reliant on application packaging solutions that are still developing (or in the case of Nix, is just too complicated for the average user) and make troubleshooting problems that do occur that much more difficult.
 
+Most immutable distros are heavily reliant on Flatpak to provide a simple, sandboxed solution to application packaging to make it easy to install applications without impacting the immutable parts of the system. I do honestly believe that Flatpaks are the future of Linux, but there are still a lot of gaps in what they are able to provide. There are a lot of applications that I use that either aren't available as Flatpaks or are only available as a *broken*, unverified Flatpak. I'm also not convinced that some tools are going to be available as a Flatpak (Raspberry Pi Imager, GParted, compilers for my development work), and using tools like Nix or running them in a container are workarounds that just aren't user friendly enough for me to recommend to others.
 
-* **Bazzite** was removed because I didn't realize it was an immutable distro. While I think immutable distros make a lot of sense in the server and handheld spaces, I'm not yet convinced they make sense in the desktop space.
-  * There are still a lot of tools that either aren't available as a Flatpak or that the unofficial Flatpak doesn't work. I'm also not sure some tools I use (Gparted, Raspberry Pi Imager, etc.) are even viable in a sandboxed format like Flatpak.
-  * I'd also rather not need to use a container to run development tools. I'm sure I could run the Go compiler that way, but having it installed natively is going to be simpler.
-  * I'll be happy if I'm proven wrong and the tooling improves to the point where it is viable, since the security and reliability of immutable distros would be great in the desktop space. ~~However, I'll wait for SteamOS to be the distro to test it since that'll have a lot more cultural relevance to try and make it work.~~ (Or not since even [Valve doesn't think SteamOS is a replacement for a desktop OS.](https://store.steampowered.com/steamos/#:~:text=Users%20should%20not%20consider%20SteamOS%20as%20a%20replacement%20for%20their%20desktop%20operating%20system).)
-* **Elementary OS** was eliminated for *only* supporting Flatpak. I fully believe that Flatpak is the future of Linux app packaging, but there are still a lot of apps that I use that aren't available as a Flatpak or are only available as an unofficial package (some of which are just non-functional).
-  * I can still install them using `apt` in the terminal, but that goes against my goal of recommending it to others.
+The advantage of immutable distros is also supposed to be that they are stable, but it puts you in a position where if something doesn't work out-of-the-box, you don't have a lot of options to fix it. If I encountered a problem from introducing new hardware, [like I did with Linux Mint][mint-kernel-issues], I have to use a complicated tool like Nix to resolve it instead of a simple GUI to select a kernel that supports it.
+
+I'm really hoping that Flatpak can gain more traction and tools like Nix to be able to safely make changes mature, because I think the idea behind immutable distros makes a lot of sense. Until then, I'm going to have to agree with [Valve when they say](https://store.steampowered.com/steamos#:~:text=Users%20should%20not%20consider%20SteamOS%20as%20a%20replacement%20for%20their%20desktop%20operating%20system.):
+
+> Users should not consider SteamOS as a replacement for their desktop operating system.
 
 ## Fedora Variants
-* **Fedora Cinnamon** was eliminated for `dnfdragora` being it's only graphical package manager out of the box.
-  * I may bring it back later and manually install GNOME Software just to see a non-Mint implementation of Cinnamon.
-* **Nobara** has been eliminated. The main version of it only includes a terrible custom software manager.
-  * In the GNOME version, the fact that their custom software pops up to update things instead of just leaving that to GNOME Software (which is still there) is unnecessary noise that I just found annoying. At least at an initial inspection, it didn't seem to add anything to the GNOME experience, so all that was left that I saw to redeem it was the Nobara Tweaks app, which looks like it was thrown together at a code jam and then never improved again.
-  * Didn't even bother checking out the KDE version after the GNOME version.
+Looking into the official Fedora spins, I've decided not to try any of them, because they all ship with [dnfdragora](https://github.com/manatools/dnfdragora?tab=readme-ov-file#dnfdragora) as their only graphical software manager. I'm rather disappointed by that because I was looking forward to trying an implementation of Cinnamon other than Linux Mint, but the Fedora team must not believe it's worth the effort to configure other tools for these less commonly used distributions.
+
+I'll also say the same thing for [Nobara](https://nobaraproject.org/), because it's default package manager is only mildly better than dnfdragora. I did try the Gnome version as well and it had Gnome Software installed and configured, but it still defaulted to it's own package manager and would probably just get aggravating and cause confusion if I recommended it to someone. I also wasn't a fan of their Nobara Tweaks app, which looks like it was thrown together at a code jam and then never improved again.
 
 ## Misc
-* **Slimbook OS** was eliminated because I couldn't even get the boot-able ISO to run in the VM.
-* **PikaOS** was eliminated because I couldn't even get the boot-able ISO to run in the VM.
-* **Zorin OS** was eliminated because it is on version 6.8 of the kernel, and doesn't have a clear, graphical way to update it. Originally, this wouldn't have bothered me, but I learned how important that is in my time evaluating [Linux Mint](/software/linux/distro-hopping-2025/mint?id=kernel-issues) on the new system.
+I ruled out [Zorin OS](https://zorin.com/os/) because it runs the LTS version of the kernel, but (as far as I could tell) didn't have a way to upgrade to the HWE kernel. As I learned [installing Mint on my new computer][mint-kernel-issues], that can be a bit of a deal-breaker.
+
+Lastly, [PikaOS](https://wiki.pika-os.com/en/home) and [Slimbook OS](https://slimbook.com/en/slimbook-os) were eliminated because I wasn't able to get them running in a VM to test it out and see if there were any deal-breakers. I may revisit these later if I decide I'm not content with any of my other options, but for now I think I've got enough distros to try.
+
+[mint-kernel-issues]: /software/linux/distro-hopping-2025/mint?id=kernel-issues
