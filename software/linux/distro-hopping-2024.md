@@ -53,8 +53,6 @@ dbus-monitor --session "type=signal,interface=org.cinnamon.ScreenSaver,member=Ac
 One thing I did find a bit frustrating during the process, was that when I searched for how to run the script at startup, I'd always end up with `init.d` solutions that ended up being way more complex than I wanted to deal with.  
 Luckily, I was eventually able to find that Mint has a Startup Applications utility built in, and I was just able to use that to run the script.
 
-![TODO](../../media/linux/mint-startup-apps.png)
-
 ### Gaming
 The only real issues I've encountered with gaming have been issues with VR using the Meta Quest 3 (an issue I encountered on every distro I tried) and some issues with recognizing my 8BitDo controllers.
 
