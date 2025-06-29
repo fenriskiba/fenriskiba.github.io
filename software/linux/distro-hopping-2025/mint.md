@@ -1,4 +1,6 @@
 # Linux Mint
+!> **Important:** The exact content and phrasing of the Linux Distro Hopping docs are still pending. After I have finished using each distro and creating an initial write up, I will be doing a final pass of the whole series of pages and make any final adjustments.
+
 I started by getting a baseline on the new hardware with Linux Mint. This also gave me an opportunity to take a look at Mint again through a more critical lense.
 
 In general, I like Linux Mint as an operating system; it provides a good balance of simplicity and configuration, a comprehensive suite of tools out-of-the-box, and solid support through the Mint Forums (plus the Ubuntu base means that sites like AskUbuntu are also usually helpful). I generally don't have issues with app compatibility in Mint, with the only real exception being Davinci Resolve (which I think may have been as much about hardware support as software).

@@ -1,4 +1,6 @@
 # Disqualified Distros
+!> **Important:** The exact content and phrasing of the Linux Distro Hopping docs are still pending. After I have finished using each distro and creating an initial write up, I will be doing a final pass of the whole series of pages and make any final adjustments.
+
 While I don't plan on trying these distros for a full month, I do want to address a number of distributions I considered for this experience. I find a lot of these disappointing because my goal of being able to recommend a distro to less technical folks is a blocker on a lot of them. There are some simple tweaks and changes I could make to a few that I think would really improve the experience, but I want to maintain that ability to show someone my computer and say "yeah, it more-or-less just works".
 
 ## Ubuntu

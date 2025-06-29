@@ -1,4 +1,6 @@
 # Fedora Workstation
+!> **Important:** The exact content and phrasing of the Linux Distro Hopping docs are still pending. After I have finished using each distro and creating an initial write up, I will be doing a final pass of the whole series of pages and make any final adjustments.
+
 * Initial thoughts on Gnome
   * Disclaimer about not digging into the politics of the Gnome Foundation, only my impression of things
   * I like how simple they keep it and the high level of Gnome

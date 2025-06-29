@@ -1,4 +1,6 @@
 # Linux Distro Hopping 2025
+!> **Important:** The exact content and phrasing of the Linux Distro Hopping docs are still pending. After I have finished using each distro and creating an initial write up, I will be doing a final pass of the whole series of pages and make any final adjustments.
+
 In early 2025, I build a new desktop PC and decided to see what other Linux distros are like after using the same one for over a decade. The goal will be to spend a month with each distro before moving on to the next. I may add or remove distros based on early impressions or issues I encounter with installation.
 
 <!-- TODO: Once I'm all done, go through and make sure to make sure everything is in a consistent tense. -->
