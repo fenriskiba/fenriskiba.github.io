@@ -27,10 +27,6 @@ All that I really need to do any work for are some development tools (which I'm 
     <summary>Expand to see setup for Zsh, Git, and Podman</summary>
 
 ```bash
-# Do some updates and installs just in case (mostly unnecessary though)
-sudo apt update
-sudo apt install wget curl git -y
-
 # Install Zsh and set it as the default
 sudo apt install zsh -y
 sudo chsh -s /usr/bin/zsh $USER

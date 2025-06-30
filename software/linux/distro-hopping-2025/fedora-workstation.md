@@ -43,25 +43,24 @@ Since I'm not too fond of the out of the box experience with GNOME, I did instal
 With all that set up and some minor configurations, along with a few other minor settings, I actually really like the experience of GNOME. Which puts me in a really awkward position of wanting to stick with this and wanting to find something else that I'm a lot more comfortable recommending to people who wouldn't want to spend all that time with initial configurations.
 
 ### Dev Tools
-#### Git Credentials in libsecret
-I found a [fairly straightforward guide](https://discussion.fedoraproject.org/t/attention-git-credential-libsecret-for-storing-git-passwords-in-the-gnome-keyring-is-now-an-extra-package/18275) for setting up a Git credential manager, that basically abbreviated the setup to two simple commands:
+Similar to Mint, I did have to do some setup in a terminal for some developer tools, but it was fairly similar to what I did with Mint. Installing compilers was the same and [Zsh wasn't much different](https://fedoramagazine.org/set-zsh-fedora-system/), but [setting up Libsecret](https://discussion.fedoraproject.org/t/attention-git-credential-libsecret-for-storing-git-passwords-in-the-gnome-keyring-is-now-an-extra-package/18275) was a bit simpler and Podman was already configured to pull from Docker Hub (and Fedora Registries) out of the box.
+
+<details>
+    <summary>Expand to see setup for Zsh, Git, and Podman</summary>
 
 ```bash
-sudo dnf install git-credential-libsecret
+# Install Zsh and set it as the default
+sudo dnf install zsh
+chsh -s $(which zsh)
 
+# Install and configure Libsecret as Git's global credential manager
+sudo dnf install git-credential-libsecret
 git config --global credential.helper libsecret
 ```
 
-#### Installing ZSH
-Similarly, ZSH was a [pretty simple setup](https://fedoramagazine.org/set-zsh-fedora-system/) in only two commands:
+</details>
 
-```bash
-sudo dnf install zsh
-
-chsh -s $(which zsh)
-```
-
-Setting ZSH in VS Code: Terminal › Integrated › Default Profile: Linux
+Once that was done, I also had to configure Visual Studio Code to use ZSH when opening a terminal, which I've never had to do in Mint (or MacOS at work), but that wasn't too hard. Just had to update the `Terminal › Integrated › Default Profile: Linux` configuration in the VS Code settings to `zsh` and it started working as expected.
 
 ## Gaming
 * same issue with Steam and Steam Link as Mint when using the rpm
