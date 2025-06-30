@@ -22,6 +22,8 @@ One of the great things with Linux is the variety of options available, but that
 
 With that in mind, this is the context of how I'll be evaluating these options. If you are interesting in using my experience to help choose a Linux distro, please keep this in mind in case your use case differs from mine.
 
+<!-- TODO: Add section about my linux exp and comfort. -->
+
 ### How I Use My Computer
 These are the kinds of tasks I'll be performing with my computer that could impact my experience with each distribution.
 
