@@ -16,5 +16,6 @@
   * searched through configs, but it the navigation is so unintuitive
 * Defaulted to 32:9 aspect ratio for some reason
   * Still tries to display that way on login screen
+    * Got this working, but had to deal with even more unintuitive KDE settings that weren't super clear (what is SDDM, why can't I change anything except the picture other than by apply existing settings, why doesn't it show the picture I changed it to?)
 * was able to reuse dev setup instruction from Fedora
   * didn't have to do anything for VS Code this time
