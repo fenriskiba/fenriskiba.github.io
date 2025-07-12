@@ -20,3 +20,7 @@
       * Also got confused by having separate configs for initial login and lock screen cause it isn't well explained.
 * was able to reuse dev setup instruction from Fedora
   * didn't have to do anything for VS Code this time
+* Chrome crashing randomly without error several times
+* occasional "plasma crashed" errors when restarting or unlocking
+  * hasn't been a problem so far, but not confidence inspiring
+  * tried reporting it using the automated report tool, but it hung trying to put together the logs
