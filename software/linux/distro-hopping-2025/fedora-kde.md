@@ -24,3 +24,4 @@
 * occasional "plasma crashed" errors when restarting or unlocking
   * hasn't been a problem so far, but not confidence inspiring
   * tried reporting it using the automated report tool, but it hung trying to put together the logs
+* Print a PDF from Okular - defaults to greyscale???
