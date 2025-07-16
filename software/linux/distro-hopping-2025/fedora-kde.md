@@ -21,7 +21,8 @@
 * was able to reuse dev setup instruction from Fedora
   * didn't have to do anything for VS Code this time
 * Chrome crashing randomly without error several times
-* occasional "plasma crashed" errors when restarting or unlocking
-  * hasn't been a problem so far, but not confidence inspiring
+* occasional "discover crashed" errors when restarting or unlocking
+  * usually wasn't a problem, but not confidence inspiring
+    * One time I did have to restart to get discover to open afterwards...
   * tried reporting it using the automated report tool, but it hung trying to put together the logs
 * Print a PDF from Okular - defaults to greyscale???
