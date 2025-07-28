@@ -26,3 +26,6 @@
     * One time I did have to restart to get discover to open afterwards...
   * tried reporting it using the automated report tool, but it hung trying to put together the logs
 * Print a PDF from Okular - defaults to greyscale???
+* doesn't support changing hostname via GUI
+  * https://bugs.kde.org/show_bug.cgi?id=259285
+* Randomly shows notification switching between my two speakers when unlocking the machine
