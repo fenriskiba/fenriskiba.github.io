@@ -21,6 +21,7 @@
 * was able to reuse dev setup instruction from Fedora
   * didn't have to do anything for VS Code this time
 * Chrome crashing randomly without error several times
+  * one time wouldn't even start back up - had to restart the computer
 * occasional "discover crashed" errors when restarting or unlocking
   * usually wasn't a problem, but not confidence inspiring
     * One time I did have to restart to get discover to open afterwards...
