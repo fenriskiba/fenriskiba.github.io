@@ -1,6 +1,12 @@
 # Fedora KDE
 !> **Important:** The exact content and phrasing of the Linux Distro Hopping docs are still pending. After I have finished using each distro and creating an initial write up, I will be doing a final pass of the whole series of pages and make any final adjustments.
 
+I'll be blunt on this one: my experience with Fedora KDE was a mess. 
+
+To begin with, I'm not particularly fond of KDE as a desktop. I don't think it's a bad desktop by any stretch, but it's not for me and I don't think it's organized well enough for me to *want* to recommend to someone less technical. I think I *could* recommend it, but I'd rather recommend something where I can find the setting I want without the search bar or Google.
+
+In addition to that though, This was the buggiest operating system experience I have had in years. It really makes me wonder if Fedora KDE (which I assume is one of the larger distributions with KDE) is partially responsible for KDE's continued reputation of bugginess. I never encountered any of these bugs in Tuxedo OS, so I honestly don't believe these are a KDE issue so much as a Fedora KDE issue.
+
 ## Fedora Setup
 * Uses the old installer again (it's not bad, just not as good as what I saw in Fedora Workstation)
   * failed one randomly, retry fixed it
@@ -23,7 +29,7 @@
 * Minor Annoyance: Apply Buttons
 * Minor Annoyance: Numlock
 
-## Bugs
+## Misc Issues
 * KDE Discover
   * had an option to enable google-chrome repo, but them wouldn't show it when I searched
     * had to either install via terminal or install flatpak (I chose the terminal)
