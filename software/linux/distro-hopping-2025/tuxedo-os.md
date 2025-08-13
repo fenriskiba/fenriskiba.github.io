@@ -14,3 +14,5 @@
 * Had issues logging in one day for some reason
   * needed to restart machine
   * atm not sure why, could be either an update issue (had updates requiring restart after I got on) or a KVM issue (switched back to this machine from work laptop right before it happened)
+* one chrome crash
+  * hopefully it stays at that instead of doing what fedora kde did
