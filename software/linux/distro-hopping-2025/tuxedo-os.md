@@ -11,3 +11,6 @@
 * A lot of pre-installed apps I don't need
   * Mostly not a problem, but there were a few that were weird like Nextcloud Desktop
 * Minor Annoyance: Doesn't consistently focus login password textbox
+* Had issues logging in one day for some reason
+  * needed to restart machine
+  * atm not sure why, could be either an update issue (had updates requiring restart after I got on) or a KVM issue (switched back to this machine from work laptop right before it happened)
