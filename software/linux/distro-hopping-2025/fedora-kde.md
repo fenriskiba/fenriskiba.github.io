@@ -20,17 +20,21 @@ From there, I was able to start setting up my own customizations and application
 Aside from that, I was able to install all the rest of the applications I normally use perfectly fine and I was also happy to see that I could just reuse my [Dev Tools setup from Fedora Workstation](/software/linux/distro-hopping-2025/fedora-workstation?id=dev-tools) (not too surprising) without needing to set an extra config for VS Code.
 
 ## KDE Experience
-* KDE Discover
-  * not particularly fond of the experience, but it's *fine*
-  * Weird organization of configs
-    * Settings (mixed into the same menu as app categories???) > top-right ellipses > Configure Updates
-* Had a lot of trouble figuring out keyboard shortcuts for switching workstations
-  * searched through configs, but it the navigation is so unintuitive
-* Got confused by having separate configs for initial login and lock screen cause it isn't well explained, the login screen one didn't show any signs of changing in the setting app, and only one ever shows up when searching.
-* doesn't support changing hostname via GUI
-  * https://bugs.kde.org/show_bug.cgi?id=259285
-* Minor Annoyance: Apply Buttons
-* Minor Annoyance: Numlock
+Once I get past all the bugs and into the KDE desktop experience, it was... fine. I'm not a big fan of it overall because I find the settings to be hard to navigate, but once I've gotten through that and set up my displays and wallpapers and the like it's a perfectly good experience.
+
+Saying things are unintuitive doesn't help much without some specific examples though, so here we go:
+* In KDE Discover, I find it strange that it has a settings page mixed into the sidebar that is otherwise almost exclusively app categories. Then, there is almost nothing on that page, because you have to go to an ellipses dropdown in the top-right (that's only on that page) to actually find most of the actual settings. Why not just put the setting on that page?
+* Having separate settings pages for lock and login screens, that aren't anywhere near each other, and don't show up together when searching threw me through such a loop when trying to fix the aspect ratio bug from earlier.
+* The Login Screen configs don't make any sense.
+  * I had to just click "Apply Plasma Settings..." to get the aspect ratio issue fixed. But, what does that mean? What all does that do? There's no real info about that.
+  * When setting a background for the login screen, it lets you do that fairly easily, but shows no sign that the config took at all. You only get confirmation that anything happened after logging out and seeing it.
+* Despite being known for being super configurable, some things are randomly missing.
+  * [Change your computers hostname](https://bugs.kde.org/show_bug.cgi?id=259285) (even GNOME has that one)
+  * I couldn't find anything for "Leave numlock on". I could find some similar configs, but they either had weird effects or weren't quite the same.
+    * In general, the fact that I had to turn numlock on several times, despite never turning it off, was a bit of a pain point in general.
+* ALL THE APPLY BUTTONS!!! Don't get me wrong, I'm not saying KDE should get rid of needing to take explicit action to apply something. I still have mixed feelings about the general move towards everything taking effect the moment you select it. However, there needs to be some way to press just one Apply button when changing a bunch of settings. Make it a Settings App-wide button or something.
+
+I really like the goal the KDE team seems to have of making things as configurable as possible, while still being fairly simple out of the box, and enabling as many use cases as possible. I just think they need to rework how those configurations are organized so that it's easier to customize without needing to search the web to find the settings you're looking for.
 
 ## Misc Issues
 * KDE Discover
