@@ -12,3 +12,4 @@
   - [Disqualified Distros](/software/linux/distro-hopping-2025/disqualified.md)
   - [Linux Mint](/software/linux/distro-hopping-2025/mint.md)
   - [Fedora Workstation](/software/linux/distro-hopping-2025/fedora-workstation.md)
+  - [Fedora KDE](/software/linux/distro-hopping-2025/fedora-kde.md)
