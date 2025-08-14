@@ -19,6 +19,9 @@ I did disable the Fedora Flatpak repository in GNOME Software, because it always
 
 I'd rather have the option to just lower it on the priority list, but for now I'll just keep it disabled.
 
+?> **Update**  
+Since writing, Fedora has started to discuss [migrating to Flathub](https://blogs.gnome.org/mcatanzaro/2025/07/21/fedora-must-carefully-embrace-flathub/), which is a really great move in the right direction. They discussed the problems they have with the current state of Flathub, but present great solutions and an interest in working with Flathub to get them implemented. I don't particularly agree with some of the direction they want to go to solve these problems (I think they are too opinionated about preventing some things rather than filtering), but I think the problems they discuss are worth trying to fix and hope that their involvement will improve Flathub for everyone.
+
 ### GNOME
 #### GNOME Opinionation Rant
 ?> **Note:** A lot of this isn't super relevant to my experience with Fedora specifically, and while I do think Fedora could fix these problems the way Ubuntu has, it shouldn't necessarily be their responsibility to do so. That being said, it does play into how comfortably I can recommend Fedora to others, since I think these problems do impact the average user, and less technical users are going to have a hard time adapting to and living with the decisions of the GNOME Foundation and I think it's important to understand and address the root cause of those problems.  
