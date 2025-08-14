@@ -37,13 +37,9 @@ Saying things are unintuitive doesn't help much without some specific examples t
 I really like the goal the KDE team seems to have of making things as configurable as possible, while still being fairly simple out of the box, and enabling as many use cases as possible. I just think they need to rework how those configurations are organized so that it's easier to customize without needing to search the web to find the settings you're looking for.
 
 ## Misc Issues
-* KDE Discover
-  * occasional "discover crashed" errors when restarting or unlocking
-    * usually wasn't a problem, but not confidence inspiring
-      * One time I did have to restart to get discover to open afterwards...
-    * tried reporting it using the automated report tool, but it hung trying to put together the logs
-* Restarted my system in response to Discover being slow to update (thought it might be another issue, but was just being slow)
-  * didn't bring anything back up afterwards, so I had to hard restart my machine
-* Chrome crashing randomly without error several times
-  * one time wouldn't even start back up - had to restart the computer
-* Randomly shows notification switching between my two speakers when unlocking the machine
+In addition to the issues during setup and my general pain points with how KDE is supposed to work, I did encounter some bugs during my regular daily use. I don't currently believe that any of these are KDE being buggy so much as poor implementation on Fedora's part, because I haven't encountered them in Tuxedo OS at all.
+
+Discover was especially buggy. Almost every time I unlocked my computer, I was greeted with a notification that Discover had crashed. Most of the time, the notifications weren't a problem, and I could still open Discover and everything would be working fine. However, there was one time that I had to completely restart the machine to get a Discover window to open.  
+It was also rather annoying that one time when I tried reporting these crashes using automatic reporting, that window ended up hanging on collecting the logs to send.
+
+Aside from that, Google Chrome would also crash randomly without any error getting shown. The window would just disappear and I'd have to restart whatever I was doing. Similar to Discover, there was also one time where I couldn't do anything to get the window to open again after it crashed and had to fully restart my system.
