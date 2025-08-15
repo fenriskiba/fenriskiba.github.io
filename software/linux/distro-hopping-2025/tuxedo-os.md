@@ -15,5 +15,6 @@
   * needed to restart machine
   * atm not sure why, could be either an update issue (had updates requiring restart after I got on) or a KVM issue (switched back to this machine from work laptop right before it happened)
   * 8/15 update: definitely from the KVM, was able to login, it just didn't show that any characters were being typed
+    * Lock screen also didn't turn off monitor and still didnt show typed characters when locked after that until after restart
 * one chrome crash
   * hopefully it stays at that instead of doing what fedora kde did
