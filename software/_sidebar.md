@@ -14,3 +14,4 @@
   - [Fedora Workstation](/software/linux/distro-hopping-2025/fedora-workstation.md)
   - [Fedora KDE](/software/linux/distro-hopping-2025/fedora-kde.md)
   - [Tuxedo OS](/software/linux/distro-hopping-2025/tuxedo-os.md)
+  - [openSUSE Tumbleweed](/software/linux/distro-hopping-2025/opensuse.md)
