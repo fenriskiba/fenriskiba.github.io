@@ -24,6 +24,11 @@ I'm not too fond of the default Ubuntu experience with the dock on the side, but
 
 Beyond all that, I like the GNOME experience and Ubuntu provides it with a good mix of stability and modern hardware support with the Linux HWE Kernel.
 
+## Pop!_OS
+I was actually planning to try out Pop!_OS, but that was based on System 76's plan to have two full releases of their new Cosmic desktop in 2025. Unfortunately, at the time of writing (early September 2025) they are rather late on that plan and still in alpha testing.
+
+I'd rather not form any opinions of Pop!_OS based on a desktop environment that's going away (hopefully soon). I am really interested in what Cosmic is going to be, so I will likely try it out once it's had a release or two. Unfortunately, that just wont be a part of this round of distro hopping.
+
 ## Arch Based Distros
 The Arch based distro I hear about most is [Manjaro](https://manjaro.org/), so I'll address that first. As far as I can tell, the Manjaro project is completely mismanaged, so I didn't even bother trying it in a VM. Repeated issues with [SSL certificates expiring](https://forum.manjaro.org/t/software-manjaro-org-expired-certificate-again/119696) (once is one thing, but it keeps happening), [DDoSing the AUR](https://gitlab.manjaro.org/applications/pamac/-/issues/1017), [issues playing nice with others](https://blog.brixit.nl/why-i-left-pine64/); and that's just what I found in 5 minutes of searching. It doesn't seem like this is going to be a stable or trustworthy experience.
 
