@@ -13,3 +13,4 @@
   - [Linux Mint](/software/linux/distro-hopping-2025/mint.md)
   - [Fedora Workstation](/software/linux/distro-hopping-2025/fedora-workstation.md)
   - [Fedora KDE](/software/linux/distro-hopping-2025/fedora-kde.md)
+  - [Tuxedo OS](/software/linux/distro-hopping-2025/tuxedo-os.md)
