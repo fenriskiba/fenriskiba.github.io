@@ -12,7 +12,7 @@ Obviously, I can't try out every distribution or even every currently maintained
 * [Fedora Workstation](https://fedoraproject.org/workstation/)
 * [Fedora KDE](https://fedoraproject.org/spins/kde)
 * [Tuxedo OS](https://www.tuxedocomputers.com/en/TUXEDO-OS_1.tuxedo)
-* [openSUSE Tumbleweed](https://www.opensuse.org/#Tumbleweed)
+* ~~[openSUSE Tumbleweed](https://www.opensuse.org/#Tumbleweed)~~
 * ~~[Pop!_OS](https://pop.system76.com/)~~
 
 You can also read about a few other distributions I considered but ultimately decided against in the [Disqualified Distros page](/software/linux/distro-hopping-2025/disqualified.md).

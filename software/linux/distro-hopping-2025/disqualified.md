@@ -29,6 +29,13 @@ I was actually planning to try out Pop!_OS, but that was based on System 76's pl
 
 I'd rather not form any opinions of Pop!_OS based on a desktop environment that's going away (hopefully soon). I am really interested in what Cosmic is going to be, so I will likely try it out once it's had a release or two. Unfortunately, that just wont be a part of this round of distro hopping.
 
+## openSUSE
+I was also planning to try openSUSE Tumbleweed, but wasn't able to easily connect it to my printer or my SMB network drive so it has been disqualified.
+
+The only real note I have from my extremely short lived experience with it is that the installer for it has a very unintuitive drive partitioning menu. It's default made me think that it was going to erase the drive and install cleanly, but it was actually trying to install alongside my previous OS and I needed to manually set it to wipe everything.
+
+Aside from that and the fact that connections that are simple on other systems seemed to require additional work here, it was a fairly vanilla GNOME setup, and you can see [my thoughts on that in the Fedora write-up](/software/linux/distro-hopping-2025/fedora-workstation?id=gnome).
+
 ## Arch Based Distros
 The Arch based distro I hear about most is [Manjaro](https://manjaro.org/), so I'll address that first. As far as I can tell, the Manjaro project is completely mismanaged, so I didn't even bother trying it in a VM. Repeated issues with [SSL certificates expiring](https://forum.manjaro.org/t/software-manjaro-org-expired-certificate-again/119696) (once is one thing, but it keeps happening), [DDoSing the AUR](https://gitlab.manjaro.org/applications/pamac/-/issues/1017), [issues playing nice with others](https://blog.brixit.nl/why-i-left-pine64/); and that's just what I found in 5 minutes of searching. It doesn't seem like this is going to be a stable or trustworthy experience.
 
