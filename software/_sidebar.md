@@ -14,3 +14,4 @@
   - [Fedora Workstation](/software/linux/distro-hopping-2025/fedora-workstation.md)
   - [Fedora KDE](/software/linux/distro-hopping-2025/fedora-kde.md)
   - [Tuxedo OS](/software/linux/distro-hopping-2025/tuxedo-os.md)
+  - [Tie Breaker Round](/software/linux/distro-hopping-2025/tie-breaker.md)
