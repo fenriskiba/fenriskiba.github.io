@@ -10,8 +10,11 @@
 - **Linux Distro Hopping**
   - [Introduction](/software/linux/distro-hopping-2025/)
   - [Disqualified Distros](/software/linux/distro-hopping-2025/disqualified.md)
+  - [Desktop Environments](/software/linux/distro-hopping-2025/desktops.md)
+  - [Distro Reviews](/software/linux/distro-hopping-2025/distro-reviews.md)
+  - [Tie Breaker Round](/software/linux/distro-hopping-2025/tie-breaker.md)
+- **Linux Distro Hopping (old)**
   - [Linux Mint](/software/linux/distro-hopping-2025/mint.md)
   - [Fedora Workstation](/software/linux/distro-hopping-2025/fedora-workstation.md)
   - [Fedora KDE](/software/linux/distro-hopping-2025/fedora-kde.md)
   - [Tuxedo OS](/software/linux/distro-hopping-2025/tuxedo-os.md)
-  - [Tie Breaker Round](/software/linux/distro-hopping-2025/tie-breaker.md)
