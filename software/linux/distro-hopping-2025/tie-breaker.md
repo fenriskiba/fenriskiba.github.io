@@ -16,6 +16,8 @@ During the tie-breaker round, I'll start with Fedora and try getting a few thing
   * I may not actually test this on a real streaming platform, but just on a Discord server.
 * Running Android apps on [Waydroid](https://waydro.id/).
   * This is not going to be a deal-breaker for the tie breaker as I don't have a use case for it and the biggest blocker is Wayland support, which the Mint team is working on, but I do want to try it out.
+* Video editing with [DaVinci Resolve](https://www.blackmagicdesign.com/products/davinciresolve).
+  * Similar to Waydroid, this one will not be a deal-breaker as I don't need it, but I have heard it can be finicky, so I'd like to get some first hand experience trying to set it up.
 
 After spending that time with Fedora and attempting to get those to work, I'll move over to Mint and try everything I was able to get working there. If I can get everything that works in Fedora working on Mint, then I have feature parity on most of the tools I care about Mint will win this tie-breaker. If I can't get any of it working on Fedora, that will also count as an automatic win for Linux Mint.
 
