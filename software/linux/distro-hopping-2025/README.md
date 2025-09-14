@@ -1,19 +1,35 @@
 # Linux Distro Hopping 2025
 !> **Important:** The exact content and phrasing of the Linux Distro Hopping docs are still pending. After I have finished using each distro and creating an initial write up, I will be doing a final pass of the whole series of pages and make any final adjustments.
 
-In early 2025, I build a new desktop PC and decided to see what other Linux distros are like after using the same one for over a decade. The goal will be to spend a month with each distro before moving on to the next. I may add or remove distros based on early impressions or issues I encounter with installation.
+In early 2025, I build a new desktop PC and decided to see what other Linux distros are like after using the same one for over a decade. To do so, I decided to hop around a few distributions and stick on them for about a month each to see how they performed for extended use. I figured a month would be enough time to really get a good feel for the full scope of the OS rather than just an initial impression.
 
-<!-- TODO: Once I'm all done, go through and make sure to make sure everything is in a consistent tense. -->
+## What I Want In a Distro
+Before I got started, I figured it would be good to review what I want out of a distribution, so that I can quickly [disqualify any distributions](/software/linux/distro-hopping-2025/disqualified) that don't meet my needs as well as to give some clear criteria for what I'm looking for. Obviously, there are going to be a lot of subjective elements as well, so this isn't a perfect grading scale, but it gave me a good starting point to evaluate these distros.
 
-## Distros I plan to try
-Obviously, I can't try out every distribution or even every currently maintained distro. For now, I've gotten it down the the following distros, though I may add to the list as time goes on and I learn more about the current state of the linux landscape.
+### Linux Experience
+
+### My Hardware Setup
+
+### How I Use My Computer
+
+### Recommending Linux to Others
+
+#### Disclaimers On My Recommendations
+* Hardware Support
+  * Especially NVIDIA
+* Accessibility
+
+## Distros I Tried
 
 * [Linux Mint](https://linuxmint.com/) (baseline)
 * [Fedora Workstation](https://fedoraproject.org/workstation/)
 * [Fedora KDE](https://fedoraproject.org/spins/kde)
 * [Tuxedo OS](https://www.tuxedocomputers.com/en/TUXEDO-OS_1.tuxedo)
-* ~~[openSUSE Tumbleweed](https://www.opensuse.org/#Tumbleweed)~~
-* ~~[Pop!_OS](https://pop.system76.com/)~~
+* ~~[openSUSE Tumbleweed](https://www.opensuse.org/#Tumbleweed)~~ - Last minute disqualification due to printer/NAS support.
+* ~~[Pop!_OS](https://pop.system76.com/)~~ - Last minute disqualification due to COSMIC delays.
+
+# LEGACY
+## Distros I Tried
 
 You can also read about a few other distributions I considered but ultimately decided against in the [Disqualified Distros page](/software/linux/distro-hopping-2025/disqualified.md).
 
@@ -75,3 +91,5 @@ I'm not necessarily trying to find a "one size fits all" distribution, so much a
 
 #### Accessibility Tools
 I do want to consider accessibility when I think about being able to recommend Linux to others, in case someone I recommend things to have any kind of visual impairment or other accessibility needs. However, in light of [a recent article about the state of accessibility tools on Linux](https://fireborn.mataroa.blog/blog/i-want-to-love-linux-it-doesnt-love-me-back-post-1-built-for-control-but-not-for-people/), it's hard for me to really recommend Linux to those with accessibility needs. That being said, I don't want to just leave it at "oh well, can't be helped", so moving forward I will at least verify that each distro has Orca pre-installed (even if it isn't available for the distro installation). Any distro that doesn't will be disqualified at that point. That way I can at least say that the distro I ultimate choose is keeping up with the bare minimum.
+
+<!-- TODO: Add section for known gaps like Nvidia drivers. Probably can move A11y tools into this section as well. -->
