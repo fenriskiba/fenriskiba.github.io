@@ -3,10 +3,17 @@
 
 In early 2025, I build a new desktop PC and decided to see what other Linux distros are like after using the same one for over a decade. To do so, I decided to hop around a few distributions and stick on them for about a month each to see how they performed for extended use. I figured a month would be enough time to really get a good feel for the full scope of the OS rather than just an initial impression.
 
+[toc](toc.md ':include')
+
 ## What I Want In a Distro
-Before I got started, I figured it would be good to review what I want out of a distribution, so that I can quickly [disqualify any distributions](/software/linux/distro-hopping-2025/disqualified) that don't meet my needs as well as to give some clear criteria for what I'm looking for. Obviously, there are going to be a lot of subjective elements as well, so this isn't a perfect grading scale, but it gave me a good starting point to evaluate these distros.
+Before I got started, I figured it would be good to review the context I'll be evaluating these distros in and what I want out of a distribution. That made it easy to quickly [disqualify any distributions](/software/linux/distro-hopping-2025/disqualified) that don't meet my needs as well as to give some clear criteria for what I'm looking for in an operating system. Obviously, there are going to be a lot of subjective elements as well, so this isn't a perfect grading scale, but it gave me a good starting point to evaluate these distros.
 
 ### Linux Experience
+I've been using Linux for well over a decade, both as a personal desktop operating system (primarily Linux Mint) and professionally (primarily in containers). While I am comfortable in a terminal, I'd rather use a GUI for use cases I'm less familiar with or that require more complex setup. I also understand some general concepts behind the structure of a Linux distro, but I am by no means an expert and haven't really spent the time to understand the details of things like X11 vs Wayland or the audio stack (past understanding that it's a bit of a mess).
+
+I started using Linux Mint in college as a way to learn, get a bit better battery life from lower resource usage, and to have virtual workspaces while on my laptop. I found that, while it wasn't as smooth of an experience as it would be today, a lot of things seemed simpler and a bit more stable. Updates were more reliable, I didn't need to fight to get my printer to work, and developing simple C++ programs for classes took a lot less setup. Since then, I've only found Windows to get buggier and full of more problems and Linux Mint (and really the whole Linux ecosystem) has become more reliable and easy to use.
+
+After Proton made Linux gaming more viable and I found out that Windows 11 wasn't allowing offline accounts anymore, I decided it was time to just fully switch over to Linux and moved my desktop over as well. Since then, I haven't really encountered any problems using my computer or doing what I want with it.
 
 ### My Hardware Setup
 
