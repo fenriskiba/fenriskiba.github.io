@@ -64,7 +64,7 @@ Looking into the official Fedora spins, I've decided not to try any of them, bec
 I'll also say the same thing for [Nobara](https://nobaraproject.org/), because it's default package manager is only mildly better than dnfdragora. I did try the GNOME version as well and it had GNOME Software installed and configured, but it still defaulted to it's own package manager and would probably just get aggravating and cause confusion if I recommended it to someone. I also wasn't a fan of their Nobara Tweaks app, which looks like it was thrown together at a code jam and then never improved again.
 
 ## Misc
-I ruled out [Zorin OS](https://zorin.com/os/) because it runs the LTS version of the kernel, but (as far as I could tell) didn't have a way to upgrade to the HWE kernel. As I learned [installing Mint on my new computer][mint-kernel-issues], that can be a bit of a deal-breaker.
+I ruled out [Zorin OS](https://zorin.com/os/) and [Debian](https://www.debian.org/) because they runs the LTS version of the kernel, but (as far as I could tell) didn't have a way to upgrade to the HWE kernel. As I learned [installing Mint on my new computer][mint-kernel-issues], that can be a bit of a deal-breaker.
 
 Lastly, [PikaOS](https://wiki.pika-os.com/en/home) and [Slimbook OS](https://slimbook.com/en/slimbook-os) were eliminated because I wasn't able to get them running in a VM to test it out and see if there were any deal-breakers. I may revisit these later if I decide I'm not content with any of my other options, but for now I think I've got enough distros to try.
 
