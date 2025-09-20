@@ -23,3 +23,7 @@ After spending that time with Fedora and attempting to get those to work, I'll m
 
 If Mint wins the first tie-breaker, there will be a second tie-breaker round on my laptop. I use a [Framework laptop](https://frame.work/) and want to upgrade it the the latest mainboard. Once I've performed the upgrade, if Mint won the previous tie-breaker, then I will start with Linux Mint on the new hardware. If Mint works and I don't run into any issues, then it will be a complete win for Mint and I won't move onto Fedora, since Fedora has official support from the Framework team on most of their laptops.  
 If I run into any kinds of issues with Mint not supporting the new hardware, then I'll move over to Fedora where I am much more confident that everything will work.
+
+## Notes
+* Tried using Elden Ring for GPU testing, but it wouldn't run
+  * I remember it working on Mint, so I'll try again right before switching and then try it on Mint
