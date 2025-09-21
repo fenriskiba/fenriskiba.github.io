@@ -27,5 +27,6 @@ If I run into any kinds of issues with Mint not supporting the new hardware, the
 ## Notes
 * Tried using Elden Ring for GPU testing, but it wouldn't run
   * I remember it working on Mint, so I'll try again right before switching and then try it on Mint
-* Waydroid setup was super simple, but quickly uninstalled it due to issues with google play protect
-  * waydroid did seem to have a solution for this, but I didn't care enough to try it and just uninstalled
+* Waydroid setup was super simple, but quickly uninstalled it due to issues with google play certification leading to an annoying alert noise
+  * waydroid did have a solution to this which worked fine: https://docs.waydro.id/faq/google-play-certificatio
+  * Need to be careful about Waydroid, since it keeps running in the background with no sign of doing so and uses up 1-2GB of memory
