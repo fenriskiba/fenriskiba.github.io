@@ -30,3 +30,6 @@ If I run into any kinds of issues with Mint not supporting the new hardware, the
 * Waydroid setup was super simple, but quickly uninstalled it due to issues with google play certification leading to an annoying alert noise
   * waydroid did have a solution to this which worked fine: https://docs.waydro.id/faq/google-play-certificatio
   * Need to be careful about Waydroid, since it keeps running in the background with no sign of doing so and uses up 1-2GB of memory
+* Davinci Resolve apparently has been broken on Fedora since Fedora 40 (currently on Fedora 42)
+  * https://forum.blackmagicdesign.com/viewtopic.php?f=21&t=199180
+  * Didn't care enough to try any of the workaround, since Kdenlive exists in case I ever do need to do any video editing
