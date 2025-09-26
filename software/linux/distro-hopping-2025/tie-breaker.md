@@ -33,3 +33,4 @@ If I run into any kinds of issues with Mint not supporting the new hardware, the
 * Davinci Resolve apparently has been broken on Fedora since Fedora 40 (currently on Fedora 42)
   * https://forum.blackmagicdesign.com/viewtopic.php?f=21&t=199180
   * Didn't care enough to try any of the workaround, since Kdenlive exists in case I ever do need to do any video editing
+* Unexpected finding: GNOME Software is better for downloaded flatpaks (ie OrcaSlicer)
