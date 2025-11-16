@@ -1,5 +1,13 @@
+<!-- omit from toc -->
 # Desktop Environments
 !> **Important:** The current contents of this page are based on my 2025 attempt at distro hopping and will get updated as I further evaluate and work through the 2026 effort.
+
+**Table of Contents:**
+- [Cinnamon](#cinnamon)
+- [GNOME](#gnome)
+  - [GNOME Opinionation Rant](#gnome-opinionation-rant)
+  - [GNOME Customizations](#gnome-customizations)
+- [KDE Plasma](#kde-plasma)
 
 ## Cinnamon
 
@@ -39,6 +47,3 @@ Since I'm not too fond of the out of the box experience with GNOME, I did instal
 With all that set up and some minor configurations, along with a few other minor settings, I actually really like the experience of GNOME. Which puts me in a really awkward position of wanting to stick with this and wanting to find something else that I'm a lot more comfortable recommending to people who wouldn't want to spend all that time with initial configurations.
 
 ## KDE Plasma
-
-## Linux Distro Hopping Pages
-[toc](toc.md ':include')

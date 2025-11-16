@@ -8,7 +8,3 @@ Since I don't want my external struggles and my learning process to color the fi
 
 **Table of Contents:**
 - [Linux Distro Hopping Pages](#linux-distro-hopping-pages)
-
-
-## Linux Distro Hopping Pages
-[toc](toc.md ':include')
