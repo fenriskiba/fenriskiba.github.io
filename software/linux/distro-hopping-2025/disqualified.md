@@ -25,6 +25,8 @@ I'm not too fond of the default Ubuntu experience with the dock on the side, but
 Beyond all that, I like the GNOME experience and Ubuntu provides it with a good mix of stability and modern hardware support with the Linux HWE Kernel.
 
 ## Pop!_OS
+?>**Note:** My intended [Tie Breaker Round](/software/linux/distro-hopping-2025/tie-breaker.md) is taking longer than expected due to external issues taking up my time and energy, so I am planning to rework it and include Pop!_OS once they have their first full Cosmic release.
+
 I was actually planning to try out Pop!_OS, but that was based on System 76's plan to have two full releases of their new Cosmic desktop in 2025. Unfortunately, at the time of writing (early September 2025) they are rather late on that plan and still in alpha testing.
 
 I'd rather not form any opinions of Pop!_OS based on a desktop environment that's going away (hopefully soon). I am really interested in what Cosmic is going to be, so I will likely try it out once it's had a release or two. Unfortunately, that just wont be a part of this round of distro hopping.
@@ -64,6 +66,8 @@ Looking into the official Fedora spins, I've decided not to try any of them, bec
 I'll also say the same thing for [Nobara](https://nobaraproject.org/), because it's default package manager is only mildly better than dnfdragora. I did try the GNOME version as well and it had GNOME Software installed and configured, but it still defaulted to it's own package manager and would probably just get aggravating and cause confusion if I recommended it to someone. I also wasn't a fan of their Nobara Tweaks app, which looks like it was thrown together at a code jam and then never improved again.
 
 ## Misc
+?>**Note:** Since writing this, I have done some additional research and found that Zorin does use an HWE kernel and I was confused as a result of some previous experiences with Linux Mint kernel upgrades. I am planning to rework my [Tie Breaker Round](/software/linux/distro-hopping-2025/tie-breaker.md) anyway, so I will use that as an opportunity to include Zorin in my final evaluation.
+
 I ruled out [Zorin OS](https://zorin.com/os/) and [Debian](https://www.debian.org/) because they runs the LTS version of the kernel, but (as far as I could tell) didn't have a way to upgrade to the HWE kernel. As I learned [installing Mint on my new computer][mint-kernel-issues], that can be a bit of a deal-breaker.
 
 Lastly, [PikaOS](https://wiki.pika-os.com/en/home) and [Slimbook OS](https://slimbook.com/en/slimbook-os) were eliminated because I wasn't able to get them running in a VM to test it out and see if there were any deal-breakers. I may revisit these later if I decide I'm not content with any of my other options, but for now I think I've got enough distros to try.
