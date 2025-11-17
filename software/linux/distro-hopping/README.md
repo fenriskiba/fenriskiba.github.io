@@ -18,6 +18,8 @@ Since I don't want my external struggles and my learning process to color the fi
   - [Distros I'll Try](#distros-ill-try)
 
 ## The Criteria
+
+
 ### My Use Case
 * I don't mind some customization, but I want to keep it fairly light and I'd like to keep it to using graphical tools if I can.
   * I'm all for adding a few extensions so that I can use my computer the way I like, but I'd like it to be a good experience out of the box with just a few small tweaks to suite my preferences.
