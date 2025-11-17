@@ -18,7 +18,7 @@ Since I don't want my external struggles and my learning process to color the fi
   - [Distros I'll Try](#distros-ill-try)
 
 ## The Criteria
-
+The first thing that's going to be really important for this is to understand what I'm looking for. Most distributions are good for the right use case, so understanding my use case is important which distro will be good for me.
 
 ### My Use Case
 * I don't mind some customization, but I want to keep it fairly light and I'd like to keep it to using graphical tools if I can.
@@ -47,11 +47,11 @@ Since I don't want my external struggles and my learning process to color the fi
 **Note:** I'd also put in VR, but don't want hardware to be a confounding factor (I have a meta quest 3, which seems to be less compatible than other options). May look into it more once Steam Frame is out.
 
 ### Recommending Linux To Others
-In addition to my own use case, I'd also like something that I can recommend to anyone new to Linux. Being able to say "I use this everyday, it's really stable and it just works" is a lot more powerful than saying "yeah, my setup is really complicated, but it doesn't need to be". Being able to give people a clear demo on my own personal machine and say "no, I didn't need a terminal to get any of this working" is a big thing that could help anyone interested in switching to Linux but is anxiously thinking that you need to be technical to use it.
+In addition to my own use case, I'd also like something that I can recommend to anyone new to Linux. Being able to say "I use this everyday, it's really stable and it just works" is a lot more powerful than saying "yeah, my setup is really complicated, but it doesn't need to be" when trying to convince someone to try new things. Being able to give people a clear demo on my own personal machine and say "no, I didn't need a terminal to get any of this working" is a big thing that could help anyone interested in switching to Linux but is anxiously thinking that you need to be technical to use it.
 
 I'm not necessarily trying to find a "one size fits all" distribution, so much as one that I think isn't going to be especially uncomfortable for anyone open to making the switch to Linux and that doesn't require any significant technical experience to use.
 
-?>**Note:** The biggest exception to this is going to be that I am not qualified to evaluate accessibility tools. Given [a recent article about the state of accessibility on Linux](https://fireborn.mataroa.blog/blog/i-want-to-love-linux-it-doesnt-love-me-back-post-1-built-for-control-but-not-for-people/), I am not particularly comfortable making any recommendation to anyone with accessibility needs without a larger conversation about their needs, their technical ability, and the compromises they are willing to accept. Even then, I would need to do a lot of research and would need to make clear that I don't have any first hand experience with these tools.
+?>**Note:** The biggest exception to this is going to be that I am *not* qualified to evaluate accessibility tools. Given [a recent article about the state of accessibility on Linux](https://fireborn.mataroa.blog/blog/i-want-to-love-linux-it-doesnt-love-me-back-post-1-built-for-control-but-not-for-people/), I am not particularly comfortable making any recommendation to anyone with accessibility needs without a larger conversation about their needs, their technical ability, and the compromises they are willing to accept. Even then, I would need to do a lot of research and would need to make clear that I don't have any first hand experience with these tools.
 
 ## The Plan
 ### What I've Already Done
