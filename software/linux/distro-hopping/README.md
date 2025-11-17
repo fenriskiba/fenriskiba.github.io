@@ -7,12 +7,18 @@ Unfortunately, due to external issues taking up my time and energy, Cosmic deskt
 Since I don't want my external struggles and my learning process to color the final results of this, I'm going to be compiling the information that I think is relevant and archive the rest of what I had written for 2025. I'm also going to limit the scope of some of what I want to try, not because there are other limitations on what I can try and on my areas of expertise, and I'd rather not let those limitations present any false impressions anyone reading this may have.
 
 **Table of Contents:**
-- [My Use Case](#my-use-case)
-- [Other Software I'll Try](#other-software-ill-try)
-- [Recommending Linux To Others](#recommending-linux-to-others)
-- [Distros I'll Try](#distros-ill-try)
+- [The Criteria](#the-criteria)
+  - [My Use Case](#my-use-case)
+  - [Other Software I'll Try](#other-software-ill-try)
+  - [Recommending Linux To Others](#recommending-linux-to-others)
+- [The Plan](#the-plan)
+  - [What I've Already Done](#what-ive-already-done)
+  - [Some Final Pre-Testing](#some-final-pre-testing)
+  - [Distro Hopping](#distro-hopping)
+  - [Distros I'll Try](#distros-ill-try)
 
-## My Use Case
+## The Criteria
+### My Use Case
 * I don't mind some customization, but I want to keep it fairly light and I'd like to keep it to using graphical tools if I can.
   * I'm all for adding a few extensions so that I can use my computer the way I like, but I'd like it to be a good experience out of the box with just a few small tweaks to suite my preferences.
   * While I am comfortable in a terminal, I prefer being able to honestly tell people that you don't need it for a good experience with Linux.
@@ -27,7 +33,7 @@ Since I don't want my external struggles and my learning process to color the fi
   * Go and Node development
 * I'd like to have some remote connectivity for my laptop and a potential thin client I'm considering setting up.
 
-## Other Software I'll Try
+### Other Software I'll Try
 * Streaming with OBS (both PC games and console games).
   * I don't really have a lot of interest in steaming myself, but I am interested in the technology and would like to try learning it, and this seems like a good opportunity.
   * I may not actually test this on a real streaming platform, but just on a Discord server.
@@ -38,14 +44,35 @@ Since I don't want my external struggles and my learning process to color the fi
 
 **Note:** I'd also put in VR, but don't want hardware to be a confounding factor (I have a meta quest 3, which seems to be less compatible than other options). May look into it more once Steam Frame is out.
 
-## Recommending Linux To Others
+### Recommending Linux To Others
 In addition to my own use case, I'd also like something that I can recommend to anyone new to Linux. Being able to say "I use this everyday, it's really stable and it just works" is a lot more powerful than saying "yeah, my setup is really complicated, but it doesn't need to be". Being able to give people a clear demo on my own personal machine and say "no, I didn't need a terminal to get any of this working" is a big thing that could help anyone interested in switching to Linux but is anxiously thinking that you need to be technical to use it.
 
 I'm not necessarily trying to find a "one size fits all" distribution, so much as one that I think isn't going to be especially uncomfortable for anyone open to making the switch to Linux and that doesn't require any significant technical experience to use.
 
 ?>**Note:** The biggest exception to this is going to be that I am not qualified to evaluate accessibility tools. Given [a recent article about the state of accessibility on Linux](https://fireborn.mataroa.blog/blog/i-want-to-love-linux-it-doesnt-love-me-back-post-1-built-for-control-but-not-for-people/), I am not particularly comfortable making any recommendation to anyone with accessibility needs without a larger conversation about their needs, their technical ability, and the compromises they are willing to accept. Even then, I would need to do a lot of research and would need to make clear that I don't have any first hand experience with these tools.
 
-## Distros I'll Try
+## The Plan
+### What I've Already Done
+* Tried with all the same distros except for Zorin (due to a misunderstanding about kernel versions) and Pop (due to Cosmic delays)
+* Got a good baseline for desktop environments
+* Fedora went well, but mixed feelings about GNOME
+* Ran into issues with Mint that should either have been resolved via HWE kernel or disabling Steam Client GPU accel
+* Ran into bugs on both KDE distros
+  * I don't think any of the bugs were from KDE
+  * Giving them a second chance in case it was a bad install
+
+### Some Final Pre-Testing
+* Initial tests are being run on Fedora for a baseline, since it's the most up to date (want to see if that actually matters)
+* Tests include Steam Link, Remote Desktop, and [Other Software](#other-software-ill-try)
+
+### Distro Hopping
+* Distros I've tried (minus Fedora Workstation), I will just run through some last minute tests.
+  * Mint will run tests + 1 week of running to test Steam issues
+  * Fedora KDE and Tuxedo will be given two weeks each, to see if bugs were just a bad install
+* Zorin and Pop will each be given 4 weeks
+* Final test at the end: buy new Framework mainboard, and test distro on laptop
+
+### Distros I'll Try
 * [Linux Mint](https://linuxmint.com/) (baseline)
 * [Fedora Workstation](https://fedoraproject.org/workstation/)
 * [Fedora KDE](https://fedoraproject.org/spins/kde)
