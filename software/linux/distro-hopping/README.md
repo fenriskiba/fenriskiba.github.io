@@ -75,7 +75,7 @@ I'm not necessarily trying to find a "one size fits all" distribution, so much a
 * Final test at the end: buy new Framework mainboard, and test distro on laptop
 
 ### Distros I'll Try
-* [Linux Mint](https://linuxmint.com/) (baseline)
+* [Linux Mint](https://linuxmint.com/)
 * [Fedora Workstation](https://fedoraproject.org/workstation/)
 * [Fedora KDE](https://fedoraproject.org/spins/kde)
 * [Tuxedo OS](https://www.tuxedocomputers.com/en/TUXEDO-OS_1.tuxedo)
