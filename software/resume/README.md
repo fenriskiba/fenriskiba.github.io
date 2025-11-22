@@ -1,11 +1,11 @@
 # Grant I Carroll
-***Contact information will be published only when I am actively looking for a new position. While I am generally open to learning about new opportunities, I do not wish to receive unsolicited offers. Thank you.***
+<!-- ***Contact information will be published only when I am actively looking for a new position. While I am generally open to learning about new opportunities, I do not wish to receive unsolicited offers. Thank you.*** -->
 
-<!-- [ [fenriskiba.github.io][site] ] · [ [fakeaddress@gmail.com][email] ] · [ [(555) 555-5555][phone] ]
+[ [fenriskiba.github.io][site] ] · [ [gcarroll2603@pm.me][email] ] · [ [(216) 534-9599][phone] ]
 
 [site]: https://fenriskiba.github.io
-[email]: mailto:fakeaddress@gmail.com
-[phone]: tel:+5555555555 -->
+[email]: mailto:gcarroll2603@pm.me
+[phone]: tel:+2165349599
 
 Software engineer with experience in engineering leadership, Agile development, and developing software for a wide variety of platforms. Experienced with container technologies, microservice architectures, and open source contributions.
 
@@ -65,7 +65,7 @@ Bachelor of Science in Computer Science
 Graduated May 2016
 
 ## Skills
-<u>*Languages:*</u> Javascript/Typescript, Go, Python, SQL, Dockerfiles, Bash Scripts, Markdown  
+<u>*Languages:*</u> Go, Javascript/Typescript, Python, SQL, Dockerfiles, Bash Scripts, Markdown, YAML  
 <u>*Frameworks/Libraries:*</u> ReactJS, Go Fiber, Templ, GORM, Casbin, Sarama, Docsify  
 <u>*Infrastructure/DevOps:*</u> Linux, Redhat OpenShift, Github Actions, Apache Kafka (Producers), Azure DevOps, Splunk  
 <u>*Development Software:*</u> Docker/Podman, Git, Visual Studio Code, Draw.io
