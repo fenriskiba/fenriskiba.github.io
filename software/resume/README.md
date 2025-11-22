@@ -1,10 +1,10 @@
 # Grant I Carroll
 <!-- ***Contact information will be published only when I am actively looking for a new position. While I am generally open to learning about new opportunities, I do not wish to receive unsolicited offers. Thank you.*** -->
 
-[ [fenriskiba.github.io][site] ] · [ [gcarroll2603@gmail.com][email] ] · [ [(216) 534-9599][phone] ]
+[ [fenriskiba.github.io][site] ] · [ [gcarroll2603@pm.me][email] ] · [ [(216) 534-9599][phone] ]
 
 [site]: https://fenriskiba.github.io
-[email]: mailto:gcarroll2603@gmail.com
+[email]: mailto:gcarroll2603@pm.me
 [phone]: tel:+2165349599
 
 Software engineer with experience in engineering leadership, Agile development, and developing software for a wide variety of platforms. Experienced with container technologies, microservice architectures, and open source contributions.
