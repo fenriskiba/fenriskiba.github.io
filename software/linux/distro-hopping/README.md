@@ -12,6 +12,10 @@ Since I don't want my external struggles and my learning process to color the fi
 - [The Criteria](#the-criteria)
   - [My Use Case](#my-use-case)
   - [Software I'll Try](#software-ill-try)
+    - [Gaming](#gaming)
+    - [Remote Connection](#remote-connection)
+    - [Video Streaming/Editing](#video-streamingediting)
+    - [Android Emulation](#android-emulation)
   - [Recommending Linux To Others](#recommending-linux-to-others)
 - [The Plan](#the-plan)
   - [What I've Already Done](#what-ive-already-done)
@@ -25,27 +29,53 @@ The first thing that's going to be really important for this is to understand wh
 ### My Use Case
 In general, I use my personal computer for casual gaming, 3D printing, and occasionally for programming (primarily using Go, ReactJS, and Python). I like to be able to customize my desktop, but I don't get too into ricing every part of the UI. I also have separate rooms for my home office and gaming space, and while I currently have a solution to directly connect to my desktop from either, I am considering switching to using a thin client in my office to connect to my desktop in the game room.
 
-For the most part, I don't really expect to have any issues with any of the software I normally use (I have been using Linux for over a decade after all), so my primary focus will be making sure I have a stable system out of the box that I can quickly and easily customize to my liking.
+For the most part, I don't really expect to have any issues with any of the software I normally use (I have been using Linux for over a decade after all), so my primary focus will be making sure I have a stable system out of the box that I can quickly and easily customize to my liking. 
 
-I'll also say that, I am fairly comfortable in a terminal and have some basic knowledge of Linux file systems, but I'm by no means an expert on them and (with the exception of my software development tools) would like to avoid needing those skills as much as possible. I often worry about software updates coming in and breaking customizations made at a lower level, plus I find it easier to [recommend Linux to others](#recommending-linux-to-others) if I have experience that I can reference when I say, "you don't need to be technical to use it".
+<details>
+  <summary>Expand if you are curious what software I use and know works well on Linux.</summary>
+
+* Basic Web Browsing - Every major browser (except Safari) is available on Linux.
+  * I am currently re-evaluating which browser I want to use.
+* Software Development - I do some development in Go, Node, and Python.
+  * Visual Studio Code
+  * Podman/Podman Desktop
+* Virtual Machines running in GNOME Boxes
+* 3D Printing
+  * PrusaSlicer and Bambu Studio have official releases on Flathub
+  * OrcaSlicer has an official Flatpak build and is [looking at publishing to Flathub](https://github.com/OrcaSlicer/OrcaSlicer/issues/3949)
+  * Cura has an official AppImage build for Linux and an unofficial Flathub release (which in my experience, works better than the official build)
+  * I use a OnShape for some basic 3D modelling, which is a browser-based and fully cross platform.
+* Diagraming with Draw.io
+* Communication with Discord and Zoom
+
+</details>
+
+I'll also say that, I am fairly comfortable in a terminal and have some basic knowledge of Linux file systems, but I'm by no means an expert on them and (with the exception of my software development tools) would like to avoid needing those skills as much as possible in my free time. I often worry about software updates coming in and breaking customizations made at a lower level, plus I find it easier to [recommend Linux to others](#recommending-linux-to-others) if I have experience that I can reference when I say, "you don't need to be technical to use it".
 
 ### Software I'll Try
-In addition to software I know generally works already...
+In addition to the usual software that I use everyday and that I already knows works fine, there are a few tools I want to try out to better understand how well they run on Linux and if there are any differences between distros. In some cases, these are things that I may want to try in the future, are common things that people I know may be interested in, or are just interesting tools that I want ot better understand. Not everything is necessarily a specific application, but may be a certain use case that I am interested in (ex. game streaming or remote desktop connections).
 
-* Steam Link/Moonlight for gaming
-* Gamecube/PS2 emulation
-* Remote connections for thin client
-* Streaming with OBS (both PC games and console games).
-  * I don't really have a lot of interest in steaming myself, but I am interested in the technology and would like to try learning it, and this seems like a good opportunity.
-  * I may not actually test this on a real streaming platform, but just on a Discord server.
-* Running Android apps on Waydroid.
-  * This is not going to be a deal-breaker for the tie breaker as I don't have a use case for it and the biggest blocker is Wayland support, which the Mint team is working on, but I do want to try it out.
-* Video editing with DaVinci Resolve.
-  * Similar to Waydroid, this one will not be a deal-breaker as I don't need it, but I have heard it can be finicky, so I'd like to get some first hand experience trying to set it up.
+#### Gaming
+For gaming, I'll be looking at a variety of games to cover a number of different considerations. The specific list of games will be established during my [final pre-testing on Fedora](#some-final-pre-testing) but will include:
+* Celeste - This is just a favorite of mine that is quick and easy to test.
+* Some kind of AAA/more graphically demanding title.
+* A game from a game store other than Steam (ex. Epic Games Store).
+* A Gamecube game and/or PS2 game on an emulator.
 
-...will also call out anything I unexpectedly do have issues with.
+I'll also be trying some game streaming using tools like a Steam Link or apps like Sunshine/Moonlight, so that I can set up a couch streaming setup. This will be testing using either official Steam Link hardware (I got a couple before Valve discontinued them) or on a mini-PC running the same distro I'm testing out.
 
-**Note:** I'd also put in VR, but don't want hardware to be a confounding factor (I have a meta quest 3, which seems to be less compatible than other options). May look into it more once Steam Frame is out.
+?>**Note:** I would also try VR games, but don't want hardware to be a confounding factor. I have a Meta Quest 3, which seems to be less compatible than other options. I'll probably look into VR more once the Steam Frame is out, but only really with that headset.
+
+#### Remote Connection
+I'll also be looking into options to remotely connect to my PC from either my laptop or a thin client. There may be some overlap with the game streaming testing (theoretically, there's no reason you couldn't use Sunshine/Moonlight that way), and I'll use the same mini-PC for some initial testing. Once I find an option I think works well, I'll also likely try connecting from my personal laptop (running Linux Mint) over wifi to see how it handles less consistent connections.
+
+#### Video Streaming/Editing
+Getting into software that I'm not using as much is video software. While I know Kdenlive will work for video editing on Linux, I'd like to understand how hard it is to set up DaVinci Resolve to understand how technical a person would need to be for me to recommend it to them.
+
+I'd also like to try some live streaming with OBS (and maybe VTube Studio since it *should* work with Proton) in case I ever decide to try doing some streaming. I'm also just curious about the technology and would like to learn more. I expect OBS will mostly work fine on all distros since it does have an officially supported Flatpak build, but it's worth it to try out to understand what it's like.
+
+#### Android Emulation
+On any distros that currently support Wayland, I'll be doing a quick test with Waydroid just to see how well it works and integrates with the system. I may look into alternatives for X11 distros, but if I can't find anything quick and easy to set up, I'll just leave it at "Waydroid will be available when they migrate".
 
 ### Recommending Linux To Others
 In addition to my own use case, I'd also like something that I can recommend to anyone new to Linux. Being able to say "I use this everyday, it's really stable and it just works" is a lot more powerful than saying "yeah, my setup is really complicated, but it doesn't need to be" when trying to convince someone to try new things. Being able to give people a clear demo on my own personal machine and say "no, I didn't need a terminal to get any of this working" is a big thing that could help anyone interested in switching to Linux but is anxiously thinking that you need to be technical to use it.
