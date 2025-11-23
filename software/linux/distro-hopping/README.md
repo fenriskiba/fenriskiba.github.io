@@ -1,6 +1,6 @@
 <!-- omit from toc -->
 # Linux Distro Hopping 2026
-<!-- TODO: Go through at the end of this and make sure there is a consistent tense. -->
+<!-- TODO: Go through at the end of the whole distro hopping experience and make sure there is a consistent tense, has a consistent tone, and has a consistent voice. -->
 
 In early 2025, I build a new desktop PC and decided to see what other Linux distros are like after using the same one for over a decade. To do so, I decided to hop around a few distributions and stick on them for about a month each to see how they performed for extended use. I figured a month would be enough time to really get a good feel for the full scope of the OS rather than just an initial impression.
 
@@ -18,10 +18,10 @@ Since I don't want my external struggles and my learning process to color the fi
     - [Android Emulation](#android-emulation)
   - [Recommending Linux To Others](#recommending-linux-to-others)
 - [The Plan](#the-plan)
+  - [Distros I'll Try](#distros-ill-try)
   - [What I've Already Done](#what-ive-already-done)
   - [Some Final Pre-Testing](#some-final-pre-testing)
   - [Distro Hopping](#distro-hopping)
-  - [Distros I'll Try](#distros-ill-try)
 
 ## The Criteria
 The first thing that's going to be really important for this is to understand what I'm looking for in an operating system. Most distributions are good for the right use case, so understanding my use case is important which distro will be good for me.
@@ -87,30 +87,47 @@ Towards that end, I'll be looking for things to be somewhat intuitive to someone
 ?>**Note:** The biggest exception to this is going to be that I am *not* qualified to evaluate accessibility tools. Given [a recent article about the state of accessibility on Linux](https://fireborn.mataroa.blog/blog/i-want-to-love-linux-it-doesnt-love-me-back-post-1-built-for-control-but-not-for-people/), I am not particularly comfortable making any recommendation to anyone with accessibility needs without a larger conversation about their needs, their technical ability, and the compromises they are willing to accept. Even then, I would need to do a lot of research and would need to make clear that I don't have any first hand experience with these tools.
 
 ## The Plan
-### What I've Already Done
-* Tried with all the same distros except for Zorin (due to a misunderstanding about kernel versions) and Pop (due to Cosmic delays)
-* Got a good baseline for desktop environments
-* Fedora went well, but mixed feelings about GNOME
-* Ran into issues with Mint that should either have been resolved via HWE kernel or disabling Steam Client GPU accel
-* Ran into bugs on both KDE distros
-  * I don't think any of the bugs were from KDE
-  * Giving them a second chance in case it was a bad install
-
-### Some Final Pre-Testing
-* Initial tests are being run on Fedora for a baseline, since it's the most up to date (want to see if that actually matters)
-* Tests include Steam Link, Remote Desktop, and [Other Software](#other-software-ill-try)
-
-### Distro Hopping
-* Distros I've tried (minus Fedora Workstation), I will just run through some last minute tests.
-  * Mint will run tests + 1 week of running to test Steam issues
-  * Fedora KDE and Tuxedo will be given two weeks each, to see if bugs were just a bad install
-* Zorin and Pop will each be given 4 weeks
-* Final test at the end: buy new Framework mainboard, and test distro on laptop
+With all the considerations in mind, there needs to be a clear plan to make sure everything is properly evaluated, I'm not wasting time, and I don't exhaust myself running through all of this.
 
 ### Distros I'll Try
+The best place to start is with the distros I'm planning to try out. These are distros that have a certain bare minimum of support (both official and community), are fairly user friendly, and [weren't disqualified for other reasons](/software/linux/distro-hopping/disqualified).
+
 * [Linux Mint](https://linuxmint.com/)
 * [Fedora Workstation](https://fedoraproject.org/workstation/)
 * [Fedora KDE](https://fedoraproject.org/spins/kde)
 * [Tuxedo OS](https://www.tuxedocomputers.com/en/TUXEDO-OS_1.tuxedo)
 * [Zorin OS](https://zorin.com/)
 * [Pop!_OS](https://pop.system76.com/)
+
+### What I've Already Done
+It'll also be good to quickly review what I've already done and what the takeaways were. In 2025, I already tried out most of [the distros I'm planning to try](#distros-ill-try), with the exceptions of Zorin OS (because I misunderstood the kernel version it's using) and Pop!_OS (because of delays in the release of the Cosmic desktop).
+
+Without getting too deep into exactly what happened, the main takeaways from the experience were:
+* Despite having used Linux Mint for years and really liking the Cinnamon desktop, I ran into a number of issue. However, it does seem that those issues may have been resolved.
+  * The most frustrating issues were lack of hardware compatibility, but [Mint has migrated to using a Hardware Enablement (HWE) Kernel](https://blog.linuxmint.com/?p=4860), which should resolve that problem.
+    * Even before the new direction, I was able to keep using Mint, because Mint does have an easy to use tool to switch to another supported kernel.
+  * I also dealt with a number of bugs and crashes, but I believe those were all caused by issues in the Steam Client not implementing GPU acceleration well.
+* Despite my [issues with GNOME](/software/linux/distro-hopping/desktops?id=gnome), I do like the Fedora experience *after installing several GNOME Extensions*.
+  * I'm also really interested in GNOME, because I have a Framework laptop and Fedora is consistently given [official support by the Framework team](https://frame.work/linux).
+  * The need for extensions does have me worried about my ability to recommend to less technical users.
+* While I don't think the KDE experience is bad, I don't think it's for me and I'd only really recommend it to someone who wants to spend some time customizing their system.
+  * I also encountered bugs in both KDE distros I tried, but I go the impression that they were more likely coming from either the distro or a bad install rather than the desktop.
+  * Despite the fact that I don't think I'll really stick with them, I do want to give the KDE distros another try just in case and to see if the bugs just came from a bad install.
+
+In addition to what I did learn, I also felt like there was a lot that I wanted to learn and didn't. A lot of the [apps I've decided to try](#software-ill-try) were originally planned for the 2025 distro hopping experience. A lot of it came down to my plan to spend one month on each distro and didn't really have consistent time and energy to learn how to set up each of these tools.
+
+### Some Final Pre-Testing
+Since one of the takeaways from 2025 was that I didn't have time to figure everything out each month, I'm going to start by taking my time and figuring out how to set up all the software I want to try in Fedora (since that's what is currently installed on my desktop). I'll be taking clear notes and putting together a detailed plan that I can hopefully follow on each of the other distros.
+
+My goal is to get all of this done when I have some time off during the 2025 holidays, but if that doesn't work out, I will take as much time as needed to have a clear idea of what I'm doing.
+
+### Distro Hopping
+All that finally leads into the actual plan to start distro hopping.
+
+Since I'm [putting together the plan on Fedora Workstation](#some-final-pre-testing), I'm going to just leave that distro there. I think I've already learned a lot about the Fedora experience and will probably be learning more about it than the other distros while I'm putting the app testing plan together.
+
+For distributions that I tried in 2025 (Linux Mint, Fedora KDE, and Tuxedo OS), I'm planning to spend only two weeks with each of them. If it takes me longer to get through the app testing plan, then I'll stay on that distribution until I do have time to get through everything.
+
+For Zorin OS and Pop!_OS, I'll be spending four weeks with each to get a clear idea of how they work and what the full experience of using the distros is like. Additionally for Zorin, I'll also be trying to start with Zorin 17.3 just to verify that the HWE kernel it came with doesn't encounter the issues I ran into when Linux Mint was on the LTS kernel. I won't be on that version any longer than I need to be to validate that my hardware is working as expected and will do all of the application usage testing on Zorin 18.
+
+Combining that with my experience from 2025, I should have all the information I need to make a decision on what distro I want to use. As a final test, I'll upgrade the mainboard on my Framework laptop (likely to one of the Ryzen AI 300 series mainboards) and make sure it works well on that hardware. If that doesn't go well, I'll determine a plan at that point based on what went wrong and with which distribution. Otherwise, I think I'll have found the distributions I'll be sticking with for the foreseeable future.
