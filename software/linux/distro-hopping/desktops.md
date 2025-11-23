@@ -56,6 +56,22 @@ With all that set up and some minor configurations, along with a few other minor
 [gnome-tweaks-min-max]: https://itsfoss.com/gnome-minimize-button/
 
 ## KDE Plasma
+My general opinion of the KDE Plasma desktop experience is that it is... fine. I'm not a big fan of it overall because I find the settings to be hard to navigate, but once I've gotten through that and set up my displays and wallpapers and the like it's a perfectly good experience. Subjectively, I also am just not a big fan of the default icons and theme, but that's configurable so not a big deal.
+
+Saying things are unintuitive doesn't help much without some specific examples though, so here we go:
+* In KDE Discover, I find it strange that it has a settings page mixed into a sidebar that is otherwise almost exclusively app categories. Then, there is almost nothing on that page, because you have to go to an ellipses dropdown in the top-right (that's only on that page) to actually find most of the actual settings. Why not just put the setting on that page?
+* Having separate settings pages for lock and login screens, that aren't anywhere near each other and that don't show up together when searching threw me through such a loop when trying to set a custom background for them.
+* The Login Screen configs don't make any sense and use terminology that assumes you know the technical details of how KDE works.
+  * To change aspect ratio settings to fix a Fedora bug, I had to just click "Apply Plasma Settings...", but I still don't really know the full scope of what does that means? What all does that do? There's no real info about that.
+  * When setting a background for the login screen, it lets you do that fairly easily, but shows no sign that the config took at all. You only get confirmation that anything happened after logging out and seeing it.
+* Despite being known for being super configurable, some things are randomly missing.
+  * [Change your computers hostname](https://bugs.kde.org/show_bug.cgi?id=259285) (even GNOME has that one)
+  * I couldn't find anything for "Leave numlock on". I could find some similar configs, but they either had weird effects or weren't quite the same.
+    * In general, the fact that I had to turn numlock on several times, despite never turning it off, was a bit of a pain point in general.
+  * It took over 15 years for them to [add a config to control drag and drop behavior](https://bugs.kde.org/show_bug.cgi?id=154804).
+* ALL THE APPLY BUTTONS!!! Don't get me wrong, I'm not saying KDE should get rid of needing to take explicit action to apply something. I still have mixed feelings about the general move towards everything taking effect the moment you select it. However, there needs to be some way to press just one Apply button when changing a bunch of settings. Make it a Settings App-wide button or something.
+
+I really like the goal the KDE team seems to have of making things as configurable as possible, while still being fairly simple out of the box, and enabling as many use cases as possible. I just think they need to rework how those configurations are organized so that it's easier to customize without needing to search the web to find the settings you're looking for. It's definitely something I feel comfortable recommending to anyone who doesn't mind spending time customizing their system, but not to anyone less technical.
 
 ## Cosmic
 ?> Coming Soon!
