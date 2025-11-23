@@ -100,7 +100,7 @@ The best place to start is with the distros I'm planning to try out. These are d
 * [Pop!_OS](https://pop.system76.com/)
 
 ### What I've Already Done
-It'll also be good to quickly review what I've already done and what the takeaways were. In 2025, I already tried out most of [the distros I'm planning to try](#distros-ill-try), with the exceptions of Zorin OS (because I misunderstood the kernel version it's using) and Pop!_OS (because of delays in the release of the Cosmic desktop).
+It'll also be good to quickly review what I've already done and what the takeaways were. In 2025, I already tried out most of the distros I'm planning to try, with the exceptions of Zorin OS (because I misunderstood the kernel version it's using) and Pop!_OS (because of delays in the release of the Cosmic desktop).
 
 Without getting too deep into exactly what happened, the main takeaways from the experience were:
 * Despite having used Linux Mint for years and really liking the Cinnamon desktop, I ran into a number of issue. However, it does seem that those issues may have been resolved.
@@ -108,7 +108,7 @@ Without getting too deep into exactly what happened, the main takeaways from the
     * Even before the new direction, I was able to keep using Mint, because Mint does have an easy to use tool to switch to another supported kernel.
   * I also dealt with a number of bugs and crashes, but I believe those were all caused by issues in the Steam Client not implementing GPU acceleration well.
 * Despite my [issues with GNOME](/software/linux/distro-hopping/desktops?id=gnome), I do like the Fedora experience *after installing several GNOME Extensions*.
-  * I'm also really interested in GNOME, because I have a Framework laptop and Fedora is consistently given [official support by the Framework team](https://frame.work/linux).
+  * I'm also really interested in Fedora, because I have a Framework laptop and Fedora is consistently given [official support by the Framework team](https://frame.work/linux).
   * The need for extensions does have me worried about my ability to recommend to less technical users.
 * While I don't think the KDE experience is bad, I don't think it's for me and I'd only really recommend it to someone who wants to spend some time customizing their system.
   * I also encountered bugs in both KDE distros I tried, but I go the impression that they were more likely coming from either the distro or a bad install rather than the desktop.
