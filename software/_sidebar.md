@@ -11,3 +11,4 @@
   - [Introduction](/software/linux/distro-hopping/)
   - [Disqualified Distros](/software/linux/distro-hopping/disqualified.md)
   - [Desktop Environments](/software/linux/distro-hopping/desktops.md)
+  - [Distro Reviews](/software/linux/distro-hopping/distro-reviews)
