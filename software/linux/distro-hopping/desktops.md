@@ -2,7 +2,7 @@
 # Desktop Environments
 !> **Important:** The current contents of this page are based on my 2025 attempt at distro hopping and will get updated as I further evaluate and work through the 2026 effort.
 
-Before going into the experiences specific to each distribution, I wanted to quickly go through my impressions of the desktop environments that they use. These shape a lot of the experience and will create a lot of commonalities between some of the distributions
+Before going into the experiences specific to each distribution, I wanted to quickly go through my impressions of the desktop environments that they use. These shape a lot of the experience and will create a lot of commonalities between some of the distributions.
 
 **Table of Contents:**
 - [Cinnamon](#cinnamon)
@@ -13,6 +13,9 @@ Before going into the experiences specific to each distribution, I wanted to qui
 - [Cosmic](#cosmic)
 
 ## Cinnamon
+I've been using Cinnamon for years and generally like the experience. It keeps things simple, provides a really solid suite of tools, and allows for quite a bit of customization. It does use a traditional "Windows-like" layout, but anyone who doesn't like it can easily change that (ex. Michael Horn made a [video about making Cinnamon look like GNOME](https://www.youtube.com/watch?v=Q_Uoe5H4ORs)). I think Cinnamon provides a great experience for less technical users migrating from Windows with minimal sacrifice for technical users who want to spend time ricing their system.
+
+That being said, I don't think Cinnamon is exactly a perfect experience. They do lag behind on a lot of features and functionality. It took them way too long to implement touchpad gestures, still don't have support for HDR or VRR support, and the "still in development" Wayland support does prevent use of some newer tools like Waydroid. I don't think any of this is severe enough for the average consumer, but I don't think I can entirely ignore it either.
 
 ## GNOME
 Overall, I really like the GNOME experience *after I've spent time customizing it*, but I find it frustrating that the customizations I feel the most need to apply to GNOME are things that every other desktop seems to consider a basic feature.
