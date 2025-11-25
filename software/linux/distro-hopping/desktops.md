@@ -71,7 +71,7 @@ Saying things are unintuitive doesn't help much without some specific examples t
   * It took over 15 years for them to [add a config to control drag and drop behavior](https://bugs.kde.org/show_bug.cgi?id=154804).
 * ALL THE APPLY BUTTONS!!! Don't get me wrong, I'm not saying KDE should get rid of needing to take explicit action to apply something. I still have mixed feelings about the general move towards everything taking effect the moment you select it. However, there needs to be some way to press just one Apply button when changing a bunch of settings. Make it a Settings App-wide button or something.
 
-I really like the goal the KDE team seems to have of making things as configurable as possible, while still being fairly simple out of the box, and enabling as many use cases as possible. I just think they need to rework how those configurations are organized so that it's easier to customize without needing to search the web to find the settings you're looking for. It's definitely something I feel comfortable recommending to anyone who doesn't mind spending time customizing their system, but not to anyone less technical.
+I really like the goal the KDE team seems to have of making things as configurable as possible, while still being fairly simple out of the box, and enabling as many use cases as possible. I just think they need to rework how those configurations are organized so that it's easier to customize without needing to search the web to find the settings you're looking for. It's definitely something I feel comfortable recommending to anyone who doesn't mind spending time customizing their system, but not to anyone that wants thing to "just work".
 
 ## Cosmic
 ?> Coming Soon!
