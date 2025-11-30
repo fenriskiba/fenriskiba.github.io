@@ -21,3 +21,8 @@ git config --global credential.helper /usr/share/doc/git/contrib/credential/libs
 sudo nano /etc/containers/registries.conf
 # In Nano, add "unqualified-search-registries = ["docker.io"]" to the config
 ```
+
+### Sources
+* https://techviewleo.com/install-and-use-zsh-with-oh-my-zsh-on-linux-mint/
+* https://www.softwaredeveloper.blog/git-credential-storage-libsecret
+* https://www.baeldung.com/ops/podman-pull-image-docker-hub#pulling-images-without-fully-qualified-names

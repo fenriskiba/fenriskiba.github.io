@@ -11,6 +11,13 @@ That's not to say I think Mint is perfect though. Luckily, this shouldn't be a p
 For the most part, I still believe Mint is a great distribution and unless the application testing I'll be doing comes up with major issues, Mint will still be one of my top contenders for the distro I chose.
 
 ## Fedora Workstation
+Overall, I have developed a bit of a love/hate relationship with [Fedora Workstation](https://fedoraproject.org/workstation/). There is a lot that I like about it, but it also has a lot of issues that will likely keep me from using it long term. That being said, I may find myself needing to use it due to Framework most consistently [supporting Fedora](https://frame.work/linux), and I don't think I'd be unhappy using Fedora if that is the case.
+
+I think one of the biggest reasons why I have a love/hate relationship with Fedora is, unsurprisingly, the fairly vanilla [GNOME experience](/software/linux/distro-hopping/desktops?id=gnome). I won't rehash my views on GNOME, but I will say that Fedora could easily take small steps to make that experience better. Having GNOME Tweaks and Extension Manager installed by default and having some simple quality-of-life extensions pre-installed would go a long way towards making Fedora easier for me to recommend. Even just having the extensions installed and disabled could save someone from needing to spend time researching what they need and make the experience significantly better.
+
+I also don't particularly care for Fedora Flatpaks because I've seen them be out-of-date compared to the official Flatpaks and [OBS showed the issues with third-party packaging](https://gitlab.com/fedora/sigs/flatpak/fedora-flatpaks/-/issues/39). However, I'm not going to hold that against them too much, since it's pretty easy to disable them and Fedora is planning on [working with Flathub and switching over to it](https://blogs.gnome.org/mcatanzaro/2025/07/21/fedora-must-carefully-embrace-flathub/).
+
+I don’t like that Fedora decides to install updates *while* restarting the way Windows does. That was something I got very accustomed to on Linux Mint, was being able to use my computer while updates were installed and then the reboot was just a reboot. That being said, it was still a faster and more reliable experience that I remember Windows being, so not that big a deal.
 
 ## Fedora KDE
 

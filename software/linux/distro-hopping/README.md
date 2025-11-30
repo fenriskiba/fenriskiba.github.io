@@ -52,6 +52,8 @@ For the most part, software I normally use is mostly Linux native and works perf
 
 I'll also say that, I am fairly comfortable in a terminal and have some basic knowledge of Linux file systems, but I'm by no means an expert on them and (with the exception of my software development tools) would like to avoid needing those skills as much as possible in my free time. I often worry about software updates coming in and breaking customizations made at a lower level, plus I find it easier to [recommend Linux to others](#recommending-linux-to-others) if I have experience that I can reference when I say, "you don't need to be technical to use it".
 
+It's probably also worth talking a bit about my hardware. I do use two monitors, but they are in different rooms and mirror each other since they are connected to a rack-mounted system in a server closet. I also have an AMD Ryzen 9 9950X and a Radeon RX 7900 XTX, so Intel and NVIDIA support will be a bit of a gap in my review.
+
 ### Software I'll Try
 In addition to the usual software that I use everyday and that I already knows works fine, there are a few tools I want to try out to better understand how well they run on Linux and if there are any differences between distros. In some cases, these are things that I may want to try in the future, are common things that people I know may be interested in, or are just interesting tools that I want ot better understand. Not everything is necessarily a specific application, but may be a certain use case that I am interested in (ex. game streaming or remote desktop connections).
 
