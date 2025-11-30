@@ -20,6 +20,11 @@ I also don't particularly care for Fedora Flatpaks because I've seen them be out
 I don’t like that Fedora decides to install updates *while* restarting the way Windows does. That was something I got very accustomed to on Linux Mint, was being able to use my computer while updates were installed and then the reboot was just a reboot. That being said, it was still a faster and more reliable experience that I remember Windows being, so not that big a deal.
 
 ## Fedora KDE
+I’ll be blunt on this one: my experience with Fedora KDE was a mess. While I don't think it's a bad desktop by any stretch, [KDE Plasma](/software/linux/distro-hopping/desktops?id=kde-plasma) just isn't for me and I don’t think it’s organized well enough for me to want to recommend to someone who wants things to "just work".
+
+In addition to that though, This was the buggiest operating system experience I have had in years. Right from the get go, Fedora KDE decided to default my display resolution to a 32:9 aspect ratio (I’m on a 43” 4k 16:9 display). It wasn't hard to fix (though KDE's unintuitive settings did delay getting it fixed for the lock screen), but the fact that I needed to is strange. I also had issues with Discover either not updating or crashing in the background (I'd get notifications that it crashed almost every time I log in). The most annoying and persistent though was that my browser would randomly crash without any kind of an error displayed.
+
+Despite it's reputation for bugs, I don't believe any of these issues were KDE's fault and I'm kind of hoping that it was just a bad install (like most people, I didn't bother validating the checksum). Testing again in 2026 will hopefully go more smoothly.
 
 ## Tuxedo OS
 
