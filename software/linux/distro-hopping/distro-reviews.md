@@ -2,6 +2,13 @@
 !> **Important:** The current contents of this page are based on my 2025 attempt at distro hopping and will get updated as I further evaluate and work through the 2026 effort.
 
 ## Linux Mint
+I've been using [Linux Mint](https://linuxmint.com/) since college, but using it with new hardware did give me an opportunity to look at it again through a more critical lense.
+
+In general, I really like the Mint provides, and think the work they've done creating the [Cinnamon desktop](/software/linux/distro-hopping/desktops?id=cinnamon) has been very worth the effort. In general I think the Mint team has done a great job making everything "just work", they have my favorite [solution to the NVIDIA proprietary drivers](https://itsfoss.com/nvidia-linux-mint/) (it even prompts you as a system alert the same way they do system backups), and has a great [support forum](https://forums.linuxmint.com/index.php) to rely on when you need help (in addition to all the Ubuntu support that usually also applies).
+
+That's not to say I think Mint is perfect though. Luckily, this shouldn't be a problem anymore with their [move toward the HWE kernel](https://blog.linuxmint.com/?p=4860), but I used to have hardware compatibility issues that I never encountered on other distros. I also don't entirely agree with their decision to disable unverified Flatpaks by default or with how strongly they phrase the warnings and would much prefer if they prompted the user about it during installation, similar to Fedora with third-party package repositories.
+
+For the most part, I still believe Mint is a great distribution and unless the application testing I'll be doing comes up with major issues, Mint will still be one of my top contenders for the distro I chose.
 
 ## Fedora Workstation
 
