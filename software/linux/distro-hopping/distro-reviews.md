@@ -20,13 +20,20 @@ I also don't particularly care for Fedora Flatpaks because I've seen them be out
 I don’t like that Fedora decides to install updates *while* restarting the way Windows does. That was something I got very accustomed to on Linux Mint, was being able to use my computer while updates were installed and then the reboot was just a reboot. That being said, it was still a faster and more reliable experience that I remember Windows being, so not that big a deal.
 
 ## Fedora KDE
-I’ll be blunt on this one: my experience with Fedora KDE was a mess. While I don't think it's a bad desktop by any stretch, [KDE Plasma](/software/linux/distro-hopping/desktops?id=kde-plasma) just isn't for me and I don’t think it’s organized well enough for me to want to recommend to someone who wants things to "just work".
+I’ll be blunt on this one: my experience with [Fedora KDE](https://fedoraproject.org/kde/) was a mess. While I don't think it's a bad desktop by any stretch, [KDE Plasma](/software/linux/distro-hopping/desktops?id=kde-plasma) just isn't for me and I don’t think it’s organized well enough for me to want to recommend to someone who wants things to "just work".
 
 In addition to that though, This was the buggiest operating system experience I have had in years. Right from the get go, Fedora KDE decided to default my display resolution to a 32:9 aspect ratio (I’m on a 43” 4k 16:9 display). It wasn't hard to fix (though KDE's unintuitive settings did delay getting it fixed for the lock screen), but the fact that I needed to is strange. I also had issues with Discover either not updating or crashing in the background (I'd get notifications that it crashed almost every time I log in). The most annoying and persistent though was that my browser would randomly crash without any kind of an error displayed.
 
-Despite it's reputation for bugs, I don't believe any of these issues were KDE's fault and I'm kind of hoping that it was just a bad install (like most people, I didn't bother validating the checksum). Testing again in 2026 will hopefully go more smoothly.
+Despite it's reputation for bugs, I don't believe any of these issues were KDE's fault because I didn't see them in Tuxedo OS and I'm kind of hoping that it was just a bad install (like most people, I didn't bother validating the checksum). Testing again in 2026 will hopefully go more smoothly.
 
 ## Tuxedo OS
+Overall, [Tuxedo OS](https://www.tuxedocomputers.com/en/TUXEDO-OS_1.tuxedo) was a much better KDE experience than Fedora KDE was, and (unless something changes in 2026) will probably be the distro I recommend to anyone who I think KDE would be a good experience for.
+
+My biggest complaint with Tuxedo was that installing it did require disabling secure boot, which was rather annoying since I don’t remember seeing any warnings about that when downloading the ISO, but it’s not too difficult and they provide [a way to re-enable it after installation](https://www.tuxedocomputers.com/en/What-you-always-wanted-to-know-about-Secure-Boot.tuxedo). Still, not a great user experience, so I hope they can fix that in the future.
+
+Aside from that, I did encounter some issues where the login screen wouldn’t display correctly if certain USB devices got plugged in before waking up the display. It would still let me log in no problem, but it would look like none of my keyboard inputs were being recognized until I actually hit “Enter” to log in. For most people, it probably wouldn’t be too big a deal (just wait to plug in your USB till after you log in), but for me it was a bit more of an issue since switching between my desktop and laptop with my KVM switch would trigger it. Still, not a big deal since it didn’t actually stop me from logging in, but not a great experience either.
+
+One other strange thing to note (not really a problem, just a bit odd): there were also a lot of pre-installed apps that I didn’t really need and would probably spend some time uninstalling if I were staying on Tuxedo long-term. Most of it seemed fine like card games and stuff that you’d find even on older, less bloated Windows systems, but Nextcloud Desktop was an odd inclusion to have pre-installed.
 
 ## Zorin OS
 ?> Coming Soon!
