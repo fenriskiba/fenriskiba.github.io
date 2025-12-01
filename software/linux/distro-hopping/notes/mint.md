@@ -29,3 +29,30 @@ sudo nano /etc/containers/registries.conf
 
 ## TODO: Support
 Try to review basic support for all distros and add in those considerations
+
+## Applications
+### Already Use
+- [ ] Steam
+- [ ] Cheese
+- [ ] ClamTK
+- [ ] CPU-X
+- [ ] digiKam
+- [ ] Discord
+- [ ] Draw.io
+- [ ] Flatseal
+- [ ] GIMP
+- [ ] Chrome
+- [ ] GParted
+- [ ] Handbrake
+- [ ] LibreWolf
+- [ ] OpenSCAD
+- [ ] Pinta
+- [ ] PIA
+- [ ] PrusaSlicer
+- [ ] Psensor
+- [ ] LibreOffice
+- [ ] Podman Desktop
+- [ ] Tor Browser
+- [ ] VS Code
+- [ ] VLC
+- [ ] Zoom
