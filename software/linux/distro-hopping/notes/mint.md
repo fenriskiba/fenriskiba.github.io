@@ -26,3 +26,6 @@ sudo nano /etc/containers/registries.conf
 * https://techviewleo.com/install-and-use-zsh-with-oh-my-zsh-on-linux-mint/
 * https://www.softwaredeveloper.blog/git-credential-storage-libsecret
 * https://www.baeldung.com/ops/podman-pull-image-docker-hub#pulling-images-without-fully-qualified-names
+
+## TODO: Support
+Try to review basic support for all distros and add in those considerations
