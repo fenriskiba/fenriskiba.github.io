@@ -56,3 +56,4 @@ Try to review basic support for all distros and add in those considerations
 - [ ] VS Code
 - [ ] VLC
 - [ ] Zoom
+- [ ] Boxes

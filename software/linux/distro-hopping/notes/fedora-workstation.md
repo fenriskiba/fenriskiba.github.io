@@ -28,3 +28,33 @@ Once that was done, I also had to configure Visual Studio Code to use ZSH when o
 * Unexpected finding: GNOME Software is better for downloaded flatpaks (ie OrcaSlicer)
 * Steam Link works and will probably work with Mint as well (assuming the problem was the GUI acceleration in the Steam UI)
   * Steam UI seems a bit laggy, but once in game it was fine
+
+## Applications
+### Already Use
+- [ ] Steam
+- [ ] Cheese
+- [ ] ClamTK
+- [ ] CPU-X
+- [ ] digiKam
+- [ ] Discord
+- [ ] Draw.io
+- [ ] Flatseal
+- [ ] GIMP
+- [ ] Chrome
+- [ ] GParted
+- [ ] Handbrake
+- [ ] LibreWolf
+- [ ] OpenSCAD
+- [ ] Pinta
+- [ ] PIA
+- [ ] PrusaSlicer
+- [ ] Psensor
+  - [ ] Vitals - GNOME Extension
+  - [ ] Mission Center
+- [ ] LibreOffice
+- [ ] Podman Desktop
+- [ ] Tor Browser
+- [ ] VS Code
+- [ ] VLC
+- [ ] Zoom
+- [ ] Boxes
