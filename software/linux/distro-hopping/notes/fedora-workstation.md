@@ -10,8 +10,10 @@
   - Steam Link Issues
   - Alt Tab Issues in Fullscreen (Not a problem in windowed mode)
 - [x] Cyberpunk 2077
-- [ ] ~~Elden Ring~~
-  - Splash screen with Anti-Cheat logo shows up and then an unknown error crash.
+- [x] Elden Ring
+  - Needed to add `WINE_CPU_TOPOLOGY=8:0,1,2,3,4,5,6,7 %command%` to launcher options. Apparently EAC doesn't like CPUs with 32 cores.
+    - Details: https://www.reddit.com/r/linux_gaming/comments/1axekec/comment/kvg07m0/
+  - It fails to close successfully and needs to be force quit.
 
 ### Other Games
 - [x] Genshin Impact
