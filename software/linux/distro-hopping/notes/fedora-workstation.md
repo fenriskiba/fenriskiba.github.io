@@ -1,20 +1,31 @@
 # Fedora Workstation
 ## Gaming
 - [x] Steam
+  - Proton in general seems to be having audio issues with my office speaker. Works fine in the game room though.
 
 ### Steam Games
 - [x] Celeste
-- [ ] Star Wars Battlefront (classic)
-- [ ] Tunic
-- [ ] Cyberpunk 2077
-- [ ] Elden Ring
+- [x] Star Wars Battlefront (classic)
+- [x] Tunic
+  - Steam Link Issues
+  - Alt Tab Issues in Fullscreen (Not a problem in windowed mode)
+- [x] Cyberpunk 2077
+- [ ] ~~Elden Ring~~
+  - Splash screen with Anti-Cheat logo shows up and then an unknown error crash.
 
 ### Other Games
-- [ ] Genshin Impact
-- [ ] Fall Guys
-- [ ] Overwatch
-- [ ] Fire Emblem: Path of Radiance
-- [ ] Shadow of the Colossus
+- [x] Genshin Impact
+  - Bottles wasn't able to load the game.
+  - Works with Twintail Launcher.
+- [ ] ~~Fall Guys~~
+  - Heroic was able to sign in, but had issues running. Game would open, but get stuck on the loading after selecting "Start".
+  - Lutris couldn't get the game installed without crashing.
+  - Bottles installed and gave an error about Epic auth not working after selecting "Start".
+- [ ] ~~Overwatch~~
+  - Lutris and Bottles both got an error about not being able to load game library in Battle.net.
+- [x] Fire Emblem: Path of Radiance
+  - Had to manually configure 8bitdo controller, but otherwise worked no problem.
+- [x] Shadow of the Colossus
 
 ## Remote Connection
 - [ ] ~~Steam Link~~
