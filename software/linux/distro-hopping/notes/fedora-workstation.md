@@ -52,8 +52,9 @@
 - [ ] VTube Studio
 
 #### Editing
-- [ ] Davinci Resolve
-  - [Standard Install has been broken since Fedora 40.](https://forum.blackmagicdesign.com/viewtopic.php?f=21&t=199180)
+- [x] Davinci Resolve
+  - Installing directly only worked w/ `SKIP_PACKAGE_CHECK=1`, but then the app still wouldn't open.
+  - Got it running with [davincibox](https://github.com/zelikos/davincibox), but wasn't able to create anything. Not sure if that was an issue with davincibox or with me not knowing DaVinci Resolve.
 - [x] Kdenlive
 
 ## System Tools
