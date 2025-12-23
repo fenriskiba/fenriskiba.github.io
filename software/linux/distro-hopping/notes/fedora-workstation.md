@@ -13,7 +13,7 @@
 - [x] Elden Ring
   - Needed to add `WINE_CPU_TOPOLOGY=8:0,1,2,3,4,5,6,7 %command%` to launcher options. Apparently EAC doesn't like CPUs with 32 cores.
     - Details: https://www.reddit.com/r/linux_gaming/comments/1axekec/comment/kvg07m0/
-  - It fails to close successfully and needs to be force quit.
+  - Controller not working though.
 
 ### Other Games
 - [x] Genshin Impact
@@ -22,7 +22,7 @@
 - [ ] ~~Fall Guys~~
   - Heroic was able to sign in, but had issues running. Game would open, but get stuck on the loading after selecting "Start".
   - Lutris couldn't get the game installed without crashing.
-  - Bottles installed and gave an error about Epic auth not working after selecting "Start".
+  - Bottles installed and gave an error after selecting "Start".
 - [ ] ~~Overwatch~~
   - Lutris and Bottles both got an error about not being able to load game library in Battle.net.
 - [x] Fire Emblem: Path of Radiance
