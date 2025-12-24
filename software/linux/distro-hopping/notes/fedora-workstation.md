@@ -30,12 +30,20 @@
 - [x] Shadow of the Colossus
 
 ## Remote Connection
-- [ ] ~~Steam Link~~
+- [ ] ~~Steam Link - Device~~
   - Is a bit laggy in the Steam Big Picture Mode, but once in Celeste it worked fine.
   - Tried playing Tunic, but ran into issues getting it to display. Searching the problem suggests it may not just be a Linux issue.
-- [ ] Sunshine/Moonlight
-  - [ ] Wired
-  - [ ] Wifi
+- [ ] ~~Steam Link - Flatpak~~
+  - Took forever and never fully loaded when trying to play Celeste.
+- [x] Sunshine/Moonlight
+  - Works well for remote desktop, except from locked machine. May be a Wayland issue.
+  - Steam Big Picture works great.
+- [x] RustDesk
+  - Works well for remote desktop, except from locked machine. May be a Wayland issue.
+- [ ] ~~KasmVNC~~
+  - Doesn't seem to support newer versions of Fedora.
+  - Tried w/ Fedora 41 build and I couldn't get the server to start.
+- [ ] Built in RDP support.
 
 ## Media
 ### Images
