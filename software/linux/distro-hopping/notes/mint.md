@@ -17,10 +17,10 @@
 - [ ] Shadow of the Colossus
 
 ## Remote Connection
-- [ ] Steam Link
-- [ ] Sunshine/Moonlight\
-  - [ ] Wired
-  - [ ] Wifi
+- [ ] Steam Link - Device
+- [ ] Steam Link - Flatpak
+- [ ] Sunshine/Moonlight
+- [ ] KasmVNC
 
 ## Media
 ### Images

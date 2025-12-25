@@ -44,7 +44,7 @@
 - [ ] ~~KasmVNC~~
   - Doesn't seem to support newer versions of Fedora.
   - Tried w/ Fedora 41 build and I couldn't get the server to start.
-- [ ] ~~Built in RDP support.~~
+- [ ] ~~Built in Remote Desktop support~~
   - Easy to enable in Fedora (assuming it's actually working), but unable to connect via Remmina.
 
 ## Media

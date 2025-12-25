@@ -17,10 +17,11 @@
 - [ ] Shadow of the Colossus
 
 ## Remote Connection
-- [ ] Steam Link
-- [ ] Sunshine/Moonlight\
-  - [ ] Wired
-  - [ ] Wifi
+- [ ] Steam Link - Device
+- [ ] Steam Link - Flatpak
+- [ ] Sunshine/Moonlight
+- [ ] KasmVNC
+- [ ] If applicable: Built in Remote Desktop support
 
 ## Media
 ### Images
