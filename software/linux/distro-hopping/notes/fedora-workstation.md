@@ -61,7 +61,16 @@
 
 #### Streaming
 - [ ] OBS
-- [ ] VTube Studio
+  - Can easily install and set up a scene.
+    - Has some issues with my basement webcam, but it seems to like the one in the office more.
+      - Able to get it work using Beta Pipewire support.
+  - Trouble with virtual camera support.
+    - Had to install `v4l2loopback` (which I had some trouble with due to issues enabling RPM Fusion) to get the option to display.
+      - https://obsproject.com/kb/virtual-camera-troubleshooting
+    - Would give an error "Starting the output failed. Please check the log for details.", but logs didn't show anything.
+  - Recording worked no problem (though it does default to dropping it directly in the home folder, which is a bit odd).
+- [ ] ~~VTube Studio~~
+  - Webcam wouldn't work (it would recognize it and configure it, but then never seemed to actually get the stream).
 
 #### Editing
 - [x] Davinci Resolve
