@@ -1,4 +1,6 @@
 # Fedora Workstation
+**General Installation Note:** Anything requiring a "Third Party Repository" (not including Flathub) worked, but only through the terminal. Even if I installed an application from RPM Fusion or a Copr repo, it wouldn't show up in GNOME Software.
+
 ## Gaming
 - [x] Steam
   - Proton in general seems to be having audio issues with my office speaker. Works fine in the game room though.
@@ -8,7 +10,7 @@
 - [x] Star Wars Battlefront (classic)
 - [x] Tunic
   - Steam Link Issues
-  - Alt Tab Issues in Fullscreen (Not a problem in windowed mode)
+  - Alt Tab Issues in Fullscreen (not a problem in windowed mode)
 - [x] Cyberpunk 2077
 - [x] Elden Ring
   - Needed to add `WINE_CPU_TOPOLOGY=8:0,1,2,3,4,5,6,7 %command%` to launcher options. Apparently EAC doesn't like CPUs with 32 cores.
@@ -31,14 +33,15 @@
 
 ## Remote Connection
 - [ ] ~~Steam Link - Device~~
-  - Is a bit laggy in the Steam Big Picture Mode, but once in Celeste it worked fine.
+  - Celeste it worked fine.
   - Tried playing Tunic, but ran into issues getting it to display. Searching the problem suggests it may not just be a Linux issue.
 - [ ] ~~Steam Link - Flatpak~~
   - Took forever and never fully loaded when trying to play Celeste.
 - [x] Sunshine/Moonlight
-  - Had to manually install using `dnf` because Flatpak didn't work.
+  - Had to manually install using `dnf` because Flatpak didn't work. This does follow their instructions though.
+    - https://docs.lizardbyte.dev/projects/sunshine/latest/md_docs_2getting__started.html#fedora
   - Works well for remote desktop, except from locked machine. May be a Wayland issue.
-  - Steam Big Picture works great.
+  - Had an out of the box configuration for Steam Big Picture mode, which worked really well.
 - [x] RustDesk
   - Works well for remote desktop, except from locked machine. May be a Wayland issue.
 - [ ] ~~KasmVNC~~
@@ -61,14 +64,15 @@
 
 #### Streaming
 - [x] OBS
-  - Can easily install and set up a scene.
-    - Has some issues with my basement webcam, but it seems to like the one in the office more.
+  - Can easily install the app and set up a scene.
+    - Has some inconsistent issues with my basement webcam, but it seems to like the one in the office more.
       - Able to get it work using Beta Pipewire support.
   - Trouble with virtual camera support.
     - Had to install `v4l2loopback` (which I had some trouble with due to issues enabling RPM Fusion) to get the option to display.
       - https://obsproject.com/kb/virtual-camera-troubleshooting
-    - Would give an error "Starting the output failed. Please check the log for details.", but logs didn't show anything.
+    - Would give an error "Starting the output failed. Please check the log for details.", but logs didn't show an error.
   - Recording worked no problem (though it does default to dropping it directly in the home folder, which is a bit odd).
+  - Streaming to Youtube worked no problem.
 - [ ] ~~VTube Studio~~
   - The app installed and loaded fine with Proton, but the webcam wouldn't work (it would recognize it and configure it, but then never seemed to actually get the stream).
 
@@ -125,4 +129,4 @@ Once that was done, I also had to configure Visual Studio Code to use ZSH when o
 - [x] LibreOffice
 - [x] Draw.io
 - [x] Waydroid
-  - Required [additional setup](https://docs.waydro.id/faq/google-play-certificatio) for Google Play certification
+  - Required [additional setup](https://docs.waydro.id/faq/google-play-certification) for Google Play certification
