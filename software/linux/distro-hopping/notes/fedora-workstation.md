@@ -60,7 +60,7 @@
 - [x] Handbrake
 
 #### Streaming
-- [ ] OBS
+- [x] OBS
   - Can easily install and set up a scene.
     - Has some issues with my basement webcam, but it seems to like the one in the office more.
       - Able to get it work using Beta Pipewire support.
@@ -70,7 +70,7 @@
     - Would give an error "Starting the output failed. Please check the log for details.", but logs didn't show anything.
   - Recording worked no problem (though it does default to dropping it directly in the home folder, which is a bit odd).
 - [ ] ~~VTube Studio~~
-  - Webcam wouldn't work (it would recognize it and configure it, but then never seemed to actually get the stream).
+  - The app installed and loaded fine with Proton, but the webcam wouldn't work (it would recognize it and configure it, but then never seemed to actually get the stream).
 
 #### Editing
 - [x] Davinci Resolve
