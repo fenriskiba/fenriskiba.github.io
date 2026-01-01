@@ -72,7 +72,7 @@
       - https://obsproject.com/kb/virtual-camera-troubleshooting
     - Would give an error "Starting the output failed. Please check the log for details.", but logs didn't show an error.
   - Recording worked no problem (though it does default to dropping it directly in the home folder, which is a bit odd).
-  - Streaming to Youtube worked no problem.
+  - Streaming to Youtube and Twitch worked no problem.
 - [ ] ~~VTube Studio~~
   - The app installed and loaded fine with Proton, but the webcam wouldn't work (it would recognize it and configure it, but then never seemed to actually get the stream).
 
