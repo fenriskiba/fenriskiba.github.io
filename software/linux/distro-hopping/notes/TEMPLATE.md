@@ -12,7 +12,7 @@
 ### Other Games
 - [ ] Genshin Impact
 - [ ] Fall Guys
-- [ ] Overwatch
+- [ ] StarCraft 2
 - [ ] Fire Emblem: Path of Radiance
 - [ ] Shadow of the Colossus
 

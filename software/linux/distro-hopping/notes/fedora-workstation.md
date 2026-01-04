@@ -9,7 +9,6 @@
 - [x] Celeste
 - [x] Star Wars Battlefront (classic)
 - [x] Tunic
-  - Steam Link Issues
   - Alt Tab Issues in Fullscreen (not a problem in windowed mode)
 - [x] Cyberpunk 2077
 - [x] Elden Ring
@@ -25,7 +24,7 @@
   - Heroic was able to sign in, but had issues running. Game would open, but get stuck on the loading after selecting "Start".
   - Lutris couldn't get the game installed without crashing.
   - Bottles installed and gave an error after selecting "Start".
-- [ ] ~~Overwatch~~
+- [ ] ~~StarCraft 2~~
   - Lutris and Bottles both got an error about not being able to load game library in Battle.net.
 - [x] Fire Emblem: Path of Radiance
   - Had to manually configure 8bitdo controller, but otherwise worked no problem.
