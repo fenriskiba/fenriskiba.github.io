@@ -65,7 +65,7 @@
 - [x] OBS
   - Can easily install the app and set up a scene.
     - Has some inconsistent issues with my basement webcam, but it seems to like the one in the office more.
-      - Able to get it work using Beta Pipewire support.
+      - Seemed to work better after installing `v4l2loopback` for the virtual camera, but still wasn't 100% consistent.
   - Trouble with virtual camera support.
     - Had to install `v4l2loopback` (which I had some trouble with due to issues enabling RPM Fusion) to get the option to display.
       - https://obsproject.com/kb/virtual-camera-troubleshooting
