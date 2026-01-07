@@ -1,4 +1,4 @@
-# DISTRO NOTES TEMPLATE
+# Linux Mint
 - Unverified Flatpaks being hidden is bad
   - Dolphin Emulator (official build is custom Flatpak repo, but much simpler to just use the Flathub version)
   - Zoom (official is a downloaded .deb, I'm just lazy and I know from experience it works)
@@ -19,8 +19,8 @@
   - Controller still didn't work.
 
 ### Other Games
-- [ ] Genshin Impact
-  - [x] Twintail Launcher
+- [x] Genshin Impact
+  - Didn't even try Bottles, just went straight to Twintail Launcher which worked great.
 - [ ] Fall Guys
 - [ ] StarCraft 2
 - [x] Fire Emblem: Path of Radiance
@@ -33,6 +33,7 @@
 - [x] Sunshine/Moonlight
   - Didn't try the Flatpak.
   - Worked out of the box no problem.
+- [ ] RustDesk
 - [ ] KasmVNC
 
 ## Media
@@ -114,4 +115,5 @@ sudo nano /etc/containers/registries.conf
 - [x] LibreOffice
 - [x] Draw.io
   - Installed official .deb from Github instead of the unofficial Flatpak.
-- [ ] Waydroid
+- [ ] ~~Waydroid~~
+  - Tried using a Wayland window with Weston, but it wouldn't load still

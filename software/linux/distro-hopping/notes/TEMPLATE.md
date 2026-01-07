@@ -20,6 +20,7 @@
 - [ ] Steam Link - Device
 - [ ] Steam Link - Flatpak
 - [ ] Sunshine/Moonlight
+- [ ] RustDesk
 - [ ] KasmVNC
 - [ ] If applicable: Built in Remote Desktop support
 
