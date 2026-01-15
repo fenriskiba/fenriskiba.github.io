@@ -1,9 +1,10 @@
 # Linux Mint
-- Unverified Flatpaks being hidden is bad
+- Unverified Flatpaks being hidden is bad, but not the end of the world since the only unofficial Flatpaks I want are still available as downloadable files
   - Dolphin Emulator (official build is custom Flatpak repo, but much simpler to just use the Flathub version)
   - Zoom (official is a downloaded .deb, I'm just lazy and I know from experience it works)
 - Nice to see a description of System Packages vs Flatpaks in the Software Manager
-  - Not a big of the way it describes the security though. It suggests that the distro maintainers are inherintly more trustworthy than app devs.
+  - Not a big fan of the way it describes the security or the size considerations though. It almost implies that the distro maintainers are inherintly more trustworthy than app devs and saying sizes are bigger without any explanation as to why.
+    - It just seems to be an openly biased way of describing them to make Flatpaks seems lesser.
 
 ## Gaming
 - [x] Steam
