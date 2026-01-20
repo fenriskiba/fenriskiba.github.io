@@ -33,7 +33,7 @@
 - [ ] Steam Link - Flatpak
 - [x] Sunshine/Moonlight
   - Didn't try the Flatpak.
-  - Worked out of the box no problem.
+  - Only problem is that if the screen is asleep it won't connect (it can be locked, but the screen needs to be awake).
 - [ ] RustDesk
 - [ ] KasmVNC
 
