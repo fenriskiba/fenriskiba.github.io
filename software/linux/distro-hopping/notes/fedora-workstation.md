@@ -1,6 +1,8 @@
 # Fedora Workstation
 **General Installation Note:** Anything requiring a "Third Party Repository" (not including Flathub) worked, but only through the terminal. Even if I installed an application from RPM Fusion or a Copr repo, it wouldn't show up in GNOME Software.
 
+TODO: If Sunshine/Moonlight work better on other Wayland distros, then try again w/ Fedora just in case.
+
 ## Gaming
 - [x] Steam
   - Proton in general seems to be having audio issues with my office speaker. Works fine in the game room though.
