@@ -2,6 +2,8 @@
 # Linux Distro Hopping
 <!-- TODO: Go through at the end of the whole distro hopping experience and make sure there is a consistent tense, has a consistent tone, and has a consistent voice. -->
 
+!>**Update:** Due to a number of higher priority projects suddenly taking up my time, I will be putting this on hold after completing my testing in Linux Mint. I do intend to pick it up again once things have settled down, but in the meantime, I need to both free up some time and have a consistent and stable computer to use. As a result, I will be remaining on Linux Mint until a few other projects have been completed.
+
 In early 2025, I built a new desktop PC and, after using the same Linux distribution for over a decade, decided to see what other distros are like. To do so, I decided to hop around a few distributions and stick on them for about a month each to see how they performed for extended use. I figured a month would be enough time to really get a good feel for the full scope of the OS rather than just an initial impression.
 
 Unfortunately, due to external issues taking up my time and energy, Cosmic desktop delays, and overall more complexity that I had anticipated, that plan didn't really pan out the way I had hoped. As a result, I decided to take my learnings from that, finish doing some more research to help streamline some of the testing I wanted to do, and try again in 2026.
