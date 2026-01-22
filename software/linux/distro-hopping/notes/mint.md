@@ -35,7 +35,8 @@
   - Didn't try the Flatpak.
   - Only problem is that if the screen is asleep it won't connect (it can be locked, but the screen needs to be awake).
 - [ ] RustDesk
-- [ ] KasmVNC
+- [ ] ~~KasmVNC~~
+  - Installed fine, but then threw an error after account creation.
 
 ## Media
 ### Images
