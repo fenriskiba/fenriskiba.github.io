@@ -57,7 +57,10 @@
   - Same issue as Fedora
 
 #### Editing
-- [ ] Davinci Resolve
+- [ ] ~~Davinci Resolve~~
+  - Neither the official installer nor davincibox worked
+  - I did see alternate fixes for how to get it working on Mint, but they all said, "Delete these files. I don't know why it works, it just does!", which I don't really trust enough to try.
+  - There were also some additional steps in the davincibox repo that I could try, but I don't think it's worth it.
 - [x] Kdenlive
 
 ## System Tools
