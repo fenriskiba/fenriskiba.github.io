@@ -1,10 +1,11 @@
 # Linux Mint
-- Unverified Flatpaks being hidden is bad, but not the end of the world since the only unofficial Flatpaks I want are still available as downloadable files
-  - Dolphin Emulator (official build is custom Flatpak repo, but much simpler to just use the Flathub version)
-  - Zoom (official is a downloaded .deb, I'm just lazy and I know from experience it works)
-- Nice to see a description of System Packages vs Flatpaks in the Software Manager
-  - Not a big fan of the way it describes the security or the size considerations though. It almost implies that the distro maintainers are inherintly more trustworthy than app devs and saying sizes are bigger without any explanation as to why.
-    - It just seems to be an openly biased way of describing them to make Flatpaks seems lesser.
+- Unverified Flatpaks being hidden is bad, but not the end of the world since the only unofficial Flatpaks I want are still available as downloadable files.
+  - Dolphin Emulator - The official build is custom Flatpak repo, but much simpler to just use the Flathub version.
+    - Dolphin also seems to be working on taking control of the Flathub deployment and verifying it.
+  - Zoom - The official release is a downloaded `.deb`, but I'm lazy and I know from experience the unverified Flatpak works.
+- Nice to see a description of System Packages vs Flatpaks in the Software Manager.
+  - Not a big fan of the way it describes the security or the size considerations though. It almost implies that the distro maintainers are inherintly more trustworthy than app devs and it says that sizes are bigger without any explanation as to why pr by how much.
+    - It just seems to be an openly biased way of describing them to make Flatpaks seem like the worst option.
 
 ## Gaming
 - [x] Steam
@@ -25,16 +26,24 @@
 - [ ] Fall Guys
 - [ ] StarCraft 2
 - [x] Fire Emblem: Path of Radiance
-  - Also had to manually map controller and check Background Input in contoller settings.
+  - Had to manually map controller and check Background Input in contoller settings.
 - [x] Shadow of the Colossus
 
 ## Remote Connection
-- [ ] Steam Link - Device
-- [ ] Steam Link - Flatpak
+- [x] Steam Link - Device
+  - Had a bit of weird flashing when trying to play Tunic, but otherwise worked.
+    - Flashing seemed less severe when only one monitor connected to desktop, but didn't go away entirely.
+- [ ] ~~Steam Link - Flatpak~~
+  - Couldn't even find the desktop for some reason.
 - [x] Sunshine/Moonlight
   - Didn't try the Flatpak.
   - Only problem is that if the screen is asleep it won't connect (it can be locked, but the screen needs to be awake).
-- [ ] RustDesk
+- [x] RustDesk
+  - Works great out of the box, but doesn't seem to have a simple way to have it run as a background service.
+    - The computer is only available to be connected to if the RustDesk window is actively open.
+    - There may be a systemd config way to enable this, but I don't care enough to try it.
+  - For my use case, I can leave the screen on and just lock the machine, so Sunshine/Moonlight is the better option for *me* since it means I can.
+    - However, for providing tech support or if you are willing to mess with the configs to get that background service functionality this does seems like the better option.
 - [ ] ~~KasmVNC~~
   - Installed fine, but then threw an error after account creation.
 
