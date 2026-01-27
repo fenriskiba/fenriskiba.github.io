@@ -33,6 +33,8 @@
 - [x] Steam Link - Device
   - Had a bit of weird flashing when trying to play Tunic, but otherwise worked.
     - Flashing seemed less severe when only one monitor connected to desktop, but didn't go away entirely.
+  - Noticed network issues when connecting the Steam Link to my router, but not when connecting it to a switch closer to the desktop.
+    - Probably not related to Linux in any way, but something that does present a problem.
 - [ ] ~~Steam Link - Flatpak~~
   - Couldn't even find the desktop for some reason.
 - [x] Sunshine/Moonlight

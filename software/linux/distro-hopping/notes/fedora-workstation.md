@@ -35,7 +35,7 @@ TODO: If Sunshine/Moonlight work better on other Wayland distros, then try again
 ## Remote Connection
 - [ ] ~~Steam Link - Device~~
   - Celeste it worked fine.
-  - Tried playing Tunic, but ran into issues getting it to display. Searching the problem suggests it may not just be a Linux issue.
+  - Tried playing Tunic, but ran into issues getting it to display.
 - [ ] ~~Steam Link - Flatpak~~
   - Took forever and never fully loaded when trying to play Celeste.
 - [x] Sunshine/Moonlight
