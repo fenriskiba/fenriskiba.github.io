@@ -4,7 +4,7 @@
     - Dolphin also seems to be working on taking control of the Flathub deployment and verifying it.
   - Zoom - The official release is a downloaded `.deb`, but I'm lazy and I know from experience the unverified Flatpak works.
 - Nice to see a description of System Packages vs Flatpaks in the Software Manager.
-  - Not a big fan of the way it describes the security or the size considerations though. It almost implies that the distro maintainers are inherintly more trustworthy than app devs and it says that sizes are bigger without any explanation as to why pr by how much.
+  - Not a big fan of the way it describes the security or the size considerations though. It almost implies that the distro maintainers are inherently more trustworthy than app devs and it says that sizes are bigger without any explanation as to why or by how much.
     - It just seems to be an openly biased way of describing them to make Flatpaks seem like the worst option.
 
 ## Gaming
