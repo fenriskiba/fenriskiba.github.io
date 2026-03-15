@@ -23,13 +23,15 @@
 ### Other Games
 - [x] Genshin Impact
   - Didn't even try Bottles, just went straight to Twintail Launcher which worked great.
-- [ ] ~~Fall Guys~~
-  - Heroic wouldn't even open the game. Tried both Flatpak and `.deb`. 
-  - Lutris - Wouldn't install the game.
-  - Bottles - Didn't even bother trying at this point.
-- [ ] ~~StarCraft 2~~
-  - Lutris - Didn't see a Battle.net option. Not going to try and force it after Fall Guys failed.
-  - Bottles - Didn't even bother trying at this point.
+- [x] Fall Guys
+  - ~~**Heroic** - Wouldn't even open the game. Tried both Flatpak and `.deb`. ~~
+  - ~~**Lutris** - Wouldn't install the game.~~
+  - ~~**Bottles** - Didn't even bother trying at this point.~~
+  - **Faugus Launcher** - Installed Battle.net and the game and played the game with absolutely no problems.
+- [x] StarCraft 2
+  - ~~**Lutris** - Didn't see a Battle.net option. Not going to try and force it after Fall Guys failed.~~
+  - ~~**Bottles** - Didn't even bother trying at this point.~~
+  - **Faugus Launcher** - Installed Battle.net and the game and played the game with absolutely no problems.
 - [x] Fire Emblem: Path of Radiance
   - Had to manually map controller and check Background Input in contoller settings.
 - [x] Shadow of the Colossus

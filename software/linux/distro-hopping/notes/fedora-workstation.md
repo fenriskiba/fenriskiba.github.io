@@ -1,7 +1,8 @@
 # Fedora Workstation
 **General Installation Note:** Anything requiring a "Third Party Repository" (not including Flathub) worked, but only through the terminal. Even if I installed an application from RPM Fusion or a Copr repo, it wouldn't show up in GNOME Software.
 
-TODO: If Sunshine/Moonlight work better on other Wayland distros, then try again w/ Fedora just in case.
+**TODO:** If Sunshine/Moonlight work better on other Wayland distros, then try again w/ Fedora just in case.  
+**TODO:** Try Faugus Launcher for third-party games.
 
 ## Gaming
 - [x] Steam
@@ -23,11 +24,11 @@ TODO: If Sunshine/Moonlight work better on other Wayland distros, then try again
   - Bottles wasn't able to load the game.
   - Works with Twintail Launcher.
 - [ ] ~~Fall Guys~~
-  - Heroic was able to sign in, but had issues running. Game would open, but get stuck on the loading after selecting "Start".
-  - Lutris couldn't get the game installed without crashing.
-  - Bottles installed and gave an error after selecting "Start".
+  - ~~**Heroic** - Was able to sign in, but had issues running. Game would open, but get stuck on the loading after selecting "Start".~~
+  - ~~**Lutris** - Couldn't get the game installed without crashing.~~
+  - ~~**Bottles** - Installed and gave an error after selecting "Start".~~
 - [ ] ~~StarCraft 2~~
-  - Lutris and Bottles both got an error about not being able to load game library in Battle.net.
+  - ~~**Lutris** and **Bottles** - Both got an error about not being able to load game library in Battle.net.~~
 - [x] Fire Emblem: Path of Radiance
   - Had to manually configure 8bitdo controller, but otherwise worked no problem.
 - [x] Shadow of the Colossus
