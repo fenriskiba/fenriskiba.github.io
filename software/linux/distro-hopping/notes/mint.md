@@ -24,7 +24,7 @@
 - [x] Genshin Impact
   - Didn't even try Bottles, just went straight to Twintail Launcher which worked great.
 - [x] Fall Guys
-  - ~~**Heroic** - Wouldn't even open the game. Tried both Flatpak and `.deb`. ~~
+  - ~~**Heroic** - Wouldn't even open the game. Tried both Flatpak and `.deb`.~~
   - ~~**Lutris** - Wouldn't install the game.~~
   - ~~**Bottles** - Didn't even bother trying at this point.~~
   - **Faugus Launcher** - Installed Battle.net and the game and played the game with absolutely no problems.
