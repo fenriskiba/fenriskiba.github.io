@@ -7,6 +7,9 @@
   - [Docsify Plugins](/software/projects/docsify-plugins.md)
   - [Future Projects](/software/projects/planning.md)
   - [School Projects](/software/projects/school-projects.md)
+- **Home Lab**
+  - [Easy TrueNAS Setup](/software/home-lab/truenas.md)
+  - [Simpler 3-2-1 Backup](/software/home-lab/simple-3-2-1.md)
 - **Linux Distro Hopping**
   - [Introduction](/software/linux/distro-hopping/)
   - [Disqualified Distros](/software/linux/distro-hopping/disqualified.md)
