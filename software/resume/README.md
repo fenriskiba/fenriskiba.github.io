@@ -1,7 +1,7 @@
 # Grant I Carroll
 ***Contact information will be published only when I am actively looking for a new position. While I am generally open to learning about new opportunities, I do not wish to receive unsolicited offers. Thank you.***
 
-[ [fenriskiba.github.io][site] ] · [ [name@email.com][email] ] · [ [(555) 555-5555][phone] ]
+<!-- [ [fenriskiba.github.io][site] ] · [ [name@email.com][email] ] · [ [(555) 555-5555][phone] ] -->
 
 [site]: https://fenriskiba.github.io
 [email]: mailto:gcarroll2603@pm.me
